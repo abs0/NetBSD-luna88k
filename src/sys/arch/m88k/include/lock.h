@@ -27,8 +27,6 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <m88k/asm.h>
-
 static __inline__ void
 __cpu_simple_lock_init(__cpu_simple_lock_t *l)
 {
