@@ -6,7 +6,7 @@ SRCS+=	__main.c __assert.c bswap16.c bswap32.c bswap64.c \
 	strcmp.c strlcat.c strcpy.c strlcpy.c strlen.c strncmp.c \
 	strncpy.c scanc.c skpc.c strncasecmp.c ffs.c
 
-SRCS+=  bcopy.S bzero.S memcpy.S setjmp.S
+SRCS+=  bcopy.S bzero.S memcpy.S ovbcopy.S setjmp.S
 
 SRCS+=	moveDI41x.s moveDI43x.s moveDI45x.s moveDI47x.s moveHI15x.s moveQI16x.s \
 	moveSI46x.s moveSI64n.s moveDI42x.s moveDI44x.s moveDI46x.s moveDI96x.s \

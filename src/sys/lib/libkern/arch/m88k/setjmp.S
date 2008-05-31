@@ -1,5 +1,5 @@
-/* $NetBSD$ */
-/* $OpenBSD: subr.S,v 1.6 2005/05/15 16:23:45 miod Exp $	*/
+/*	$NetBSD$	*/
+/*	$OpenBSD: subr.S,v 1.6 2005/05/15 16:23:45 miod Exp $	*/
 /*
  * Mach Operating System
  * Copyright (c) 1993-1992 Carnegie Mellon University
@@ -28,6 +28,8 @@
  * any improvements or extensions that they make and grant Carnegie the
  * rights to redistribute these changes.
  */
+
+#ifdef DDB
 
 #include <sys/cdefs.h>
 #include <machine/asm.h>
@@ -82,3 +84,5 @@ ENTRY(longjmp)
 	ld	r31,r2,18*4
 	jmp.n	r1
 	 or	r2,r0,1
+
+#endif

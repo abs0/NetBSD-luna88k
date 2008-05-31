@@ -1,5 +1,5 @@
-/* $NetBSD$ */
-/* $OpenBSD: subr.S,v 1.6 2005/05/15 16:23:45 miod Exp $	*/
+/*	$NetBSD$	*/
+/*	$OpenBSD: bzero.S,v 1.1 2006/11/17 22:32:38 miod Exp $	*/
 /*
  * Mach Operating System
  * Copyright (c) 1993-1992 Carnegie Mellon University
@@ -31,6 +31,8 @@
 
 #include <sys/cdefs.h>
 #include <machine/asm.h>
+
+/*######################################################################*/
 
 /*
  * April 1990, Omron Corporation

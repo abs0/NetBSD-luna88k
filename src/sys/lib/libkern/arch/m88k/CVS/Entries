@@ -1,2 +1,7 @@
-/Makefile.inc/1.8/Thu Apr 29 18:34:17 2004//
+/copy_subr.S/1.1/Fri Nov 17 22:32:38 2006//
+/memmove.S/1.1/Fri Nov 17 22:32:38 2006//
+/ovbcopy.S/1.1/Fri Nov 17 22:32:38 2006//
+/bcopy.S/1.1/Fri Nov 17 22:32:38 2006//
+/bzero.S/1.1/Fri Nov 17 22:32:38 2006//
+/memcpy.S/1.1/Fri Nov 17 22:32:38 2006//
 D
