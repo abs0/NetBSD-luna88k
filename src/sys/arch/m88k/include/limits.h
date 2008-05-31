@@ -63,9 +63,9 @@
 #define	INT_MAX		0x7fffffff	/* max value for an int */
 #define	INT_MIN		(-0x7fffffff-1)	/* min value for an int */
 
-#define	ULONG_MAX	0xffffffffU	/* max for an unsigned long */
-#define	LONG_MAX	0x7fffffff	/* max for a long */
-#define	LONG_MIN	(-0x7fffffff-1) /* min for a long */
+#define	ULONG_MAX	0xffffffffUL	/* max for an unsigned long */
+#define	LONG_MAX	0x7fffffffL	/* max for a long */
+#define	LONG_MIN	(-0x7fffffffL-1) /* min for a long */
 
 #if defined(_POSIX_C_SOURCE) || defined(_XOPEN_SOURCE) || \
     defined(_NETBSD_SOURCE)
