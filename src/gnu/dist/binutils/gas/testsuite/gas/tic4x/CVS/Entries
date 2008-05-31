@@ -1,0 +1,21 @@
+/addressing.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/addressing_c3x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/addressing_c4x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/allopcodes.S/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/data.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/data.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/float.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/float.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/opclasses.h/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/opcodes.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/opcodes_c3x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/opcodes_c4x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/opcodes_new.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/rebuild.sh/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/registers.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/registers_c3x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/registers_c4x.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/tic4x.exp/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/zeros.d/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+/zeros.s/1.1.1.1/Mon Aug  7 05:22:44 2006//Tnetbsd-3-0
+D

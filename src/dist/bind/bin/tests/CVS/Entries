@@ -1,0 +1,68 @@
+D/db////
+D/dst////
+D/master////
+D/mem////
+D/names////
+D/net////
+D/rbt////
+D/sockaddr////
+D/system////
+D/tasks////
+D/timers////
+/Kchild.example.+003+04017.key/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/Kchild.example.+003+04017.private/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.2/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/adb_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/b8t.mk/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/b9t.mk/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/byaddr_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/byname_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/cfg_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/compress_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/db_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/entropy2_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/entropy_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/fsaccess_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/genrandom.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/gxba_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/gxbn_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/hash_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/headerdep_test.sh.in/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/inter_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/journalprint.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/keyboard_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/lex_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/lfsr_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/log_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/lwres_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/lwresconf_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/master_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/mempool_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/name_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/named.conf/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/ndc.conf/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/ndc.conf-include/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/nsecify.c/1.1.1.2/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/printmsg.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/printmsg.h/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/ratelimiter_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/rbt_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/rbt_test.out/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/rbt_test.txt/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/rdata_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/resolv.conf.sample/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/rwlock_test.c/1.1.1.2/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/serial_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/shutdown_test.c/1.1.1.2/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/sig0_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/sock_test.c/1.1.1.2/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/sym_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/t_api.pl/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/task_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/timer_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/wire_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/wire_test.data/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/wire_test.data2/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/wire_test.data3/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/wire_test.data4/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0
+/zone_test.c/1.1.1.1/Mon Aug  7 05:31:28 2006//Tnetbsd-3-0

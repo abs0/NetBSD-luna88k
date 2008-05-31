@@ -1,0 +1,12 @@
+D/arch////
+D/compat////
+D/dev////
+D/exec////
+D/misc////
+D/net////
+D/netinet////
+D/syscall////
+D/vfs////
+/Makefile/1.7/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/Makefile.inc/1.4/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/TODO/1.8/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0

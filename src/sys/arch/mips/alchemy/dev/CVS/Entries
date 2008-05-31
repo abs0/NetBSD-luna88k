@@ -1,0 +1,10 @@
+/auaudio.c/1.6/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/aucom.c/1.14/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/aucom_aubus.c/1.10/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/aucomreg.h/1.1/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/aucomvar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/aurtc.c/1.6/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/if_aumac.c/1.12/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/if_aumacreg.h/1.1/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/ohci_aubus.c/1.5/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+D

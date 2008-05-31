@@ -1,0 +1,20 @@
+/Makefile/1.5/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/dgramread.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/dgramsend.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig2.pic/1.2/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig2.xfig/1.1.1.1/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig3.pic/1.2/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig3.xfig/1.1.1.1/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig8.pic/1.2/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/fig8.xfig/1.1.1.1/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/pipe.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/socketpair.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/strchkread.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/streamread.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/streamwrite.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/tutor.me/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/udgramread.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/udgramsend.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/ustreamread.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+/ustreamwrite.c/1.3/Mon Aug  7 05:30:29 2006//Tnetbsd-3-0
+D

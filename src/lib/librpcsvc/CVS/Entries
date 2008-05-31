@@ -1,0 +1,18 @@
+/Makefile/1.38/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/bootparam_prot.x/1.7/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/klm_prot.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/mount.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/nfs_prot.x/1.7/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/nlm_prot.x/1.7/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rex.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rnusers.x/1.12/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rquota.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rstat.x/1.5/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rusers.x/1.5/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/rwall.x/1.7/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/shlib_version/1.1/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/sm_inter.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/spray.x/1.5/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/yp.x/1.5/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+/yppasswd.x/1.6/Mon Aug  7 05:31:54 2006//Tnetbsd-3-0
+D

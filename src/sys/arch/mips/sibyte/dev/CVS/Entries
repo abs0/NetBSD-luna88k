@@ -1,0 +1,16 @@
+/sbgbus.c/1.8/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbgbusvar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbjcn.c/1.8/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbjcnvar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbmac.c/1.19/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbobio.c/1.13.10.1/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbobiovar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbscd.c/1.9/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbscdvar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbscn.c/1.12/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbscnvar.h/1.2/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbsmbus.c/1.9/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbsmbusvar.h/1.1/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbtimer.c/1.9/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+/sbwdog.c/1.5/Mon Aug  7 05:34:13 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,17 @@
+D/include////
+/Makefile.in/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_api.c/1.1.1.2/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_internal.h/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_lib.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_openssl.h/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_parse.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_parse.h/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/dst_result.c/1.1.1.2/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/gssapi_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/gssapictx.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/hmac_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/key.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/openssl_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/openssldh_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/openssldsa_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0
+/opensslrsa_link.c/1.1.1.1/Mon Aug  7 05:31:13 2006//Tnetbsd-3-0

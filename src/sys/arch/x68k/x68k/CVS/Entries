@@ -1,0 +1,20 @@
+/autoconf.c/1.41/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/bus.c/1.26/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/clock.c/1.19/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/clockioctl.h/1.2/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/conf.c/1.35/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/disksubr.c/1.24/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/fpu.c/1.11/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/genassym.cf/1.24/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/iodevice.h/1.8/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/kgdb_glue.c/1.6/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/kgdb_proto.h/1.2/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/kgdb_stub.c/1.11/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/locore.s/1.75/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/machdep.c/1.126.6.1/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/mem.c/1.33/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/pmap_bootstrap.c/1.27/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/trap.c/1.74/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/vectors.s/1.11/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/x68k_init.c/1.8/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+D

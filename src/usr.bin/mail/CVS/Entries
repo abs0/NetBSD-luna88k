@@ -1,0 +1,33 @@
+D/USD.doc////
+D/misc////
+/Makefile/1.21/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/cmd1.c/1.21/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/cmd2.c/1.17/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/cmd3.c/1.25/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/cmdtab.c/1.10/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/collect.c/1.30/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/def.h/1.16/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/dotlock.c/1.6/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/edit.c/1.18/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/extern.h/1.19/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/fio.c/1.23/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/getname.c/1.9/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/glob.h/1.6/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/head.c/1.12/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/lex.c/1.23/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/list.c/1.13/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/mail.1/1.26/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/main.c/1.18/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/names.c/1.17/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/pathnames.h/1.5/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/popen.c/1.17/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/quit.c/1.19/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/rcv.h/1.5/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/send.c/1.21.10.1/Tue Aug  8 06:43:29 2006//Tnetbsd-3-0
+/strings.c/1.10/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/support.c/1.12/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/temp.c/1.16/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/tty.c/1.17/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/v7.local.c/1.14/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/vars.c/1.12/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/version.c/1.6/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0

@@ -1,0 +1,17 @@
+/Makefile/1.15/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/auto.c/1.7/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/extern.c/1.8/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/flush_in.c/1.6/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/init_field.c/1.8/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/main.c/1.21/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/make_level.c/1.7/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/move.c/1.12/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/move_robs.c/1.7/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/pathnames.h/1.4/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/play_level.c/1.6/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/query.c/1.6/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/rnd_pos.c/1.5/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/robots.6/1.12/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/robots.h/1.18/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+/score.c/1.17/Mon Aug  7 05:29:35 2006//Tnetbsd-3-0
+D

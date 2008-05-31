@@ -1,0 +1,23 @@
+/ChangeLog/1.1.1.5/Mon Mar  1 03:44:21 2004//Tnetbsd-3-0
+/obstack.h/1.1.1.1/Wed Jul 23 02:42:35 2003//Tnetbsd-3-0
+/COPYING/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/ansidecl.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/demangle.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/dyn-string.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/fibheap.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/floatformat.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/fnmatch.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/getopt.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/hashtab.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/libiberty.h/1.1.1.2/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/md5.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/objalloc.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/partition.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/safe-ctype.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/sort.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/splay-tree.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/symcat.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/ternary.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/xregex.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+/xregex2.h/1.1.1.1/Mon Aug  7 05:27:54 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,14 @@
+/Makefile.inc/1.14/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/local.h/1.2/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/xdryp.c/1.28/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_all.c/1.12/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_first.c/1.14/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_maplist.c/1.11/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_master.c/1.13/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_match.c/1.16/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yp_order.c/1.12/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/ypclnt.3/1.22/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yperr_string.c/1.6/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/yplib.c/1.42/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+/ypprot_err.c/1.5/Mon Aug  7 05:31:57 2006//Tnetbsd-3-0
+D

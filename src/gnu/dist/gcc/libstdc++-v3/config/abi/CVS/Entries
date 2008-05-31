@@ -1,0 +1,12 @@
+D/alpha-freebsd5////
+D/alpha-linux-gnu////
+D/hppa-linux-gnu////
+D/i386-freebsd4////
+D/i386-freebsd5////
+D/i486-linux-gnu////
+D/ia64-linux-gnu////
+D/mips-linux-gnu////
+D/sparc-freebsd5////
+D/sparc-linux-gnu////
+D/x86_64-linux-gnu////
+/extract_symvers/1.1.1.1/Mon Aug  7 05:27:53 2006//Tnetbsd-3-0

@@ -1,0 +1,15 @@
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/authenc.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/defs.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/ext.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/global.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/slc.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/state.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/sys_term.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnetd.8/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnetd.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnetd.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/termstat.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/utility.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+D

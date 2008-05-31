@@ -1,0 +1,20 @@
+/asm.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/byteorder.h/1.1.1.2/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/cdefs.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/file.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/ioctl.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/limits.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/machine.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/mman.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/param.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/regset.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/signal.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/socket.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/spinlock.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/stat.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/time.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/times.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/types.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/utsname.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/wait.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,27 @@
+/Makefile/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/battlestar.6/1.14/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/battlestar.c/1.14/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command1.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command2.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command3.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command4.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command5.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command6.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/command7.c/1.2/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/cypher.c/1.22/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/dayfile.c/1.12/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/dayobjs.c/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/extern.h/1.30/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/fly.c/1.12/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/getcom.c/1.12/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/globals.c/1.19/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/init.c/1.14/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/misc.c/1.8/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/nightfile.c/1.12/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/nightobjs.c/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/parse.c/1.14/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/pathnames.h/1.4/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/room.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/save.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/words.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+D

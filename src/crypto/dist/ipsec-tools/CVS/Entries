@@ -1,0 +1,12 @@
+D/rpm////
+D/src////
+/.cvsignore/1.1.1.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/ChangeLog/1.1.1.5.2.25/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/NEWS/1.1.1.1.2.3/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/README/1.1.1.1.2.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/acracoon.m4/1.1.1.1.2.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/bootstrap/1.1.1.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/configure.ac/1.1.1.4.2.3/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/netbsd-import.sh/1.1.1.2.2.2/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0
+/package_version.h.in/1.1.1.1/Mon Aug  7 05:20:30 2006//Tnetbsd-3-0

@@ -1,0 +1,15 @@
+D/examples////
+D/include////
+D/lib////
+D/mount_smbfs////
+D/smbutil////
+/COPYRIGHT/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/CREDITS/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/FREEBSD-upgrade/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/HISTORY/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/INSTALL/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/Makefile/1.1.1.2/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/Makefile.inc/1.1.1.2/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/config.mk.in/1.1.1.2/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0
+/configure/1.1.1.1/Mon Aug  7 05:31:07 2006//Tnetbsd-3-0

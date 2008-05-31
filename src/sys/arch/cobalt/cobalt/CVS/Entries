@@ -1,0 +1,11 @@
+/autoconf.c/1.12/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/bus.c/1.20/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/clock.c/1.8/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/clockvar.h/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/console.c/1.8/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/cpu.c/1.6/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/disksubr.c/1.14/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/locore_machdep.S/1.4/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/machdep.c/1.52/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/mainbus.c/1.9/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+D

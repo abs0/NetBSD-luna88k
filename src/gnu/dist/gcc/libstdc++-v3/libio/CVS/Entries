@@ -1,0 +1,19 @@
+/ChangeLog/1.1.1.4/Mon Mar  1 03:46:36 2004//Tnetbsd-3-0
+/_G_config.h/1.1.1.1/Wed Jul 23 02:42:53 2003//Tnetbsd-3-0
+/iolibio.h/1.1.1.1/Wed Jul 23 02:42:53 2003//Tnetbsd-3-0
+/Makefile.am/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/filedoalloc.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/fileops.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/genops.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/iofclose.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/iofopen.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/iofwide.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/libio.h/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/libioP.h/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/stdfiles.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/stdio.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/wfiledoalloc.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/wfileops.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+/wgenops.c/1.1.1.1/Mon Aug  7 05:27:50 2006//Tnetbsd-3-0
+D

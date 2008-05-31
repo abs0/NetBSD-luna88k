@@ -1,0 +1,24 @@
+D/lists////
+/Makefile/1.46.2.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/README/1.6/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/TODO/1.4/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/attrs/1.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/checkflist/1.25/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/comments/1.4.6.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/culldeps/1.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/deps/1.1.6.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/descrs/1.4.6.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/getdirs.awk/1.2/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/join.awk/1.2/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/listpkgs/1.9/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/makeflist/1.71/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/makeobsolete/1.24.2.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/makeplist/1.16/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/makesrctars/1.18.2.2/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/makesums/1.7.2.2/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/maketars/1.54/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/regpkg/1.6/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/regpkgset/1.3/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/sets.subr/1.39.2.1/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/syspkgdeps/1.5/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0
+/versions/1.3/Mon Aug  7 05:30:06 2006//Tnetbsd-3-0

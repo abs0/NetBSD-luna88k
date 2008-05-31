@@ -1,0 +1,10 @@
+/atppc_pioc.c/1.1/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/com_pioc.c/1.9/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/fd.c/1.19/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/fdreg.h/1.3/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/lpt_pioc.c/1.8/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/pioc.c/1.8/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/piocreg.h/1.1/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/piocvar.h/1.1/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+/wdc_pioc.c/1.19/Mon Aug  7 05:33:51 2006//Tnetbsd-3-0
+D

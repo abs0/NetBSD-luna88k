@@ -1,0 +1,13 @@
+/assertions.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/error.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/ifiter_ioctl.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/ifiter_sysctl.c/1.3/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/inet_ntop.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/interfaceiter.c/1.3/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/isc_strerror.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/lib.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/mem.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/msgcat.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/net.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+/strerror.c/1.2/Mon Aug  7 05:31:02 2006//Tnetbsd-3-0
+D

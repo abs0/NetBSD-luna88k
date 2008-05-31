@@ -1,0 +1,18 @@
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/authenc.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/commands.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/defines.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/externs.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/main.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/network.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/ring.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/ring.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/sys_bsd.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnet.1/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnet.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/telnet_locl.h/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/terminal.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/types.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/utilities.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,25 @@
+.\"	$NetBSD: whatis,v 1.4.6.1 2005/11/22 20:43:00 tron Exp $
+.
+.Nx \*V
+is the third major release for the \*M.
+.Pp
+Some notable \*M-specific improvements include:
+.(bullet
+Long standing bug in colormap handling code that resulted in very dim
+console colors is fixed.
+.It
+.Xr j6x0lcd 4
+and
+.Xr j6x0tp 4
+now support HP 620LX machines.
+.It
+.Xr j6x0pwr 4
+supports very minimal power saving mode when On/Off button is pressed.
+.bullet)
+.Pp
+.Nx \*V
+on \*M is, as usual, also fully backward compatible with old
+.Nx*M
+binaries, so you don't need to recompile all your local programs
+provided you set the appropriate binary compatibility options in your
+kernel configuration.

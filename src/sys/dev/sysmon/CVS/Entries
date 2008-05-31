@@ -1,0 +1,11 @@
+/files.sysmon/1.4/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/swwdog.c/1.2/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon.c/1.10/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon_envsys.c/1.8/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon_power.c/1.10/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon_taskq.c/1.3/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon_taskq.h/1.1/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmon_wdog.c/1.11/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmonconf.h/1.3/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/sysmonvar.h/1.10/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+D

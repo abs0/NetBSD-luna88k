@@ -1,0 +1,15 @@
+/Makefile/1.7/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/endgame.c/1.5/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/extern.c/1.8/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/getguess.c/1.8/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/getword.c/1.9/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/hangman.6/1.12/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/hangman.h/1.13/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/main.c/1.11/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/pathnames.h/1.4/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/playgame.c/1.5/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/prdata.c/1.5/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/prman.c/1.5/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/prword.c/1.5/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+/setup.c/1.10/Mon Aug  7 05:29:39 2006//Tnetbsd-3-0
+D

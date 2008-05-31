@@ -1,0 +1,21 @@
+/Makefile.am/1.1.1.3.6.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/alloca.c/1.1.1.4/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/amu.h/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/clnt_sperrno.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/hasmntopt.c/1.6.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/memcmp.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/misc_rpc.c/1.4.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/mount_fs.c/1.11.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/mtab.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/nfs_prot_xdr.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/strcasecmp.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/strdup.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/strerror.c/1.3.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/strlcpy.c/1.1.1.1.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/strstr.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/ualarm.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/util.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/wire.c/1.8.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/xdr_func.c/1.1.1.7.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+/xutil.c/1.11.2.1/Mon Aug  7 05:30:57 2006//Tnetbsd-3-0
+D

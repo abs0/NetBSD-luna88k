@@ -1,0 +1,14 @@
+/CHANGES/1.1.1.1/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/Makefile/1.14/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/as.c/1.1/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/as.h/1.2/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/gnuc.h/1.2/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/ifaddrlist.c/1.7/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/ifaddrlist.h/1.2/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/mean.awk/1.5/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/median.awk/1.5/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/traceroute.8/1.23/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/traceroute.c/1.61/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/trrt2netbsd/1.4/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+/version.c/1.2/Mon Aug  7 05:31:46 2006//Tnetbsd-3-0
+D

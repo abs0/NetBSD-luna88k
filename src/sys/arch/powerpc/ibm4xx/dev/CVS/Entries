@@ -1,0 +1,23 @@
+/com_opb.c/1.12/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/comopbvar.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/ecc_plb.c/1.8/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/emacreg.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/gpiic_opb.c/1.2/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/gpiicreg.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/gpio_opb.c/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/gpioreg.h/1.2/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/gpiovar.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/ibm405gp.c/1.3/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/if_emac.c/1.22/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/if_emacreg.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/opb.c/1.17/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/opbreg.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/opbvar.h/1.2/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/pcicreg.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/plb.c/1.12/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/plbvar.h/1.3/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/rtc.c/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/todclock.c/1.2/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/todclockvar.h/1.1/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+/wdog.c/1.7/Mon Aug  7 05:33:57 2006//Tnetbsd-3-0
+D

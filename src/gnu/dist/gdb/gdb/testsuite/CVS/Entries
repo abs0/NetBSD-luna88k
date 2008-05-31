@@ -1,0 +1,23 @@
+D/config////
+D/gdb.arch////
+D/gdb.asm////
+D/gdb.base////
+D/gdb.c++////
+D/gdb.chill////
+D/gdb.disasm////
+D/gdb.fortran////
+D/gdb.gdb////
+D/gdb.hp////
+D/gdb.java////
+D/gdb.mi////
+D/gdb.stabs////
+D/gdb.threads////
+D/gdb.trace////
+D/lib////
+/.gdbinit/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/ChangeLog/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/TODO/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/aclocal.m4/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/configure/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0
+/configure.in/1.1.1.1/Mon Aug  7 05:28:25 2006//Tnetbsd-3-0

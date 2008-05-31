@@ -1,0 +1,17 @@
+/Makefile/1.1.1.1/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/common.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/gss_common.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/gss_common.h/1.1.1.3/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/gssapi_client.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/gssapi_server.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/nt_gss_client.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/nt_gss_common.c/1.1.1.3/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/nt_gss_common.h/1.1.1.3/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/nt_gss_server.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/tcp_client.c/1.1.1.3/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/tcp_server.c/1.1.1.3/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/test_locl.h/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/uu_client.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+/uu_server.c/1.1.1.4/Mon Aug  7 05:20:37 2006//Tnetbsd-3-0
+D

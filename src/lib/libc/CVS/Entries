@@ -1,0 +1,34 @@
+D/arch////
+D/citrus////
+D/compat-43////
+D/db////
+D/dlfcn////
+D/gen////
+D/gmon////
+D/hash////
+D/iconv////
+D/include////
+D/inet////
+D/isc////
+D/locale////
+D/md////
+D/nameser////
+D/net////
+D/nls////
+D/quad////
+D/regex////
+D/resolv////
+D/rpc////
+D/softfloat////
+D/stdio////
+D/stdlib////
+D/string////
+D/sys////
+D/termios////
+D/thread-stub////
+D/time////
+D/uuid////
+D/yp////
+/Makefile/1.120/Mon Aug  7 05:32:20 2006//Tnetbsd-3-0
+/genassym.sh/1.1/Mon Aug  7 05:32:20 2006//Tnetbsd-3-0
+/shlib_version/1.161.2.4/Mon Aug  7 05:32:20 2006//Tnetbsd-3-0

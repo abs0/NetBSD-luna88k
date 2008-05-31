@@ -1,0 +1,14 @@
+/Makefile/1.2/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/cir.c/1.9/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/cirio.h/1.2/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/cirvar.h/1.5/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/files.ir/1.2/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/ir.c/1.3/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/ir.h/1.3/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/irdaio.h/1.6/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/irframe.c/1.28/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/irframe_tty.c/1.28/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/irframevar.h/1.13/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/sir.c/1.3/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+/sir.h/1.3/Mon Aug  7 05:35:04 2006//Tnetbsd-3-0
+D

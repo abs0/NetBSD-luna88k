@@ -1,0 +1,7 @@
+/Makefile.inc/1.4/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+/bcopy.S/1.4/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+/bzero.S/1.2/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+/ffs.S/1.6/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+/memcpy.S/1.1/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+/memmove.S/1.1/Mon Aug  7 05:32:08 2006//Tnetbsd-3-0
+D

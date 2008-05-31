@@ -1,0 +1,47 @@
+#	$NetBSD: README.files,v 1.2.6.2.2.1 2005/12/28 15:24:05 riz Exp $
+
+What's in this directory:
+
+CHANGES-3.0.1	Changes between the 3.0 and 3.0.1 releases.
+
+CHANGES-3.0	Changes between the initial 3.0 branch and final release of 3.0.
+
+CHANGES		Changes between the 2.0 and 3.0 releases.
+
+CHANGES.prev	Changes in previous NetBSD releases.
+
+LAST_MINUTE	Last minute changes and notes about the release.
+
+README.files	This file.
+
+patches/	Post-release binary code patches.
+
+shared/		Binary sets shared between multiple ports.
+
+source/		Source code.
+
+source/sets/	Source distribution sets; see below.
+
+source/patches/	Post-release source code patches.
+
+
+
+In addition to the files and directories listed above, there is one
+directory per architecture, for each of the architectures for which
+NetBSD 3.0.1 has a binary distribution.  The contents of each
+architecture's directory are described in an "INSTALL" file found in
+that directory.
+
+The most recent list of mirror sites for NetBSD is viewable at the URL:
+
+	http://www.NetBSD.org/Sites/net.html
+
+If you are receiving this distribution on a CD set, some files and
+subdirectories may be on a separate disc; read all README files for more
+information.
+
+See http://www.NetBSD.org/Misc/crypto-export.html for the formal status of
+the exportability out of the United States of some pieces of the
+distribution tree containing cryptographic software.  If you export these
+bits and the above document says you should not do so, it's your fault,
+not ours.

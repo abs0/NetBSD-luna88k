@@ -1,0 +1,19 @@
+D/addr2line////
+D/ar////
+D/c++filt////
+D/coffdump////
+D/common////
+D/gas////
+D/gprof////
+D/ld////
+D/nlmconv////
+D/nm////
+D/objcopy////
+D/objdump////
+D/ranlib////
+D/readelf////
+D/size////
+D/strings////
+D/strip////
+/Makefile/1.22/Mon Aug  7 05:21:31 2006//Tnetbsd-3-0
+/Makefile.inc/1.14/Mon Aug  7 05:21:31 2006//Tnetbsd-3-0

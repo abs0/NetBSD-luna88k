@@ -1,0 +1,10 @@
+D/dev////
+/autoconf.c/1.7/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/cpu.c/1.4/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/machdep.c/1.17/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/mainbus.c/1.6/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/pb1000_intr.c/1.2/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/pb1000_obio.c/1.6/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/pb1000_obiovar.h/1.1/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/pb1000reg.h/1.1/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0
+/pb1000var.h/1.1/Mon Aug  7 05:33:26 2006//Tnetbsd-3-0

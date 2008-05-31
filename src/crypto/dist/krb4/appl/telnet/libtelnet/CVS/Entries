@@ -1,0 +1,19 @@
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/auth-proto.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/auth.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/auth.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/enc-proto.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/enc_des.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/encrypt.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/encrypt.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/genget.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/kerberos.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/kerberos5.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/krb4encpwd.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/misc-proto.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/misc.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/misc.h/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/rsaencpwd.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+/spx.c/1.2/Mon Aug  7 05:20:31 2006//Tnetbsd-3-0
+D

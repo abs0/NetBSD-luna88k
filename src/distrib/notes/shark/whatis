@@ -1,0 +1,8 @@
+.\"	$NetBSD: whatis,v 1.3.6.1 2005/12/07 20:09:46 riz Exp $
+.
+This is the third major release of
+.Nx*M ,
+although the \*M platform was supported as part of
+.Nx Ns /arm32
+prior to
+.Nx 1.6 .

@@ -1,0 +1,14 @@
+/cris.c/1.1.1.2/Tue Feb 10 12:12:32 2004//Tnetbsd-3-0
+/cris.h/1.1.1.2/Tue Feb 10 12:12:33 2004//Tnetbsd-3-0
+/cris.md/1.1.1.2/Tue Feb 10 12:12:34 2004//Tnetbsd-3-0
+/mulsi3.asm/1.1.1.1/Wed Jul 23 02:41:41 2003//Tnetbsd-3-0
+/aout.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/arit.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/cris-protos.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/cris_abi_symbol.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/linux.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-aout/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-cris/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-elfmulti/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-linux/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+D

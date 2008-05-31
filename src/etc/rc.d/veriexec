@@ -1,0 +1,29 @@
+#!/bin/sh
+#
+#	$NetBSD: veriexec,v 1.3.2.5 2005/10/21 13:12:52 tron Exp $
+#
+
+# PROVIDE: veriexec
+# REQUIRE: mountall
+# BEFORE: ldconfig
+
+$_rc_subr_loaded . /etc/rc.subr
+
+name="veriexec"
+rcvar=$name
+start_cmd="veriexec_start"
+
+veriexec_start()
+{
+	echo -n "Loading fingerprints..."
+	/sbin/veriexecctl load /etc/signatures
+	echo " done."
+
+	# We can't set these before loading the fingerprints, because
+	# raising the strict level can prevent us from doing the load.
+	/sbin/sysctl -w kern.veriexec.strict=$veriexec_strict
+	/sbin/sysctl -w kern.veriexec.verbose=$veriexec_verbose
+}
+
+load_rc_config $name
+run_rc_command "$1"

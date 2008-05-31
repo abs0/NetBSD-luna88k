@@ -1,0 +1,15 @@
+D/gettext////
+D/gettextize////
+D/include////
+D/info////
+D/lib////
+D/locale////
+D/msgcmp////
+D/msgcomm////
+D/msgfmt////
+D/msgmerge////
+D/msgunfmt////
+D/xgettext////
+/Makefile/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/Makefile.inc/1.5/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/Makefile.inc.prog/1.3/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0

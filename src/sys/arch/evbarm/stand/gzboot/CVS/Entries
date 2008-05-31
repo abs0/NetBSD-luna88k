@@ -1,0 +1,15 @@
+D/ADI_BRH_flash_0x00140000////
+D/IQ80310_flash_0x00080000////
+D/IQ80321_flash_0xf0080000////
+D/SMDK2410_flash_0x00000000////
+D/SMDK2800_flash_0x00000000////
+D/SMDK2800_flash_0x00100000////
+D/TS7200_flash_0x60660000////
+/Makefile/1.6/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/Makefile.gzboot/1.10.10.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/Makefile.inc/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/gzboot.c/1.8/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/gzboot.h/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/image.S/1.3/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/srtbegin.S/1.6/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/version/1.3/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0

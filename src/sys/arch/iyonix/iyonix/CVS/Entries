@@ -1,0 +1,11 @@
+/autoconf.c/1.1/Mon Aug  7 05:33:10 2006//Tnetbsd-3-0
+/com_obio.c/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+/i80321_mainbus.c/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+/iyonix_machdep.c/1.2/Mon Aug  7 05:33:10 2006//Tnetbsd-3-0
+/iyonix_pci.c/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+/iyonixreg.h/1.1/Mon Aug  7 05:33:10 2006//Tnetbsd-3-0
+/iyonixvar.h/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+/obio.c/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+/obio_space.c/1.1/Mon Aug  7 05:33:10 2006//Tnetbsd-3-0
+/obiovar.h/1.1/Mon Aug  7 05:33:11 2006//Tnetbsd-3-0
+D

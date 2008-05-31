@@ -1,0 +1,17 @@
+/Makefile/1.4/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/files.ultrix/1.4/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/syscalls.conf/1.4/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/syscalls.master/1.39/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_exec.h/1.4/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_exec_ecoff.c/1.8/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_flock.h/1.1/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_fs.c/1.30/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_ioctl.c/1.26/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_misc.c/1.98.2.1/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_pathname.c/1.23/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_syscall.h/1.49/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_syscallargs.h/1.43/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_syscalls.c/1.47/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_sysent.c/1.50/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/ultrix_tty.h/1.2/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+D

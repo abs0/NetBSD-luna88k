@@ -1,0 +1,9 @@
+/firepower.c/1.13/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepower_bus_io.c/1.2/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepower_bus_mem.c/1.2/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepower_dma.c/1.2/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepower_intr.c/1.6/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepower_pci.c/1.3/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepowerreg.h/1.3/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+/firepowervar.h/1.2/Mon Aug  7 05:34:11 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,17 @@
+/Makefile/1.30.2.1/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/cmds.c/1.111.2.5/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/cmdtab.c/1.43.2.2/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/complete.c/1.38.12.2/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/domacro.c/1.20.6.1/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/extern.h/1.64.2.5/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/fetch.c/1.155.2.9/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/ftp.1/1.109.2.3/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/ftp.c/1.126.2.9/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/ftp_var.h/1.69.2.3/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/main.c/1.90.2.9/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/progressbar.c/1.6.2.5/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/progressbar.h/1.5/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/ruserpass.c/1.29.6.1/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+/util.c/1.117.2.14.2.1/Tue Aug  8 06:43:25 2006//Tnetbsd-3-0
+/version.h/1.44.2.13/Mon Aug  7 05:21:06 2006//Tnetbsd-3-0
+D

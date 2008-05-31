@@ -1,0 +1,29 @@
+D/include////
+D/lib////
+D/man////
+D/map////
+D/patch////
+D/tools////
+D/util////
+D/win////
+D/wsock////
+/config.guess/1.1.1.1/Mon May 17 23:43:40 2004//Tnetbsd-3-0
+/config.sub/1.1.1.1/Mon May 17 23:43:40 2004//Tnetbsd-3-0
+/ChangeLog/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/DISTFILES/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/INSTALL/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/INSTALL.ja/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/LICENSE.txt/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/NEWS/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/README.ja/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/acconfig.h/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/aclocal.m4/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/configure/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/configure.in/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/install-sh/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/ltconfig/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/ltmain.sh/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/make.wnt/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/mkinstalldirs/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0

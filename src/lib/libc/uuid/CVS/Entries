@@ -1,0 +1,12 @@
+/Makefile.inc/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid.3/1.4/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_compare.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_create.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_create_nil.c/1.2/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_equal.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_from_string.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_hash.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_is_nil.c/1.2/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_stream.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/uuid_to_string.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+D

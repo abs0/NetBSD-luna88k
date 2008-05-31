@@ -1,0 +1,12 @@
+D/csu////
+D/libc////
+D/libcrypto////
+D/libdes////
+D/libevent////
+D/libposix////
+D/libpthread////
+D/librt////
+D/libskey////
+D/libutil////
+/Makefile/1.16/Mon Aug  7 05:32:50 2006//Tnetbsd-3-0
+/Makefile.inc/1.1/Mon Aug  7 05:32:50 2006//Tnetbsd-3-0

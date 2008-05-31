@@ -1,0 +1,10 @@
+/Makefile/1.4/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_cpu.c/1.4/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_syscall.h/1.10/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_syscallargs.h/1.10/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_syscalls.c/1.10/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_sysent.c/1.10/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/mach_fasttraps_thread.c/1.7/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/syscalls.conf/1.1/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/syscalls.master/1.5/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+D

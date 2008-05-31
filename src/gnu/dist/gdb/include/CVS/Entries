@@ -1,0 +1,46 @@
+D/aout////
+D/coff////
+D/elf////
+D/gdb////
+D/mpw////
+D/nlm////
+D/opcode////
+D/regs////
+/COPYING/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/ChangeLog/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/MAINTAINERS/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/alloca-conf.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/ansidecl.h/1.2/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/bfdlink.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/bin-bugs.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/bout.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/demangle.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/dis-asm.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/dyn-string.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/fibheap.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/filenames.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/floatformat.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/fnmatch.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/fopen-bin.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/fopen-same.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/fopen-vms.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/gdbm.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/getopt.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/hashtab.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/hp-symtab.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/ieee.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/libiberty.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/md5.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/oasys.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/objalloc.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/obstack.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/os9k.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/partition.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/progress.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/safe-ctype.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/sort.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/splay-tree.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/symcat.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/ternary.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/xregex.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0
+/xregex2.h/1.1.1.1/Mon Aug  7 05:27:59 2006//Tnetbsd-3-0

@@ -1,0 +1,27 @@
+/Makefile.in/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.dgux/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.interix/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.irix/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.ptx/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.sco/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.svr4/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.winnt/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.wrap/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixinc.x86-linux-gnu/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixincl.c/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixincl.sh/1.1.1.2/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixincl.tpl/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/fixincl.x/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/genfixes/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/gnu-regex.c/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/gnu-regex.h/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/hackshell.tpl/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/inclhack.def/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/inclhack.sh/1.1.1.2/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/inclhack.tpl/1.1.1.2/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/mkfixinc.sh/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/procopen.c/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/server.c/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+/server.h/1.1.1.1/Mon Aug  7 05:21:52 2006/-ko/Tnetbsd-3-0
+D

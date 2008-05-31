@@ -1,0 +1,10 @@
+/Makefile/1.14/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/crunchide.1/1.14/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/crunchide.c/1.12/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/exec_aout.c/1.9/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/exec_coff.c/1.6/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/exec_ecoff.c/1.6/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/exec_elf32.c/1.13/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/exec_elf64.c/1.5/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+/extern.h/1.13/Mon Aug  7 05:21:04 2006//Tnetbsd-3-0
+D

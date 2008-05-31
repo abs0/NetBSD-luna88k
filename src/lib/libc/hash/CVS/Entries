@@ -1,0 +1,11 @@
+D/sha2////
+/Makefile.inc/1.5.2.1/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/hmac.c/1.1/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/hmac_md5.c/1.2/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/hmac_sha1.c/1.2/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/rmd160.3/1.7/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/rmd160.c/1.8/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/rmd160hl.c/1.8/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/sha1.3/1.13/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/sha1.c/1.12/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0
+/sha1hl.c/1.9/Mon Aug  7 05:31:56 2006//Tnetbsd-3-0

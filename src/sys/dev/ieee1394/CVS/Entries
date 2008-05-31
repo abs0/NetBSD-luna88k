@@ -1,0 +1,24 @@
+/IMPLEMENTATION/1.7/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/Makefile/1.3/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/NOTES/1.2/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/TODO/1.11/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/files.ieee1394/1.7/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwiso.c/1.5/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwiso_ioctl.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwisovar.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwnode.c/1.20/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwnodereg.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwnodevar.h/1.6/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwohci.c/1.84/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwohcireg.h/1.13/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/fwohcivar.h/1.22/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/ieee1394reg.h/1.18/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/ieee1394var.h/1.22/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/if_fw.c/1.21/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbp2.c/1.20/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbp2reg.h/1.7/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbp2var.h/1.6/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbpscsi.c/1.9/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbpscsireg.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sbpscsivar.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+D

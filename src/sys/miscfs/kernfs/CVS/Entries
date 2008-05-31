@@ -1,0 +1,7 @@
+/Makefile/1.1/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+/files.kernfs/1.2/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+/kernfs.h/1.23.10.1/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+/kernfs_subr.c/1.7/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+/kernfs_vfsops.c/1.66/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+/kernfs_vnops.c/1.107.2.4/Mon Aug  7 05:33:02 2006//Tnetbsd-3-0
+D

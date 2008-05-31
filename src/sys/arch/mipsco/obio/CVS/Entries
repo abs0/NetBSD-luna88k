@@ -1,0 +1,11 @@
+/asc.c/1.15/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/clockreg.h/1.2/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/i82072.c/1.8/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/if_le.c/1.7/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/mkclock.c/1.5/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/obio.c/1.9/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/rambo.c/1.6/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/rambo.h/1.4/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/zs.c/1.17/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+/zs_kgdb.c/1.4/Mon Aug  7 05:34:02 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,19 @@
+/files.ppbus/1.6/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/if_plip.c/1.6/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/lpt.c/1.13/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/lptio.h/1.6/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/lptreg.h/1.5/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/lptvar.h/1.7/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_1284.c/1.7/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_1284.h/1.5/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_base.c/1.9/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_base.h/1.4/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_conf.c/1.7/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_conf.h/1.5/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_device.h/1.4/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_io.h/1.5/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_msq.c/1.6/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_msq.h/1.5/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/ppbus_var.h/1.4/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+/pps_ppbus.c/1.2/Mon Aug  7 05:34:44 2006//Tnetbsd-3-0
+D

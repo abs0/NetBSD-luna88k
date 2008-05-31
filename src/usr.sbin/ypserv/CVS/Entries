@@ -1,0 +1,14 @@
+D/common////
+D/makedbm////
+D/mkalias////
+D/mknetid////
+D/revnetgroup////
+D/stdethers////
+D/stdhosts////
+D/ypinit////
+D/yppush////
+D/ypserv////
+D/yptest////
+D/ypxfr////
+/Makefile/1.6/Mon Aug  7 05:31:53 2006//Tnetbsd-3-0
+/Makefile.inc/1.7/Mon Aug  7 05:31:53 2006//Tnetbsd-3-0

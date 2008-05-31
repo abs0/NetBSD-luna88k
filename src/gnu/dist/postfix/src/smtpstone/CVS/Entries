@@ -1,0 +1,18 @@
+/Makefile.in/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/hashed-deferred/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/hashed-incoming/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/mx-deliver/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/mx-explode/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/mx-relay/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/performance/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/qmail-deliver/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/qmail-explode/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/qmail-relay/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/qmqp-sink.c/1.1.1.3/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/qmqp-source.c/1.1.1.4/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/smtp-sink.c/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/smtp-source.c/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/throughput/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/vmail-local/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/vmail-relay/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+D

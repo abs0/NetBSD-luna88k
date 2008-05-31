@@ -1,0 +1,15 @@
+/Locore.c/1.11/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/Makefile/1.17/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/alloc.c/1.5/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/alloc.h/1.1/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/boot.c/1.14/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/boot.h/1.1/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/net.c/1.6/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/net.h/1.1/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/netif_of.c/1.7/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/netif_of.h/1.1/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/ofdev.c/1.11/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/ofdev.h/1.2/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/openfirm.h/1.4/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+/version/1.5/Mon Aug  7 05:34:12 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,13 @@
+/Makefile.am/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/array.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/dc-proto.h/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/dc-regdef.h/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/dc.c/1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/dc.h/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/eval.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/misc.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/numeric.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/stack.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+/string.c/1.1.1.2/Mon Aug  7 05:22:17 2006//Tnetbsd-3-0
+D

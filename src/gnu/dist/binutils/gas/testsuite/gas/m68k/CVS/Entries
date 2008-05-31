@@ -1,0 +1,23 @@
+/all.exp/1.1.1.2/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/bitfield.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/bitfield.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/cas.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/cas.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/disperr.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/fmoveml.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/fmoveml.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/link.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/link.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/mcf-mov3q.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/mcf-mov3q.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/op68000.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/operands.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/operands.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/p2410.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/p2663.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/pcrel.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/pcrel.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/pic1.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/t2.d/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+/t2.s/1.1.1.1/Mon Aug  7 05:22:55 2006//Tnetbsd-3-0
+D

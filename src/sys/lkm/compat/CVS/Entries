@@ -1,0 +1,16 @@
+D/aoutm68k////
+D/freebsd////
+D/hpux////
+D/ibcs2////
+D/irix////
+D/linux////
+D/netbsd32////
+D/osf1////
+D/pecoff////
+D/sunos////
+D/sunos32////
+D/svr4////
+D/svr4_32////
+D/ultrix////
+/Makefile/1.21/Mon Aug  7 05:35:07 2006//Tnetbsd-3-0
+/Makefile.inc/1.15/Mon Aug  7 05:35:07 2006//Tnetbsd-3-0

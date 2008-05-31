@@ -1,0 +1,21 @@
+D/aculib////
+/Makefile/1.12/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/TODO/1.1.1.1/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/acu.c/1.9/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/acutab.c/1.5/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/cmds.c/1.16/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/cmdtab.c/1.5/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/cu.c/1.7/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/hunt.c/1.10/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/log.c/1.10/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/partab.c/1.6/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/pathnames.h/1.4/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/remote.c/1.11/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/tip.1/1.21/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/tip.c/1.28/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/tip.h/1.16/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/tipout.c/1.8/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/uucplock.c/1.12/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/value.c/1.11/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0
+/vars.c/1.7/Mon Aug  7 05:21:08 2006//Tnetbsd-3-0

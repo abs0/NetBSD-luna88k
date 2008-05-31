@@ -1,0 +1,26 @@
+D/bin////
+D/contrib////
+D/crypto////
+D/dist////
+D/distrib////
+D/doc////
+D/etc////
+D/games////
+D/gnu////
+D/include////
+D/lib////
+D/libexec////
+D/regress////
+D/rescue////
+D/sbin////
+D/share////
+D/sys////
+D/tools////
+D/usr.bin////
+D/usr.sbin////
+D/x11////
+/build.sh/1.134.2.2/Thu Dec 15 20:11:48 2005//Tnetbsd-3-0
+/BUILDING/1.53/Mon Aug  7 05:35:21 2006//Tnetbsd-3-0
+/Makefile/1.238.2.4/Mon Aug  7 05:35:21 2006//Tnetbsd-3-0
+/Makefile.inc/1.4/Mon Aug  7 05:35:21 2006//Tnetbsd-3-0
+/UPDATING/1.135.2.2/Mon Aug  7 05:35:21 2006//Tnetbsd-3-0

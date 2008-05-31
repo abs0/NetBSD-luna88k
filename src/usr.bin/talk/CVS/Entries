@@ -1,0 +1,16 @@
+/Makefile/1.5/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/ctl.c/1.7/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/ctl_transact.c/1.9/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/display.c/1.7/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/get_addrs.c/1.8/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/get_names.c/1.11/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/init_disp.c/1.11/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/invite.c/1.6/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/io.c/1.10/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/look_up.c/1.6/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/msgs.c/1.5/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/talk.1/1.8/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/talk.c/1.6/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/talk.h/1.7/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+/talk_ctl.h/1.4/Mon Aug  7 05:21:21 2006//Tnetbsd-3-0
+D

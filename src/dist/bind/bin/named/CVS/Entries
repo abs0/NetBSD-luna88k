@@ -1,0 +1,42 @@
+D/include////
+D/unix////
+D/win32////
+/Makefile.in/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/aclconf.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/builtin.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/client.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/config.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/control.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/controlconf.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/interfacemgr.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/listenlist.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/log.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/logconf.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwaddr.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdclient.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwderror.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdgabn.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdgnba.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdgrbn.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdnoop.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwresd.8/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwresd.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwresd.docbook/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwresd.html/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwsearch.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/main.c/1.3/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.8/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.conf.5/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.conf.docbook/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.conf.html/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.docbook/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/named.html/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/notify.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/query.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/server.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/sortlist.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/tkeyconf.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/tsigconf.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/update.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/xfrout.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/zoneconf.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0

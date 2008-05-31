@@ -1,0 +1,18 @@
+D/45////
+D/asn1////
+D/auth////
+D/com_err////
+D/des////
+D/editline////
+D/gssapi////
+D/hdb////
+D/kadm5////
+D/kafs////
+D/kdfs////
+D/krb5////
+D/otp////
+D/roken////
+D/sl////
+D/vers////
+/Makefile/1.1.1.1/Mon Aug  7 05:20:46 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.5/Mon Aug  7 05:20:46 2006//Tnetbsd-3-0

@@ -1,0 +1,20 @@
+/README/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/README.stats/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/README.timecodes/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/clock.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/dupe.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/ensemble.S/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/ensemble.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/etf.S/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/etf.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/itf.S/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/itf.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/loop.S/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/loop.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/loop_summary/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/peer.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/psummary.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/summary.sh/1.1.1.2/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/tdata.S/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+/tdata.awk/1.1.1.1/Mon Aug  7 05:31:00 2006//Tnetbsd-3-0
+D

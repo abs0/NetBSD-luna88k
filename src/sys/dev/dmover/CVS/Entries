@@ -1,0 +1,12 @@
+/Makefile/1.2/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_backend.c/1.5/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_io.c/1.17/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_io.h/1.2/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_process.c/1.2/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_request.c/1.1/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_session.c/1.2/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmover_util.c/1.4/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/dmovervar.h/1.8/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/files.dmover/1.1/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+/swdmover.c/1.8/Mon Aug  7 05:34:45 2006//Tnetbsd-3-0
+D

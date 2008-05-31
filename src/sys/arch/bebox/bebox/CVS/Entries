@@ -1,0 +1,10 @@
+/autoconf.c/1.14/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/clock.c/1.13/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/cpu.c/1.5/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/disksubr.c/1.16/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/extintr.c/1.21/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/kgdb_glue.c/1.2/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/locore.S/1.13/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/machdep.c/1.86/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+/mainbus.c/1.18/Mon Aug  7 05:34:05 2006//Tnetbsd-3-0
+D

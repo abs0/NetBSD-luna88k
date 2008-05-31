@@ -1,0 +1,14 @@
+/Makefile/1.16/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/chdsk.c/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/consio.c/1.4/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/consio.h/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/devopen.c/1.2/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/fd.c/1.2/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/fdsub.S/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/fdvar.h/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/libx68k.h/1.3/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/parseutils.c/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/putimage.S/1.2/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/sdcd.c/1.5/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+/sdcdvar.h/1.1/Mon Aug  7 05:34:08 2006//Tnetbsd-3-0
+D

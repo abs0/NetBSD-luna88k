@@ -1,0 +1,12 @@
+D/platid_gen////
+/Makefile/1.5/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/config_hook.c/1.6/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/debug_subr.c/1.5/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/disksubr.c/1.9/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid.awk/1.1/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid.c/1.5/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid_copyright.awk/1.2/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid_mask.c/1.17/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid_name.c/1.17/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid_test.c/1.2/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0
+/platid_test.canon/1.2/Mon Aug  7 05:33:53 2006//Tnetbsd-3-0

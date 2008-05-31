@@ -1,0 +1,11 @@
+/becc_mainbus.c/1.2/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/brh_7seg.c/1.2/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/brh_machdep.c/1.21/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/brh_start.S/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/brhreg.h/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/brhvar.h/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/com_obio.c/1.2/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obio.c/1.6/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obio_space.c/1.3/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obiovar.h/1.3/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+D

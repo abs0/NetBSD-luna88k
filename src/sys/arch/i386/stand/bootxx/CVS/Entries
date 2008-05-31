@@ -1,0 +1,12 @@
+D/bootxx_ffsv1////
+D/bootxx_ffsv2////
+D/bootxx_lfsv1////
+D/bootxx_lfsv2////
+D/bootxx_msdos////
+D/bootxx_ustarfs////
+/Makefile/1.7/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/Makefile.bootxx/1.15.10.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/boot1.c/1.6/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/bootxx.S/1.7/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/label.S/1.2/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pbr.S/1.12/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0

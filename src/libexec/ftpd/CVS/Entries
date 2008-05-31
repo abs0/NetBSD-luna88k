@@ -1,0 +1,15 @@
+/Makefile/1.55/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/cmds.c/1.23/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/conf.c/1.54/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/extern.h/1.52/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/ftpcmd.y/1.83/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/ftpd.8/1.74/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/ftpd.c/1.164.2.1/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/ftpd.conf.5/1.29/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/ftpusers.5/1.15/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/logutmp.c/1.8/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/logwtmp.c/1.23/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/pathnames.h/1.12/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/popen.c/1.30/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+/version.h/1.59/Mon Aug  7 05:33:00 2006//Tnetbsd-3-0
+D

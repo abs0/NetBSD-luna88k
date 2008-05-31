@@ -1,0 +1,24 @@
+/ChangeLog/1.1.1.2/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/VERSION/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/bindtextdom.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/cat-compat.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/dcgettext.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/dgettext.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/explodename.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/finddomain.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/gettext.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/gettext.h/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/gettextP.h/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/hash-string.h/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/intl-compat.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/l10nflist.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/libgettext.h/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/linux-msg.sed/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/loadinfo.h/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/loadmsgcat.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/localealias.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/po2tbl.sed.in/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/textdomain.c/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+/xopen-msg.sed/1.1.1.1/Mon Aug  7 05:22:08 2006/-ko/Tnetbsd-3-0
+D

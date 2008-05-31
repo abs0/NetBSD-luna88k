@@ -1,0 +1,8 @@
+/dlldef.h/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/dllfunc.c/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/dllload.c/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/dllmain.c/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/dllstub.c/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/make.wnt/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+/ws2_32.def/1.1.1.1/Mon Aug  7 05:31:31 2006//Tnetbsd-3-0
+D

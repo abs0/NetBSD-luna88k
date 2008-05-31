@@ -1,0 +1,17 @@
+/enc_filebuf.h/1.1.1.1/Wed Jul 23 02:42:52 2003//Tnetbsd-3-0
+/algorithm/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/functional/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/hash_map/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/hash_set/1.1.1.2/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/iterator/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/memory/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/numeric/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/rb_tree/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/rope/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/ropeimpl.h/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/slist/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/stdio_filebuf.h/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/stl_hash_fun.h/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/stl_hashtable.h/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+/stl_rope.h/1.1.1.1/Mon Aug  7 05:27:45 2006//Tnetbsd-3-0
+D

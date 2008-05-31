@@ -1,0 +1,27 @@
+/Makefile.inc/1.3/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/imax.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/imin.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/lmax.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/lmin.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/max.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/memcpy.S/1.3/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/memset.S/1.3/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/min.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/random.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/scanc.S/1.2/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/sdivsi3.S/1.2/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/skpc.S/1.2/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strcasecmp.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strcat.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strchr.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strcmp.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strcpy.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strlen.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strncasecmp.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strncmp.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strncpy.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strrchr.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/udivsi3.S/1.2/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/ulmax.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/ulmin.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+D

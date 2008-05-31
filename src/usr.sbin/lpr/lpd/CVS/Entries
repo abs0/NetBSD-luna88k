@@ -1,0 +1,11 @@
+/Makefile/1.18/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/extern.h/1.11/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/key.c/1.6/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/lpd.8/1.31/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/lpd.c/1.50.2.1/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/lpdchar.c/1.7/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/modes.c/1.5/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/printjob.c/1.41/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/recvjob.c/1.19/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+/ttcompat.c/1.12/Mon Aug  7 05:31:42 2006//Tnetbsd-3-0
+D

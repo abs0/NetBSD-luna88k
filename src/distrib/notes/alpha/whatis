@@ -1,0 +1,11 @@
+.\"	$NetBSD: whatis,v 1.10.6.1 2005/12/07 20:09:45 riz Exp $
+.
+This is the sixth major release of
+.Nx
+for the \*M.
+.Pp
+.Nx
+\*V on \*M is, as usual, also fully backward compatible with old
+.Nx*M
+binaries, so you don't need to recompile all
+your local programs.

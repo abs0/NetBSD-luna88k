@@ -1,0 +1,27 @@
+/aix.mh/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/aix.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/aix432.mh/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/gdbserve.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/linux.mh/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/linux.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/nbsd.mh/1.3/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/nbsd.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/nm-aix.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/nm-linux.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/nm-nbsd.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/ppc-eabi.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/ppc-sim.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/ppcle-eabi.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/ppcle-sim.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-linux.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-nbsd.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-ppc-aix.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-ppc-eabi.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-ppc-sim.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-ppcle-eabi.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-ppcle-sim.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/tm-vxworks.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/vxworks.mt/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/xm-aix.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+/xm-linux.h/1.1.1.1/Mon Aug  7 05:28:31 2006//Tnetbsd-3-0
+D

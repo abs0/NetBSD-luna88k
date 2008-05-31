@@ -1,0 +1,14 @@
+/ChangeLog/1.1.1.4/Mon Mar  1 03:44:15 2004//Tnetbsd-3-0
+/Make-lang.in/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/config-lang.in/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/lang-options.h/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/lang-specs.h/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/lex.l/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/parse.y/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/tree1.c/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/treelang.h/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/treelang.texi/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/treetree.c/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+/treetree.h/1.1.1.1/Mon Aug  7 05:23:41 2006//Tnetbsd-3-0
+D

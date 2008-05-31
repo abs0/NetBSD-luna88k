@@ -1,0 +1,31 @@
+D/bin////
+D/contrib////
+D/doc////
+D/docutil////
+D/lib////
+D/make////
+D/win32utils////
+/config.guess/1.1.1.1/Mon May 17 23:43:07 2004//Tnetbsd-3-0
+/config.sub/1.1.1.1/Mon May 17 23:43:10 2004//Tnetbsd-3-0
+/CHANGES/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/COPYRIGHT/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/FAQ/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/KNOWN_DEFECTS/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/README/1.12/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/acconfig.h/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/aclocal.m4/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/binclude4netbsd/1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/bind2netbsd/1.23/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/config.h.in/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/config.h.win32/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/configure/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/configure.in/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/include4netbsd/1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/install-sh/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/isc-config.sh.in/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/libc4netbsd/1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/libtool.m4/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/ltmain.sh/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/mkinstalldirs/1.1.1.1/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0
+/version/1.1.1.2/Mon Aug  7 05:31:32 2006//Tnetbsd-3-0

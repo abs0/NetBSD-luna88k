@@ -1,0 +1,15 @@
+/config-nt.bat/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/config-nt.sed/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/dirent.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/dirent.h/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/fixinc-nt.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/headers.mak/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/ld.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/libgcc.mak/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/mklibgcc.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/oldnames.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/spawnv.c/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/win-nt.h/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/x-winnt/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/xm-winnt.h/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+D

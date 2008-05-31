@@ -1,0 +1,10 @@
+/Makefile/1.10/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/boot.c/1.10/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/check.c/1.13/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/dir.c/1.17/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/dosfs.h/1.5/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/ext.h/1.11/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/fat.c/1.16/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/fsck_msdos.8/1.14/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/main.c/1.17/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+D

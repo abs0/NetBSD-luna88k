@@ -1,0 +1,19 @@
+D/asn1////
+D/bio////
+D/easy_tls////
+D/eay////
+D/engines////
+D/maurice////
+D/pkcs12////
+D/prime////
+D/sign////
+D/ssl////
+D/state_machine////
+D/tunala////
+D/x509////
+/README/1.1.1.1/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0
+/b64.c/1.1.1.4/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0
+/b64.pl/1.1.1.1/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0
+/privkey.pem/1.1.1.1/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0
+/selfsign.c/1.1.1.2/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0
+/spkigen.c/1.1.1.2/Mon Aug  7 05:20:51 2006//Tnetbsd-3-0

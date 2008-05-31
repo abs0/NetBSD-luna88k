@@ -1,0 +1,17 @@
+D/acl////
+D/auth////
+D/com_err////
+D/des////
+D/editline////
+D/kadm////
+D/kafs////
+D/kclient////
+D/kdb////
+D/krb////
+D/otp////
+D/roken////
+D/rxkad////
+D/sl////
+D/vers////
+/Makefile.am/1.1.1.2/Mon Aug  7 05:20:36 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:36 2006//Tnetbsd-3-0

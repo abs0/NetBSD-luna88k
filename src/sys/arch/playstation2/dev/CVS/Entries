@@ -1,0 +1,14 @@
+/emac3.c/1.2/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/emac3reg.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/emac3var.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/if_smap.c/1.6/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/if_smapreg.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/ohci_sbus.c/1.5/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/sbus.c/1.6/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/sbusreg.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/sbusvar.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/spd.c/1.5/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/spdreg.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/spdvar.h/1.1/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+/wdc_spd.c/1.18/Mon Aug  7 05:33:37 2006//Tnetbsd-3-0
+D

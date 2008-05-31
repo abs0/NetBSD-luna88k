@@ -1,0 +1,18 @@
+/Makefile/1.3/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/files.vme/1.9/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/if_ie_vme.c/1.20/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sc_vme.c/1.11/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/screg.h/1.1/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/si.c/1.15/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/sireg.h/1.2/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/vme.c/1.15/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/vmereg.h/1.2/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/vmevar.h/1.11/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xd.c/1.56/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xdreg.h/1.4/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xdvar.h/1.8/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xio.h/1.2/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xy.c/1.58/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xyreg.h/1.4/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+/xyvar.h/1.9/Mon Aug  7 05:34:48 2006//Tnetbsd-3-0
+D

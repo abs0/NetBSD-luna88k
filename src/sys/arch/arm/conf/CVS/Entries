@@ -1,0 +1,9 @@
+/Makefile.arm/1.23/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/files.arm/1.77/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/files.footbridge/1.11/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/files.sa11x0/1.5/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/kern.ldscript.head/1.1/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/kern.ldscript.tail/1.1/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/majors.arm32/1.20/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+/mkldscript.sh/1.1/Mon Aug  7 05:33:59 2006//Tnetbsd-3-0
+D

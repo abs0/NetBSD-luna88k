@@ -1,0 +1,20 @@
+/dp8573areg.h/1.1/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/dpclock_hpc.c/1.1/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/dsclock_hpc.c/1.8/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/files.hpc/1.8/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/haltwo.c/1.8/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/haltworeg.h/1.1/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/haltwovar.h/1.2/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/hpc.c/1.31/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/hpcdma.c/1.10/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/hpcdma.h/1.5/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/hpcreg.h/1.13/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/hpcvar.h/1.7/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/if_sq.c/1.27/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/pckbc_hpc.c/1.4/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/sbic.c/1.17/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/sbicreg.h/1.5/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/sbicvar.h/1.9/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/sqvar.h/1.8/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+/wdsc.c/1.14/Mon Aug  7 05:33:54 2006//Tnetbsd-3-0
+D

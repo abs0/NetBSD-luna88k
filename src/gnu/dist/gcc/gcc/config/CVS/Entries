@@ -1,0 +1,105 @@
+D/alpha////
+D/arc////
+D/arm////
+D/avr////
+D/c4x////
+D/cris////
+D/d30v////
+D/dsp16xx////
+D/fr30////
+D/frv////
+D/h8300////
+D/i370////
+D/i386////
+D/i960////
+D/ia64////
+D/ip2k////
+D/m32r////
+D/m68hc11////
+D/m68k////
+D/m88k////
+D/mcore////
+D/mips////
+D/mmix////
+D/mn10200////
+D/mn10300////
+D/ns32k////
+D/pa////
+D/pdp11////
+D/romp////
+D/rs6000////
+D/s390////
+D/sh////
+D/sparc////
+D/stormy16////
+D/v850////
+D/vax////
+D/xtensa////
+/darwin.h/1.1.1.2/Sat Oct 18 11:09:50 2003//Tnetbsd-3-0
+/freebsd-spec.h/1.1.1.1/Wed Jul 23 02:41:37 2003//Tnetbsd-3-0
+/rtems.h/1.1.1.1/Wed Jul 23 02:41:37 2003//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/aoutos.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/chorus.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/darwin-c.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/darwin-crt2.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/darwin-protos.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/darwin.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/dbx.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/dbxcoff.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/dbxelf.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/divmod.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/elfos.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/fp-bit.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/fp-bit.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd-nthr.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd3.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd4.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd5.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/freebsd6.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/gnu.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/gofast.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/interix.h/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/interix3.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/libgcc-glibc.ver/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/libgloss.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/linux-aout.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/linux.h/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/lynx-ng.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/lynx.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/netbsd-aout.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/netbsd-elf.h/1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/netbsd.h/1.7/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/netware.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/openbsd-oldgas.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/openbsd.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/psos.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/ptx4.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/sol2.h/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/svr3.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/svr4.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-darwin/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-freebsd/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-freebsd-thread/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-gnu/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-interix/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-libc-ok/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-libgcc-pic/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-libunwind/1.1.1.2/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-linux/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-linux-aout/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-linux-gnulibc1/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-netbsd/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-openbsd/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-openbsd-thread/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-rtems/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-slibgcc-elf-ver/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-slibgcc-nolc-override/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-slibgcc-sld/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/t-svr4/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/tm-dwarf2.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/udivmod.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/udivmodsi4.c/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/usegas.h/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0
+/x-interix/1.1.1.1/Mon Aug  7 05:27:32 2006//Tnetbsd-3-0

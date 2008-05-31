@@ -1,0 +1,13 @@
+/elf.h/1.1.1.1/Mon Aug  7 05:21:49 2006/-ko/Tnetbsd-3-0
+/lib1funcs.asm/1.1.1.1/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/netbsd-elf-little.h/1.4/Mon Aug  7 05:21:48 2006//Tnetbsd-3-0
+/netbsd-elf.h/1.6/Mon Aug  7 05:21:48 2006//Tnetbsd-3-0
+/rtems.h/1.1.1.1/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/rtemself.h/1.1.1.1/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/sh-protos.h/1.1/Mon Aug  7 05:21:48 2006//Tnetbsd-3-0
+/sh.c/1.13/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/sh.h/1.5/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/sh.md/1.6/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/t-sh/1.1.1.1/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+/xm-sh.h/1.2/Mon Aug  7 05:21:48 2006/-ko/Tnetbsd-3-0
+D

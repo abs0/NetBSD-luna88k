@@ -1,0 +1,6 @@
+#	$NetBSD: files.fdesc,v 1.2 2005/02/26 22:59:00 perry Exp $
+
+deffs	FDESC
+
+file	miscfs/fdesc/fdesc_vfsops.c	fdesc
+file	miscfs/fdesc/fdesc_vnops.c	fdesc

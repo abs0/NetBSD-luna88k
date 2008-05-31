@@ -1,0 +1,19 @@
+D/config////
+D/consistency.vlad////
+D/g++.dg////
+D/g++.old-deja////
+D/g77.dg////
+D/g77.f-torture////
+D/gcc.c-torture////
+D/gcc.dg////
+D/gcc.misc-tests////
+D/lib////
+D/objc////
+D/objc.dg////
+D/treelang////
+/ChangeLog/1.1.1.5/Mon Mar  1 03:42:13 2004//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:27:21 2006//Tnetbsd-3-0
+/README.QMTEST/1.1.1.1/Mon Aug  7 05:27:21 2006//Tnetbsd-3-0
+/README.compat/1.1.1.1/Mon Aug  7 05:27:21 2006//Tnetbsd-3-0
+/README.g++/1.1.1.1/Mon Aug  7 05:27:21 2006//Tnetbsd-3-0
+/README.gcc/1.1.1.1/Mon Aug  7 05:27:21 2006//Tnetbsd-3-0

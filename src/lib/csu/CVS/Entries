@@ -1,0 +1,25 @@
+D/alpha////
+D/arm32////
+D/arm_elf////
+D/c++////
+D/common_aout////
+D/common_elf////
+D/hppa////
+D/i386////
+D/i386_elf////
+D/m68k////
+D/m68k_elf////
+D/m88k_elf////
+D/mips////
+D/ns32k////
+D/powerpc////
+D/sh3////
+D/sh3_elf////
+D/sh5////
+D/sparc////
+D/sparc64////
+D/sparc_elf////
+D/vax////
+D/vax_elf////
+D/x86_64////
+/Makefile/1.24/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0

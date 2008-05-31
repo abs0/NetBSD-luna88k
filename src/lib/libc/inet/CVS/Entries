@@ -1,0 +1,22 @@
+/Makefile.inc/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/_inet_aton.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/_inet_pton.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet.3/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet6_option_space.3/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet6_rthdr_space.3/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_addr.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_cidr_ntop.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_cidr_pton.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_lnaof.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_makeaddr.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_net.3/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_net_ntop.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_net_pton.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_neta.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_netof.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_network.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_ntoa.c/1.1/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_ntop.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/inet_pton.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+/nsap_addr.c/1.2/Mon Aug  7 05:32:16 2006//Tnetbsd-3-0
+D

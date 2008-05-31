@@ -1,0 +1,12 @@
+/autoconf.c/1.5/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/console.c/1.4/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/cpu.c/1.13/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/disksubr.c/1.9/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/locore_machdep.S/1.2/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/machdep.c/1.26/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/rtc.c/1.9/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/sb1250_icu.c/1.6/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/softintr.c/1.4/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/systemsw.c/1.9/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/zbbus.c/1.8/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+D

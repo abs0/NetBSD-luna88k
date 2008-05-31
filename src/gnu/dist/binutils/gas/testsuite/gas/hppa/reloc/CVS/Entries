@@ -1,0 +1,19 @@
+/applybug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/blebug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/blebug2.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/blebug3.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/exitbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/fixupbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/funcrelocbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/labelopbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/longcall.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/picreloc.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/plabelbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/r_no_reloc.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/reduce.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/reduce2.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/reduce3.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/reloc.exp/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/roundmode.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+/selectorbug.s/1.1.1.1/Mon Aug  7 05:22:56 2006//Tnetbsd-3-0
+D

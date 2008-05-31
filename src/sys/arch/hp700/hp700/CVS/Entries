@@ -1,0 +1,16 @@
+/autoconf.c/1.17/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/conf.c/1.8/Mon Aug  7 05:33:45 2006//Tnetbsd-3-0
+/disksubr.c/1.13/Mon Aug  7 05:33:45 2006//Tnetbsd-3-0
+/genassym.cf/1.9/Mon Aug  7 05:33:45 2006//Tnetbsd-3-0
+/intr.c/1.8/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/intr.h/1.5/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/locore.S/1.13/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/machdep.c/1.21/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/machdep.h/1.4/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/mainbus.c/1.24/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/pim.h/1.1/Mon Aug  7 05:33:45 2006//Tnetbsd-3-0
+/power.c/1.1/Mon Aug  7 05:33:45 2006//Tnetbsd-3-0
+/power.h/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/softintr.c/1.3/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/sys_machdep.c/1.4/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+D

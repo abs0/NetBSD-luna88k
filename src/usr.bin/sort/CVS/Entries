@@ -1,0 +1,14 @@
+/Makefile/1.5/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/append.c/1.13/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/fields.c/1.18/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/files.c/1.23/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/fsort.c/1.30/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/fsort.h/1.12/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/init.c/1.16/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/msort.c/1.17/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/pathnames.h/1.5/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/sort.1/1.25/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/sort.c/1.41/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/sort.h/1.18/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+/tmp.c/1.11/Mon Aug  7 05:21:20 2006//Tnetbsd-3-0
+D

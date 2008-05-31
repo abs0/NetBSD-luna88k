@@ -1,0 +1,13 @@
+D/asm////
+/Makefile.ssl/1.1.1.5/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha.h/1.5/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha1.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha1_one.c/1.1.1.2/Mon Aug  7 05:20:58 2006//Tnetbsd-3-0
+/sha1dgst.c/1.1.1.3/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha1s.cpp/1.1.1.2/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha1test.c/1.3/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha_dgst.c/1.1.1.3/Mon Aug  7 05:20:58 2006//Tnetbsd-3-0
+/sha_locl.h/1.4/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/sha_one.c/1.1.1.2/Mon Aug  7 05:20:58 2006//Tnetbsd-3-0
+/shatest.c/1.3/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0

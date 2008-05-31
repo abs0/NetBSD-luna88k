@@ -1,0 +1,22 @@
+D/bsd////
+D/dst////
+D/include////
+D/inet////
+D/irs////
+D/isc////
+D/make////
+D/nameser////
+D/port////
+D/resolv////
+/Makefile.in/1.1.1.2/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/aclocal.m4/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/api/1.1.1.2/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/config.h.in/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/configure/1.1.1.2/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/configure.in/1.1.1.2/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/libtool.m4/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/ltmain.sh/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/mkinstalldirs/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/port_after.h.in/1.1.1.2/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0
+/port_before.h.in/1.1.1.1/Mon Aug  7 05:31:20 2006//Tnetbsd-3-0

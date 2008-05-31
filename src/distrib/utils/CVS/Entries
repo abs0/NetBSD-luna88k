@@ -1,0 +1,21 @@
+D/libhack////
+D/more////
+D/script-installer////
+D/sparkcrc////
+D/ssh////
+D/sysinst////
+D/tls////
+D/x_dhclient////
+D/x_dmesg////
+D/x_ed////
+D/x_gzip////
+D/x_ifconfig////
+D/x_netstat////
+D/x_ping////
+D/x_ping6////
+D/x_route////
+D/x_umount////
+D/zcat////
+/Makefile/1.16/Mon Aug  7 05:30:14 2006//Tnetbsd-3-0
+/Makefile.inc/1.11/Mon Aug  7 05:30:14 2006//Tnetbsd-3-0
+/README/1.4/Mon Aug  7 05:30:14 2006//Tnetbsd-3-0

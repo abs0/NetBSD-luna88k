@@ -1,0 +1,10 @@
+D/memchr////
+D/memmem////
+D/strcat////
+D/strchr////
+D/strcmp////
+D/strcpy////
+D/strlen////
+D/strrchr////
+D/swab////
+/Makefile/1.6/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0

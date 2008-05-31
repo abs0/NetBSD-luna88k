@@ -1,0 +1,15 @@
+/Makefile/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/Makefile.inc/1.2/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/devopen.c/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/newvers_rm.sh/1.3/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscoscalls.S/1.2/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscoscalls.h/1.2/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscoscons.c/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscosdisk.c/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscosdisk.h/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscoserrors.c/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscosfile.c/1.3/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/riscosfile.h/1.2/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/srt0.S/1.1/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/srt1.c/1.3/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,18 @@
+/common.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/define.s/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/elf-offset.ld/1.1.1.2/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/elfvsb.dat/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/elfvsb.exp/1.1.1.2/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/hidden0.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/hidden1.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/internal0.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/internal1.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/main.c/1.1.1.2/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/protected0.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/protected1.d/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/sh1.c/1.1.1.2/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/sh2.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/sh3.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/test.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/undef.s/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+D

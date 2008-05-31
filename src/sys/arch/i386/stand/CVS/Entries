@@ -1,0 +1,14 @@
+D/boot////
+D/bootxx////
+D/dosboot////
+D/genprom////
+D/lib////
+D/libsa////
+D/mbr////
+D/misc////
+D/netboot////
+D/pxeboot////
+D/pxeboot_com0////
+/Makefile/1.23/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/Makefile.booters/1.58.10.1/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/Makefile.inc/1.1/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0

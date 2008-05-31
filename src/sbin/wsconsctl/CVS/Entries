@@ -1,0 +1,13 @@
+/Makefile/1.12/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/display.c/1.10.2.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/keyboard.c/1.7/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/keysym.c/1.5/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/map_parse.y/1.4/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/map_scan.l/1.2/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/mkkeysym.sh/1.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/mouse.c/1.4/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/util.c/1.22/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/wsconsctl.8/1.15.2.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/wsconsctl.c/1.10.2.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/wsconsctl.h/1.7/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,70 @@
+D/csu////
+D/i18n_module////
+D/libarch////
+D/libasn1////
+D/libbsdmalloc////
+D/libbz2////
+D/libc////
+D/libcdk////
+D/libcom_err////
+D/libcompat////
+D/libcrypt////
+D/libcrypto////
+D/libcrypto_idea////
+D/libcrypto_mdc2////
+D/libcrypto_rc5////
+D/libcurses////
+D/libdes////
+D/libedit////
+D/libevent////
+D/libform////
+D/libgssapi////
+D/libhdb////
+D/libintl////
+D/libipsec////
+D/libkadm////
+D/libkadm5clnt////
+D/libkadm5srv////
+D/libkafs////
+D/libkdb////
+D/libkrb////
+D/libkrb5////
+D/libkstream////
+D/libkvm////
+D/libl////
+D/libm////
+D/libmagic////
+D/libmenu////
+D/libossaudio////
+D/libpam////
+D/libpcap////
+D/libpci////
+D/libpmc////
+D/libposix////
+D/libpthread////
+D/libpthread_dbg////
+D/libradius////
+D/libresolv////
+D/librmt////
+D/libroken////
+D/librpcsvc////
+D/librt////
+D/libskey////
+D/libsl////
+D/libss////
+D/libssh////
+D/libssl////
+D/libtelnet////
+D/libterm////
+D/libusbhid////
+D/libutil////
+D/libvers////
+D/libwrap////
+D/liby////
+D/libz////
+/Makefile/1.95/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0
+/Makefile.inc/1.5/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0
+/bumpversion/1.10/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0
+/checkoldver/1.2/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0
+/checkver/1.12/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0
+/checkvers/1.6/Mon Aug  7 05:32:38 2006//Tnetbsd-3-0

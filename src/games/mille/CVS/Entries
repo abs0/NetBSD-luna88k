@@ -1,0 +1,17 @@
+/Makefile/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/comp.c/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/end.c/1.7/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/extern.c/1.7/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/init.c/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/mille.6/1.9/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/mille.c/1.13/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/mille.h/1.13/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/misc.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/move.c/1.15/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/print.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/roll.c/1.7/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/save.c/1.11/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/table.c/1.7/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/types.c/1.8/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+/varpush.c/1.8/Mon Aug  7 05:29:37 2006//Tnetbsd-3-0
+D

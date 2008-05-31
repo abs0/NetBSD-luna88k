@@ -1,0 +1,19 @@
+/bastring.cc/1.1.1.2/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/bastring.h/1.1.1.2/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/complext.cc/1.1.1.2/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/complext.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/dcomplex.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/fcomplex.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/gslice.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/gslice_array.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/indirect_array.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/ldcomplex.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/mask_array.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/slice.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/slice_array.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/std_valarray.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/straits.h/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/valarray_array.h/1.1.1.2/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/valarray_array.tcc/1.1.1.1/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+/valarray_meta.h/1.1.1.2/Mon Aug  7 05:22:00 2006/-ko/Tnetbsd-3-0
+D

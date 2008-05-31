@@ -1,0 +1,12 @@
+/com_obio.c/1.8/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/i80321_mainbus.c/1.14/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321_7seg.c/1.4/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321_machdep.c/1.33/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321_pci.c/1.4/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321_start.S/1.4/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321reg.h/1.4/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/iq80321var.h/1.1/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obio.c/1.11/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obio_space.c/1.7/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+/obiovar.h/1.4/Mon Aug  7 05:34:17 2006//Tnetbsd-3-0
+D

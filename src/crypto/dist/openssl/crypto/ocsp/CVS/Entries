@@ -1,0 +1,12 @@
+/Makefile.ssl/1.1.1.2/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp.h/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_asn.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_cl.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_err.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_ext.c/1.1.1.2/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_ht.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_lib.c/1.1.1.2/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_prn.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_srv.c/1.1.1.1/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+/ocsp_vfy.c/1.1.1.2/Mon Aug  7 05:20:57 2006//Tnetbsd-3-0
+D

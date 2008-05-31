@@ -1,0 +1,16 @@
+/Makefile/1.4/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/files.sunos32/1.1/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32.h/1.8/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_dirent.h/1.2/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_exec.c/1.19.14.1/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_exec.h/1.6/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_exec_aout.c/1.7/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_ioctl.c/1.14/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_misc.c/1.29.2.1/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_syscall.h/1.15/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_syscallargs.h/1.14/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_syscalls.c/1.14/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/sunos32_sysent.c/1.15/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/syscalls.conf/1.2/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+/syscalls.master/1.10/Mon Aug  7 05:35:15 2006//Tnetbsd-3-0
+D

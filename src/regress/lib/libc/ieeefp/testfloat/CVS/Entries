@@ -1,0 +1,12 @@
+D/arch////
+D/include////
+D/notes////
+/Makefile/1.5/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/csystfloat.c/1.2/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/fail.c/1.4/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/systfloat.c/1.7/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/testCases.c/1.4/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/testFunction.c/1.4/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/testLoops.c/1.4/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/testfloat.c/1.5/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0
+/writeHex.c/1.4/Mon Aug  7 05:32:47 2006//Tnetbsd-3-0

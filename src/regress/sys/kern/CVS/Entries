@@ -1,0 +1,21 @@
+D/execve////
+D/extent////
+D/getcwd////
+D/ipf////
+D/kqueue////
+D/lock////
+D/lockf////
+D/pipe////
+D/poll////
+D/ras////
+D/sa////
+D/sigtramp////
+D/sysvmsg////
+D/sysvsem////
+D/sysvshm////
+D/ucontext////
+D/umount////
+D/unfdpass////
+D/writev////
+/Makefile/1.25/Mon Aug  7 05:32:53 2006//Tnetbsd-3-0
+/Makefile.inc/1.2/Mon Aug  7 05:32:53 2006//Tnetbsd-3-0

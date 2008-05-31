@@ -1,0 +1,23 @@
+/bounce.8/1.1.1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/cleanup.8/1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/defer.8/1.1.1.2/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/error.8/1.1.1.4/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/flush.8/1.1.1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/lmtp.8/1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/local.8/1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/master.8/1.1.1.6/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/oqmgr.8/1.1.1.2/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/pickup.8/1.1.1.7/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/pipe.8/1.1.1.7/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/proxymap.8/1.1.1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/qmgr.8/1.1.1.6/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/qmqpd.8/1.1.1.4/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/showq.8/1.1.1.4/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/smtp.8/1.1.1.8/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/smtpd.8/1.1.1.10/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/spawn.8/1.1.1.5/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/trace.8/1.1.1.2/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/trivial-rewrite.8/1.1.1.9/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/verify.8/1.1.1.2/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+/virtual.8/1.1.1.6/Mon Aug  7 05:29:03 2006//Tnetbsd-3-0
+D

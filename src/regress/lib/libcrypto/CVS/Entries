@@ -1,0 +1,28 @@
+D/bf////
+D/bn////
+D/cast////
+D/conf////
+D/des////
+D/dh////
+D/dsa////
+D/ec////
+D/engine////
+D/hmac////
+D/idea////
+D/lhash////
+D/md2////
+D/md4////
+D/md5////
+D/mdc2////
+D/rand////
+D/rc2////
+D/rc4////
+D/rc5////
+D/ripemd////
+D/rsa////
+D/sha////
+D/sha1////
+D/threads////
+D/x509v3////
+/Makefile/1.6/Mon Aug  7 05:32:44 2006//Tnetbsd-3-0
+/Makefile.inc/1.4/Mon Aug  7 05:32:44 2006//Tnetbsd-3-0

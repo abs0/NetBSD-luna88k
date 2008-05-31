@@ -1,0 +1,22 @@
+/C.msg/1.16/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/Makefile/1.7/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/TODO/1.8/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/blabel.c/1.11/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/blabel.h/1.3/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/formtree.h/1.8/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/functions.c/1.12/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/functions.h/1.5/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/handlers.c/1.7/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/handlers.h/1.6/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/menutree.c/1.3/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/menutree.h/1.3/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/run.c/1.13/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/run.h/1.3/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/scandir.c/1.5/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/scandir.h/1.4/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/scanform.c/1.43/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/scanform.h/1.2/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/sushi.8/1.17/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/sushi.c/1.24/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/sushi.h/1.4/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,17 @@
+/Makefile/1.1.1.1/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.6/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/generate-requests.c/1.5/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kauth_options.c/1.1.1.3/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kdecode_ticket.c/1.1.1.5/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kdestroy.1/1.6/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kdestroy.c/1.7/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kgetcred.1/1.6/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kgetcred.c/1.1.1.5/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kinit.1/1.9/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kinit.c/1.11/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kinit_options.c/1.1.1.3/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/klist.1/1.9/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/klist.c/1.8/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kuser_locl.h/1.1.1.4/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+/kverify.c/1.1.1.5/Mon Aug  7 05:20:47 2006//Tnetbsd-3-0
+D

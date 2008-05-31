@@ -1,0 +1,26 @@
+D/p7////
+D/t////
+/Makefile.ssl/1.1.1.6/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/bio_ber.c/1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/dec.c/1.1.1.2/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/des.pem/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/doc/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/enc.c/1.1.1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/es1.pem/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/example.c/1.1.1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/example.h/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/info.pem/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/infokey.pem/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_asn1.c/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_attr.c/1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_dgst.c/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_doit.c/1.2/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_enc.c/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_lib.c/1.1.1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_mime.c/1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pk7_smime.c/1.4/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pkcs7.h/1.6/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/pkcs7err.c/1.1.1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/server.pem/1.1.1.1/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/sign.c/1.1.1.3/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0
+/verify.c/1.1.1.4/Mon Aug  7 05:20:53 2006//Tnetbsd-3-0

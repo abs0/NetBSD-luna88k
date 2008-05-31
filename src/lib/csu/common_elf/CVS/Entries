@@ -1,0 +1,12 @@
+/Makefile.inc/1.25/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/common.c/1.16/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/common.h/1.10/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crtbegin.c/1.26/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crtbeginS.c/1.1/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crtend.c/1.11/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crtendS.c/1.1/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crti.c/1.2/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/crtn.c/1.1/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/dot_init.h/1.1/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+/dwarf2_eh.h/1.2/Mon Aug  7 05:32:29 2006//Tnetbsd-3-0
+D

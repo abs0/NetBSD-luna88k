@@ -1,0 +1,9 @@
+D/bootfloppy-common////
+D/bootfloppy.generic////
+D/bootfloppy.sysinst////
+D/bootfloppy_com0.generic////
+D/bootfloppy_com0.sysinst////
+D/kernel-generic////
+D/kernel-ramdisk////
+D/ramdisk////
+/Makefile/1.2/Mon Aug  7 05:30:03 2006//Tnetbsd-3-0

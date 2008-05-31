@@ -1,0 +1,20 @@
+D/win32////
+/Makefile.in/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-keygen.8/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-keygen.c/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-keygen.docbook/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-keygen.html/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-makekeyset.8/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-makekeyset.c/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-makekeyset.docbook/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-makekeyset.html/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signkey.8/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signkey.c/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signkey.docbook/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signkey.html/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signzone.8/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signzone.c/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signzone.docbook/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssec-signzone.html/1.1.1.2/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssectool.c/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0
+/dnssectool.h/1.1.1.1/Mon Aug  7 05:31:23 2006//Tnetbsd-3-0

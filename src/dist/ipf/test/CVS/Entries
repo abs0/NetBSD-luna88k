@@ -1,0 +1,9 @@
+D/expected////
+D/input////
+D/regress////
+/README.TXT/1.1.1.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0
+/bpftest/1.1.1.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0
+/iptest/1.1.1.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0
+/ptest/1.1.1.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0
+/test.format/1.1.1.4.2.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0
+/vfycksum.pl/1.1.1.2.2.1/Mon Aug  7 05:31:34 2006//Tnetbsd-3-0

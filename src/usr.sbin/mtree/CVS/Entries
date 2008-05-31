@@ -1,0 +1,14 @@
+/Makefile/1.26/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/compare.c/1.45.2.2/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/crc.c/1.7/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/create.c/1.46.2.1/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/excludes.c/1.13/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/extern.h/1.29/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/getid.c/1.5/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/misc.c/1.25.2.2/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/mtree.8/1.39.2.2/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/mtree.c/1.32/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/mtree.h/1.22.2.2/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/spec.c/1.59.2.1/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+/verify.c/1.38/Mon Aug  7 05:31:41 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,18 @@
+/Makefile.in/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/daemon.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/ftruncate.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/gettimeofday.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/mktemp.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/putenv.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/readv.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/setenv.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/setitimer.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strcasecmp.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strdup.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strerror.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strpbrk.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strsep.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/strtoul.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/utimes.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+/writev.c/1.1.1.1/Mon Aug  7 05:31:19 2006//Tnetbsd-3-0
+D

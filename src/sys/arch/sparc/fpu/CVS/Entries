@@ -1,0 +1,13 @@
+/fpu.c/1.23/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_add.c/1.5/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_arith.h/1.4/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_compare.c/1.5/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_div.c/1.4/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_emu.h/1.6/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_explode.c/1.11/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_extern.h/1.7/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_implode.c/1.12/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_mul.c/1.4/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_sqrt.c/1.4/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+/fpu_subr.c/1.5/Mon Aug  7 05:33:30 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,101 @@
+D/1750a////
+D/a29k////
+D/alpha////
+D/arc////
+D/arm////
+D/c4x////
+D/clipper////
+D/convex////
+D/dsp16xx////
+D/elxsi////
+D/fx80////
+D/gmicro////
+D/h8300////
+D/i370////
+D/i386////
+D/i860////
+D/i960////
+D/m32r////
+D/m68k////
+D/m88k////
+D/mips////
+D/mn10200////
+D/mn10300////
+D/msdos////
+D/ns32k////
+D/pa////
+D/pdp11////
+D/pyr////
+D/romp////
+D/rs6000////
+D/sh////
+D/sparc////
+D/spur////
+D/tahoe////
+D/v850////
+D/vax////
+D/we32k////
+D/winnt////
+/README/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/aoutos.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/dbx.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/dbxcoff.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/dbxelf.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/elfos.h/1.4/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-i128.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-i32.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-i386.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-i64.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-m68k.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-sh.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/float-vax.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/fp-bit.c/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/gnu.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/gofast.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/interix.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/libgloss.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/linux-aout.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/linux.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/lynx-ng.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/lynx.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/netbsd.h/1.20/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/nextstep.c/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/nextstep.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/nextstep21.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/openbsd.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/psos.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/ptx4.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/svr3.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/svr4.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-freebsd/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-gnu/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-install-cpp/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-libc-ok/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-linux/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-linux-aout/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-linux-gnulibc1/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-netbsd/1.3/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-openbsd/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-openbsd-thread/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-rtems/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/t-svr4/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/tm-dwarf2.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/x-darwin/1.1/Mon Aug  7 05:21:51 2006//Tnetbsd-3-0
+/x-interix/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/x-linux/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/x-linux-aout/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/x-lynx/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/x-svr4/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-alloca.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-freebsd.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-gnu.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-interix.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-linux.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-lynx.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-netbsd.h/1.2/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-openbsd.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-siglist.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-std32.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-svr3.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-svr4.h/1.1.1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0
+/xm-target64.h/1.1/Mon Aug  7 05:21:51 2006/-ko/Tnetbsd-3-0

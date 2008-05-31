@@ -1,0 +1,16 @@
+/Makefile/1.4/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/dpti.c/1.19/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/dptivar.h/1.4/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/files.i2o/1.6/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/i2o.h/1.12/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/i2odpt.h/1.2/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iop.c/1.47/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopio.h/1.2/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopl.c/1.17/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/ioplvar.h/1.4/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopreg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopsp.c/1.19/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopspvar.h/1.6/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/iopvar.h/1.15/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/ld_iop.c/1.16/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+D

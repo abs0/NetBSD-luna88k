@@ -1,0 +1,13 @@
+/cli-cmds.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-cmds.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-decode.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-decode.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-dump.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-dump.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-script.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-script.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-setshow.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-setshow.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-utils.c/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+/cli-utils.h/1.1.1.1/Mon Aug  7 05:28:30 2006//Tnetbsd-3-0
+D

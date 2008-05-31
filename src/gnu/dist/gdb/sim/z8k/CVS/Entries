@@ -1,0 +1,22 @@
+/ChangeLog/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/acconfig.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/comped1.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/comped2.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/comped3.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/compedb3.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/config.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/configure/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/configure.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/iface.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/inlines.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/mem.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/mem.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/quick.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/sim.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/support.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/syscall.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/tconfig.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/tm.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/writecode.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+D

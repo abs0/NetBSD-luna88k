@@ -1,0 +1,16 @@
+D/SMM.doc////
+/Makefile/1.28/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/dir.c/1.43/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/extern.h/1.21/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/fsck.h/1.42/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/fsck_ffs.8/1.40/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/inode.c/1.51.2.1/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/main.c/1.57/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass1.c/1.36.2.2/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass1b.c/1.21/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass2.c/1.41/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass3.c/1.18/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass4.c/1.21/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/pass5.c/1.45/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/setup.c/1.75/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0
+/utilities.c/1.49/Mon Aug  7 05:29:29 2006//Tnetbsd-3-0

@@ -1,0 +1,14 @@
+/Makefile/1.4/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/cpu.h/1.10/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/dcr403cgx.h/1.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/dcr405gp.h/1.2/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/dcr405xx.h/1.2/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/ibm405gp.h/1.9/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/ibm4xx_intr.h/1.6.14.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/mal405gp.h/1.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/openbios.h/1.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/pci_machdep.h/1.2.10.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/pmap.h/1.10/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/tlb.h/1.1/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+/vmparam.h/1.4/Mon Aug  7 05:33:56 2006//Tnetbsd-3-0
+D

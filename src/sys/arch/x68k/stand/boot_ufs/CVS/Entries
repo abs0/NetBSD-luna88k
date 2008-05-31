@@ -1,0 +1,11 @@
+/Makefile/1.16/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/boot.S/1.6/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/boot_ufs.h/1.2/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/boot_ufs.ldscript/1.2/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/bootmain.c/1.6/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/readufs.c/1.5/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/readufs.h/1.6/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/readufs_ffs.c/1.7/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/readufs_lfs.c/1.6/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+/version/1.2/Mon Aug  7 05:34:07 2006//Tnetbsd-3-0
+D

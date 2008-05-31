@@ -1,0 +1,11 @@
+/aica.c/1.8/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/aicavar.h/1.2/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/g2bus.c/1.9/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/g2bus_bus_mem.c/1.10/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/g2busvar.h/1.4/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/gapspci.c/1.13/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/gapspci_dma.c/1.10/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/gapspci_pci.c/1.7/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/gapspcivar.h/1.2/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/if_mbe_g2.c/1.4/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+D

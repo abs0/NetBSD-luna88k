@@ -1,0 +1,14 @@
+/Makefile/1.13/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/clock.c/1.4/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/clockreg.h/1.2/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/console.c/1.5/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/etherfun.c/1.5/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/etherfun.h/1.2/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/if_lereg.h/1.3/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/le_poll.c/1.4/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/oc_cksum.s/1.2/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/sboot.c/1.4/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/sboot.h/1.5/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/start.s/1.7/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+/version/1.2/Mon Aug  7 05:34:22 2006//Tnetbsd-3-0
+D

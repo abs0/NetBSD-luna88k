@@ -1,0 +1,18 @@
+.\"	$NetBSD: whatis,v 1.16.4.2 2005/11/13 15:58:21 tron Exp $
+.
+This is the eleventh major release of
+.Nx
+for the \*M.
+.Pp
+As is usual between releases, the \*M port has had many improvements
+made to it\(emtoo many to detail all of them here.
+.Pp
+Numerous new drivers have been added.
+See the supported hardware list for details.
+.Pp
+.Nx \*V
+on \*M is, as usual, also fully backward compatible with old
+.Nx*M
+binaries, so you don't need to recompile all your local programs
+provided you set the appropriate binary compatibility options in your
+kernel configuration.

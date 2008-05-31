@@ -1,0 +1,7 @@
+/fpgetmask.S/1.4/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/fpgetround.c/1.2/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/fpgetsticky.S/1.4/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/fpsetmask.S/1.4/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/fpsetround.c/1.4/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/fpsetsticky.S/1.4/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+D

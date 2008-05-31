@@ -1,0 +1,13 @@
+/com_jensenio.c/1.5/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio.c/1.10/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio_bus_intio.c/1.1/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio_bus_io.c/1.1/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio_bus_mem.c/1.1/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio_dma.c/1.1/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenio_intr.c/1.4/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jensenioreg.h/1.1/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/jenseniovar.h/1.2/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/lpt_jensenio.c/1.5/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/mcclock_jensenio.c/1.4/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/pckbc_jensenio.c/1.6/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+D

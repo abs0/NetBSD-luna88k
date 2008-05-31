@@ -1,0 +1,18 @@
+D/include////
+D/unix////
+D/win32////
+/Makefile.in/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc-confgen.8/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc-confgen.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc-confgen.docbook/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc-confgen.html/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.8/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.c/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.conf/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.conf.5/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.conf.docbook/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.conf.html/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.docbook/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/rndc.html/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/util.c/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/util.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0

@@ -1,0 +1,24 @@
+D/monitoring////
+D/rc1////
+D/rc2////
+D/stats////
+D/support////
+/Makefile.am/1.1.1.3/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.3/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/README/1.1.1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/calc_tickadj.in/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/checktime.in/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/fixautomakedepsmagic/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/freq_adj.in/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/hpadjtime.sh/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/mkver.in/1.1.1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntp-close/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntp-groper/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntp-restart/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntp-status/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntp-wait.in/1.1.1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntpsweep.in/1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntptrace.in/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/ntpver.in/1.1.1.1/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/plot_summary.in/1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0
+/summary.in/1.2/Mon Aug  7 05:31:01 2006//Tnetbsd-3-0

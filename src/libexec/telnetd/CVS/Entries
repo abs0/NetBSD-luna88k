@@ -1,0 +1,15 @@
+/Makefile/1.43/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/authenc.c/1.12/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/defs.h/1.15/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/ext.h/1.19.2.1/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/global.c/1.8/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/pathnames.h/1.7/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/slc.c/1.14/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/state.c/1.25.2.1/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/sys_term.c/1.42/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/telnetd.8/1.30/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/telnetd.c/1.46.2.2/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/telnetd.h/1.8/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/termstat.c/1.14/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+/utility.c/1.27.2.1/Mon Aug  7 05:32:59 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,11 @@
+/ahc_isa.c/1.26/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/clock.c/1.86/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/isapnp_machdep.c/1.9/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/lms.c/1.46/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/mms.c/1.43/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/npx.c/1.107.14.1/Tue Aug  8 06:42:25 2006//Tnetbsd-3-0
+/npx_isa.c/1.9/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/npxvar.h/1.3/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/nvram.h/1.7/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/pccons.c/1.170/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+D

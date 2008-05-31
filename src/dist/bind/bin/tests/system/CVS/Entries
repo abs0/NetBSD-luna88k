@@ -1,0 +1,41 @@
+D/cacheclean////
+D/checknames////
+D/common////
+D/dialup////
+D/dlv////
+D/dnssec////
+D/forward////
+D/glue////
+D/ixfr////
+D/limits////
+D/lwresd////
+D/masterfile////
+D/notify////
+D/nsupdate////
+D/resolver////
+D/sortlist////
+D/stress////
+D/stub////
+D/tkey////
+D/unknown////
+D/upforwd////
+D/v6synth////
+D/views////
+D/xfer////
+D/xferquota////
+/Makefile.in/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/cleanall.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/conf.sh.in/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/digcomp.pl/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/genzone.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/ifconfig.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/run.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/runall.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/send.pl/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/setup.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/start.pl/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/start.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/stop.pl/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/stop.sh/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0
+/testsock.pl/1.1.1.1/Mon Aug  7 05:31:27 2006//Tnetbsd-3-0

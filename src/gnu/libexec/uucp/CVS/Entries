@@ -1,0 +1,29 @@
+D/common_sources////
+D/contrib////
+D/cu////
+D/doc////
+D/libunix////
+D/libuuconf////
+D/libuucp////
+D/sample////
+D/uuchk////
+D/uucico////
+D/uuconv////
+D/uucp////
+D/uulog////
+D/uuname////
+D/uupick////
+D/uusched////
+D/uustat////
+D/uuto////
+D/uux////
+D/uuxqt////
+/COPYING/1.1.1.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/ChangeLog/1.4/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/Makefile/1.7/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/Makefile.inc/1.14/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/NEWS/1.1/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/README/1.4/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/TODO/1.4/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/VERSION/1.3/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0
+/tstuu.c/1.5/Mon Aug  7 05:29:28 2006//Tnetbsd-3-0

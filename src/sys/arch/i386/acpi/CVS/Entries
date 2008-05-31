@@ -1,0 +1,9 @@
+/Makefile.wakecode/1.3/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/acpi_wakecode.S/1.4/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/acpi_wakecode.h/1.3/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/acpi_wakeup.c/1.14/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/genwakecode.sh/1.3/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/npx_acpi.c/1.9/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/spic_acpi.c/1.12/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+/vald_acpi.c/1.20/Mon Aug  7 05:33:41 2006//Tnetbsd-3-0
+D

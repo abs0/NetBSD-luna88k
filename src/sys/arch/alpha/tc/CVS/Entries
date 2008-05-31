@@ -1,0 +1,17 @@
+/ioasic.c/1.37/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/mcclock_ioasic.c/1.11/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_3000_300.c/1.27/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_3000_300.h/1.4/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_3000_500.c/1.25/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_3000_500.h/1.4/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_bus_mem.c/1.25/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_conf.h/1.10/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_dma.c/1.10/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_dma_3000_300.c/1.3/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_dma_3000_300.h/1.2/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_dma_3000_500.c/1.13/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_dma_3000_500.h/1.2/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_sgmap.c/1.5/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tc_sgmap.h/1.2/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+/tcasic.c/1.39/Mon Aug  7 05:33:13 2006//Tnetbsd-3-0
+D

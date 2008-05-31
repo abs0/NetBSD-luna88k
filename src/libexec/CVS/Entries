@@ -1,0 +1,32 @@
+D/atrun////
+D/comsat////
+D/fingerd////
+D/ftpd////
+D/getNAME////
+D/getty////
+D/hpropd////
+D/identd////
+D/kadmind////
+D/kpasswdd////
+D/ld.aout_so////
+D/ld.elf_so////
+D/lfs_cleanerd////
+D/mail.local////
+D/makekey////
+D/makewhatis////
+D/rexecd////
+D/rlogind////
+D/rmail////
+D/rpc.rquotad////
+D/rpc.rstatd////
+D/rpc.rusersd////
+D/rpc.rwalld////
+D/rpc.sprayd////
+D/rshd////
+D/talkd////
+D/telnetd////
+D/tftpd////
+D/utmp_update////
+D/uucpd////
+/Makefile/1.49/Mon Aug  7 05:33:01 2006//Tnetbsd-3-0
+/Makefile.inc/1.5/Mon Aug  7 05:33:01 2006//Tnetbsd-3-0

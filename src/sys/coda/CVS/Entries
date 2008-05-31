@@ -1,0 +1,22 @@
+/00READ/1.6/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/README/1.2/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/TODO/1.2/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/cnode.h/1.14/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda.h/1.9/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_io.h/1.6/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_kernel.h/1.5/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_namecache.c/1.14/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_namecache.h/1.8/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_opstats.h/1.5/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_pioctl.h/1.6/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_psdev.c/1.27/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_subr.c/1.17/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_subr.h/1.7/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_venus.c/1.18/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_venus.h/1.8/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_vfsops.c/1.42/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_vfsops.h/1.13/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_vnops.c/1.40/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/coda_vnops.h/1.10/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+/files.coda/1.4/Mon Aug  7 05:35:18 2006//Tnetbsd-3-0
+D

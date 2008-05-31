@@ -1,0 +1,22 @@
+/BNF.ipf/1.1.1.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/BNF.ipnat/1.1.1.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/Makefile/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipf.c/1.1.1.3/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipf_y.y/1.17.2.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipfcomp.c/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipfs.c/1.5.2.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipfstat.c/1.9.2.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipftest.c/1.1.1.3/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipmon.c/1.6/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipmon_y.y/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipnat.c/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipnat_y.y/1.12.2.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ippool.c/1.4/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ippool_y.y/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipscan_y.y/1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipsyncm.c/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/ipsyncs.c/1.1.1.2/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/lex_var.h/1.1.1.1/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/lexer.c/1.11/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+/lexer.h/1.3/Mon Aug  7 05:31:33 2006//Tnetbsd-3-0
+D

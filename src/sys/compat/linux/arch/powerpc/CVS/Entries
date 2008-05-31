@@ -1,0 +1,24 @@
+/Makefile/1.2/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/files.linux_powerpc/1.5/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_errno.h/1.5/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_exec.h/1.19/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_exec_powerpc.c/1.16/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_fcntl.h/1.5/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_ioctl.h/1.2/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_machdep.c/1.29/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_machdep.h/1.6/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_mmap.h/1.4/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_ptrace.c/1.11/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_sigarray.c/1.5/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_siginfo.h/1.2/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_signal.h/1.6/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_socket.h/1.4/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_syscall.h/1.28/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_syscallargs.h/1.27/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_syscalls.c/1.27/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_sysent.c/1.28/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_termios.h/1.7/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/linux_types.h/1.5/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/syscalls.conf/1.4/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+/syscalls.master/1.21/Mon Aug  7 05:35:13 2006//Tnetbsd-3-0
+D

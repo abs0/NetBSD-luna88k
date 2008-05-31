@@ -1,0 +1,18 @@
+/Makefile.inc/1.2/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/__dn_comp.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/__res_close.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/__res_send.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/h_errno.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/herror.c/1.4/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_comp.c/1.6/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_compat.c/1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_data.c/1.8/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_debug.c/1.7/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_debug.h/1.1.1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_init.c/1.5/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_mkquery.c/1.5/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_private.h/1.1.1.1/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_query.c/1.6/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_send.c/1.8/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/res_state.c/1.5/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+D

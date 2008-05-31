@@ -1,0 +1,19 @@
+/Makefile.inc/1.26/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/byte_swap_2.S/1.3/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/byte_swap_4.S/1.3/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/ffs.S/1.8/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/memchr.S/1.5/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/memcmp.S/1.3/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/memcpy.S/1.5/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/memmove.S/1.2/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/memset.S/1.6/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/random.S/1.3/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/scanc.S/1.8/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/skpc.S/1.5/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strcat.S/1.9/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strchr.S/1.3/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strcmp.S/1.9/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strcpy.S/1.9/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strlen.S/1.7/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+/strrchr.S/1.4/Mon Aug  7 05:33:07 2006//Tnetbsd-3-0
+D

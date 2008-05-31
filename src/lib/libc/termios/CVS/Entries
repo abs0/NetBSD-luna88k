@@ -1,0 +1,22 @@
+/Makefile.inc/1.4/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfgetispeed.c/1.7/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfgetospeed.c/1.7/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfmakeraw.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfsetispeed.c/1.7/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfsetospeed.c/1.7/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/cfsetspeed.c/1.7/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcdrain.c/1.8/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcflow.c/1.8/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcflush.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcgetattr.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcgetpgrp.3/1.11/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcgetpgrp.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcgetsid.3/1.5/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcgetsid.c/1.6/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsendbreak.3/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsendbreak.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsetattr.3/1.12/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsetattr.c/1.8/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsetpgrp.3/1.10/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+/tcsetpgrp.c/1.9/Mon Aug  7 05:32:15 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,17 @@
+/Makefile/1.13.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/cksum.1/1.25.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/cksum.c/1.24.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/crc.c/1.17/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/extern.h/1.15.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/md2.c/1.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/md4.c/1.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/md5.c/1.8.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/print.c/1.11/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/rmd160.c/1.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sha1.c/1.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sha256.c/1.2.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sha384.c/1.2.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sha512.c/1.2.2.1/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sum1.c/1.13/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+/sum2.c/1.13/Mon Aug  7 05:21:03 2006//Tnetbsd-3-0
+D

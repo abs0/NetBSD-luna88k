@@ -1,0 +1,18 @@
+D/regression////
+/ChangeLog/1.1.1.5/Mon Mar  1 03:32:53 2004//Tnetbsd-3-0
+/test_summary/1.1.1.1/Wed Jul 23 02:40:43 2003//Tnetbsd-3-0
+/texi2pod.pl/1.1.1.1/Wed Jul 23 02:40:43 2003//Tnetbsd-3-0
+/analyze_brprob/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/compare_tests/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/convert_to_f2c/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/convert_to_g2c/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/download_f2c/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/gcc_build/1.1.1.2/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/gcc_update/1.1.1.2/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/gccbug.el/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/gennews/1.1.1.2/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/index-prop/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/newcvsroot/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/paranoia.cc/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/test_installed/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0
+/warn_summary/1.1.1.1/Mon Aug  7 05:27:55 2006//Tnetbsd-3-0

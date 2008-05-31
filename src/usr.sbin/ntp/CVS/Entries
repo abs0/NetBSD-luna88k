@@ -1,0 +1,14 @@
+D/include////
+D/libisc////
+D/libntp////
+D/libparse////
+D/ntp-keygen////
+D/ntpd////
+D/ntpdate////
+D/ntpdc////
+D/ntpq////
+D/ntptime////
+D/ntptrace////
+D/scripts////
+/Makefile/1.7/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/Makefile.inc/1.15/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0

@@ -1,0 +1,23 @@
+/Makefile.in/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/Musings/1.1.1.1/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/alias.c/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/biff_notify.c/1.1.1.2/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/biff_notify.h/1.1.1.2/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/command.c/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/deliver_attr.c/1.1.1.2/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/delivered.c/1.1.1.2/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/dotforward.c/1.1.1.3/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/file.c/1.1.1.4/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/forward.c/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/include.c/1.1.1.3/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/indirect.c/1.1.1.3/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/local.c/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/local.h/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/local_expand.c/1.1.1.2/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/mailbox.c/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/maildir.c/1.1.1.6/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/recipient.c/1.1.1.4/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/resolve.c/1.1.1.4/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/token.c/1.1.1.5/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+/unknown.c/1.1.1.4/Mon Aug  7 05:28:52 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,19 @@
+/Makefile.am/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/analyze.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/cmp.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/context.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/diff.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/diff.h/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/diff3.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/dir.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/ed.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/ifdef.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/io.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/normal.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/sdiff.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/side.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/system.h/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/util.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+/version.c/1.1.1.1/Mon Aug  7 05:23:34 2006//Tnetbsd-3-0
+D

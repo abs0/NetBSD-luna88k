@@ -1,0 +1,15 @@
+/Makefile.in/1.1.1.6/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp.c/1.1.1.8/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp.h/1.1.1.5/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_addr.c/1.1.1.2/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_addr.h/1.1.1.2/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_chat.c/1.1.1.4/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_connect.c/1.1.1.5/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_proto.c/1.1.1.9/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_sasl.h/1.1.1.3/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_sasl_glue.c/1.1.1.5/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_sasl_proto.c/1.1.1.4/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_session.c/1.1.1.2/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_state.c/1.1.1.3/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+/lmtp_trouble.c/1.1.1.4/Mon Aug  7 05:28:57 2006//Tnetbsd-3-0
+D

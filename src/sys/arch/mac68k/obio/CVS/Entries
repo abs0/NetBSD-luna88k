@@ -1,0 +1,16 @@
+/asc.c/1.46/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/ascvar.h/1.7/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/esp.c/1.39/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/espvar.h/1.6/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/grf_obio.c/1.51/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/if_mc_obio.c/1.14/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/if_sn_obio.c/1.24/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/iwm.s/1.4/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/iwm_fd.c/1.32/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/iwm_fdvar.h/1.8/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/iwmreg.h/1.6/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/obio.c/1.20/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/obiovar.h/1.6/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/sbc_obio.c/1.20/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+/wdc_obio.c/1.18/Mon Aug  7 05:34:01 2006//Tnetbsd-3-0
+D

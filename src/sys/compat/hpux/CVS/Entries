@@ -1,0 +1,26 @@
+/Makefile/1.7/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/files.hpux/1.8/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux.h/1.19/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_compat.c/1.71/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_errno.c/1.4/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_exec.c/1.45.2.2/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_exec.h/1.14/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/hpux_exec_aout.c/1.12/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_file.c/1.27/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_ipc.c/1.6/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_ipc.h/1.1/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_net.c/1.30/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/hpux_sig.c/1.27/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_sig.h/1.3/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/hpux_signo.c/1.2/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_syscall.h/1.36/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_syscallargs.h/1.33/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_syscalls.c/1.39/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_sysent.c/1.42/Mon Aug  7 05:35:11 2006//Tnetbsd-3-0
+/hpux_termio.h/1.9/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_tty.c/1.28/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_types.h/1.2/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/hpux_util.h/1.7/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/syscalls.conf/1.3/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+/syscalls.master/1.27/Mon Aug  7 05:35:10 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,13 @@
+D/floppy////
+D/inst////
+D/inst-common////
+D/miniroot////
+D/ramdisk////
+D/ramdisk-kernel////
+D/rx33////
+D/rx50////
+D/tk50////
+/Makefile/1.16/Mon Aug  7 05:30:11 2006//Tnetbsd-3-0
+/install.md/1.4/Mon Aug  7 05:30:11 2006//Tnetbsd-3-0
+/list2sh.awk/1.3/Mon Aug  7 05:30:11 2006//Tnetbsd-3-0
+/runlist.sh/1.2/Mon Aug  7 05:30:11 2006//Tnetbsd-3-0

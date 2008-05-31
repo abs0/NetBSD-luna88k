@@ -1,0 +1,16 @@
+/Makefile/1.31.6.1/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/dump.8/1.53.6.2/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/dump.h/1.39/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/dumprmt.c/1.30/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/ffs_inode.c/1.16/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/itime.c/1.15/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/main.c/1.57.2.1/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/optr.c/1.33/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/pathnames.h/1.11/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/rcache.c/1.21/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/snapshot.c/1.2.2.2/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/snapshot.h/1.2.2.2/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/tape.c/1.44/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/traverse.c/1.44/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+/unctime.c/1.15/Mon Aug  7 05:29:30 2006//Tnetbsd-3-0
+D

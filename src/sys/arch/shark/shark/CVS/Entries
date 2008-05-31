@@ -1,0 +1,22 @@
+/autoconf.c/1.5/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/consinit.c/1.2/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/genassym.cf/1.1/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/hat.c/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/hat.h/1.2/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/i8042.c/1.4/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/i8042reg.h/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/ipkdb_glue.c/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/ipkdb_step.c/1.2/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/kbdreg.h/1.1/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/ns87307.c/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/ns87307reg.h/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/opms.c/1.13/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/pccons.c/1.20/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/profile.c/1.8/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/scr.c/1.14/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/sequoia.c/1.3/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/sequoia.h/1.1/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/shark_fiq.S/1.2/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/shark_fiq.h/1.1/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+/shark_machdep.c/1.20/Mon Aug  7 05:33:28 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,15 @@
+/ChangeLog/1.1.1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/encdata.c/1.1.1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/kauth.1/1.1.1.2/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/kauth.c/1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/kauth.h/1.1.1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/kauthd.8/1.1.1.2/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/kauthd.c/1.1.1.4/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/ksrvtgt.1/1.1.1.2/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/ksrvtgt.in/1.1.1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/marshall.c/1.1.1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/rkinit.c/1.3/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/zrefresh/1.1.1.2/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+D

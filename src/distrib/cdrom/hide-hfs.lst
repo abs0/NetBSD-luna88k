@@ -1,0 +1,10 @@
+BSDSUM
+CKSUM
+MD5
+SYSVSUM
+TRANS.TBL
+INSTALL.more
+./boot
+./boot.*
+./netbsd*
+./packages

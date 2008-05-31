@@ -1,0 +1,14 @@
+/Makefile/1.7.10.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/conf.c/1.2/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/dev_net.c/1.5/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/dev_net.h/1.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/devopen.c/1.5/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/main.c/1.7.16.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pxe.c/1.6/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pxe.h/1.2/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pxe_call.S/1.3/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pxe_netif.h/1.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/pxeboot.h/1.1/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/start_pxe.S/1.3/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+/version/1.2/Mon Aug  7 05:33:39 2006//Tnetbsd-3-0
+D

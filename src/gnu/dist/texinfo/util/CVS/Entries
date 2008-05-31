@@ -1,0 +1,26 @@
+/Makefile.am/1.1.1.6/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/Makefile.in/1.9/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/README/1.1.1.5/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/deref.c/1.1.1.3/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/dir-example/1.1.1.4/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/fix-info-dir/1.1.1.2/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/fixfonts/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/fixref.gawk/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/gdoc/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/gen-dir-node/1.1.1.5/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/gendocs.sh/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/gendocs_template/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/infosrch/1.1.1.2/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/install-info-html/1.1.1.3/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/install-info.c/1.8/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/outline.gawk/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/prepinfo.awk/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/tex3patch/1.1.1.2/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texi-docstring-magic.el/1.1.1.3/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texi2dvi/1.8/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texindex.c/1.8/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texinfo-cat.in/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texinfo.dtd/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/texinfo.xsl/1.1.1.1/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+/txitextest/1.1.1.2/Mon Aug  7 05:29:12 2006//Tnetbsd-3-0
+D

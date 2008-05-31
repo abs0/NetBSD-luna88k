@@ -1,0 +1,15 @@
+/COPYRIGHT/1.5/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/Makefile.inc/1.7/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/WHATSNEW/1.6/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/cclass.h/1.7/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/cname.h/1.7/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/engine.c/1.18/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/re_format.7/1.8/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regcomp.c/1.19/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regerror.c/1.18/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regex.3/1.18/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regex2.h/1.11/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regexec.c/1.17/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/regfree.c/1.13/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+/utils.h/1.6/Mon Aug  7 05:32:06 2006//Tnetbsd-3-0
+D

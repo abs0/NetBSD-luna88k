@@ -1,0 +1,20 @@
+D/arch////
+D/backend////
+D/cc1////
+D/cc1obj////
+D/cc1plus////
+D/cpp////
+D/cpp0////
+D/f771////
+D/frontend////
+D/g++////
+D/g77////
+D/gcc////
+D/gcov////
+D/protoize////
+D/unprotoize////
+/Makefile/1.18/Mon Aug  7 05:21:33 2006//Tnetbsd-3-0
+/Makefile.backend/1.4/Mon Aug  7 05:21:33 2006//Tnetbsd-3-0
+/Makefile.frontend/1.3/Mon Aug  7 05:21:33 2006//Tnetbsd-3-0
+/Makefile.inc/1.6/Mon Aug  7 05:21:33 2006//Tnetbsd-3-0
+/hconfig.h/1.1/Mon Aug  7 05:21:33 2006//Tnetbsd-3-0

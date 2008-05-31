@@ -1,0 +1,546 @@
+#	$NetBSD: CHANGES-3.0.1,v 1.1.2.60 2006/06/17 10:35:30 tron Exp $
+
+A complete list of changes from the NetBSD 3.0 release to the NetBSD 3.0.1
+release:
+
+File						Revision(s)
+----						--------
+gnu/usr.bin/groff/tmac/mdoc.local		patch
+sys/sys/param.h					patch
+
+	Welcome to 3.0.0_STABLE
+
+doc/README.files				patch
+
+	Update for release and new CHANGES-3.0.1 file.
+
+lib/libc/gen/getcwd.c				1.41
+
+	Allow last component to be non-existing again.
+	This is what broke systrace's filename normalization.
+	Go back to original behavior as in revision 1.35: return resolved name,
+	but also set errno to ENOENT.
+	[elad, ticket #1068]
+
+sys/kern/kern_subr.c				1.122
+
+	hold kernel_lock while calling systrace_exit().
+	fixes PR 25856.
+	[chs, ticket #1072]
+
+sys/kern/kern_systrace.c			1.50 via patch
+
+	in systrace_make_msg(), sleep uninterruptibly while waiting for
+	the response from the systrace daemon, so that the message protocol
+	between the kernel and the daemon doesn't get out of sync.
+	fixes PR 29654.
+	[chs, ticket #1071]
+
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_dac.c 1.8
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_driver.c 1.7
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_hw.c 1.2
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_include.h 1.2
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_setup.c 1.7
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_type.h 1.6
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/nv_video.c 1.2
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/riva_driver.c 1.2
+xsrc/xfree/xc/programs/Xserver/hw/xfree86/drivers/nv/riva_include.h 1.2
+
+	Sync the Nvidia drivers with XFree86's sources as of December 24th,
+	2005.  These changes fix lots of problems (i.e. freezes) with the
+	latest cards (such as a GeForce 6600GT).
+	[jmmv, ticket #1074]
+
+lib/libc/gen/getcwd.c				1.42
+
+	Revert back to revision 1.40, as requested by cube@.
+	Unbreaks KDE.
+	[elad, ticket #1077]
+
+bin/systrace/intercept.c			1.26
+bin/systrace/intercept.h			1.18
+
+	Give systrace its own version of realpath() that does what it wants,
+	call it intercept_realpath().  Unbreaks systrace.
+	[elad, ticket #1078]
+
+sys/fs/union/union_vfsops.c			1.32
+
+	Change union_unmount() to not play with the fs root vnode explicitly.
+	Let it get recycled along with all of the others. This is important
+	as if the root vnode has already been reclaimed, then we get a panic
+	when we try to vget it.  This addresses PR: kern/31382
+	[wrstuden, ticket #1091]
+
+sys/net/if_bridge.c				1.35
+
+	Make sure we initialize all structs to 0.
+	[christos, ticket #1111]
+
+sys/arch/xen/xen/xbdback.c			1.16 via patch
+
+	Avoid dom0 kernel crash when destroying a domain with active I/O going.
+	[bouyer, ticket #1106]
+
+sys/arch/xen/i386/npx.c				1.7
+
+	Fix the FPU problems detected by paranoia on a NetBSD/Xen guest,
+	PR port-xen/30977.
+	[bouyer, ticket #1107]
+
+lib/libc/arch/sparc/sys/ptrace.S		1.6-1.7
+
+	Use __errno in the _REENTRANT case.
+	[martin, ticket #1109]
+
+sys/dev/raidframe/rf_netbsdkintf.c		1.193
+
+	We need to mark used spares as failed if they encounter IO errors.
+	[oster, ticket #1114]
+
+sys/dev/ic/wdc.c				1.231
+
+	After a reset don't wait for drives to come ready if there's no
+	drives.  Fix a 30s hang after resume. Problem reported and fix
+	tested by Brian de Alwis.
+	[bouyer, ticket #1125]
+
+lib/libc/rpc/xdr_rec.c				1.26
+
+	John Kohl: xdr_rec.c missing a bugfix for an improper security
+	check.  The correct way to check for a zero record length is to
+	check for it without the LAST_FRAG marker in it, since it's legal
+	to send a LAST_FRAG marker with 0 bytes of data.  PR#32572
+
+	[christos, ticket #1128]
+
+distrib/amiga/miniroot/install.md		1.25
+distrib/miniroot/install.sh			1.23
+distrib/miniroot/upgrade.sh			1.21
+
+	Don't ask for the root device before the user had a chance to
+	identify how it's called under NetBSD.
+	[is, ticket #1130]
+
+sys/arch/i386/pnpbios/pciide_pnpbios.c		1.22 via patch
+
+	Update pciide at pnpbios to work with the last changes to wdc(4),
+	especially the deferral of drive probe. This fixes PR kern/23192.
+	[bouyer, ticket #1131]
+
+sys/dev/ata/wd.c				1.318
+
+	Fix support for 1 and 2TB disks (tested under qemu).
+	[abs, ticket #1132]
+
+sys/dist/pf/net/pf_norm.c			1.11
+
+	Fix a bug in the fragment cache which could cause kernel panics.
+	[peter, ticket #1139]
+
+sys/arch/hp300/stand/common/ite_dv.c		1.6
+sys/arch/hp300/stand/common/ite_gb.c		1.6
+sys/arch/hp300/stand/common/ite_hy.c		1.6
+sys/arch/hp300/stand/common/ite_rb.c		1.6
+sys/arch/hp300/stand/common/ite_tc.c		1.6
+
+	Fix bootloader so it doesn't print garbage to the bitmap console.
+	[tsutsui, ticket #1145]
+
+sys/arch/xen/xen/if_xennet.c			1.41 via patch
+
+	Fix off-by-one error.
+	[bouyer, ticket #1154]
+
+sys/dev/pci/azalia.c	 			1.19 via patch
+
+	Don't crash when a connection list has invalid NIDs.
+	This fixes PR kern/32485.
+	[kent, ticket #1124]
+
+sys/dev/pcmcia/aic_pcmcia.c			patch
+doc/HACKS					patch
+
+	aic(4): work around rbus resource allocation problem so cards work
+	again.
+	[jnemeth, ticket #1153]
+
+sys/arch/xen/xen/if_xennet.c			1.42 via patch
+sys/arch/xen/xen/xennetback.c			1.20 via patch
+
+	Check the destination ethernet address when not in promiscous mode.
+	Fix problem where packets would be duplicated, possibly looping, when
+	a domU is doing IP routing.
+	[bouyer, ticket #1155]
+
+sys/arch/xen/i386/xen_machdep.c			1.16
+
+	Fix bad cut'n'paste: use the target of strncpy() in sizeof().
+	[bouyer, ticket #1157]
+
+sys/net/if_bridge.c				1.36
+
+	Fix memory disclosure in bridge(4).
+	[adrianp, ticket #1163]
+
+sys/dev/raidframe/rf_driver.c			1.110
+sys/dev/raidframe/rf_psstatus.c			1.31
+sys/dev/raidframe/rf_psstatus.h			1.13
+
+	RAIDframe was erroneously re-initializing the Parity Stripe Status
+	pool each time a new array was configured.  This causes grief
+	with things like 'vmstat -m' by causing it to loop.  Make RAIDframe
+	only initialize PSS bits once.
+	[oster, ticket #1170]
+
+lib/libpam/modules/pam_nologin/pam_nologin.c	1.6
+
+	Use the class of the user, not then default class, when checking for
+	nologin and ignorelogin login.conf(5) capabilities.
+	[bouyer, ticket #1176]
+
+sys/arch/i386/pci/pchb_rnd.c			patch
+
+	Improve code probing for the Intel hardware RNG to avoid false
+	detections.
+	[tron, ticket #1181]
+
+sys/dev/pci/twe.c				1.74
+
+	Fix memory leak in the TWEIO_GET_PARAM ioctl.
+	[simonb, ticket #1182]
+
+usr.bin/login/login.c				1.87
+
+	Don't issue different message for root login on insecure terminal.
+	This fixes PR lib/31059.
+	[jnemeth, ticket #1198]
+
+lib/libpam/modules/pam_securetty/pam_securetty.c 1.5
+share/man/man8/afterboot.8			1.2
+usr.bin/login					1.13
+
+	Don't issue different message for root login on insecure terminal.
+	This fixes PR lib/30923.
+	[jnemeth, ticket #1199]
+
+sys/arch/acorn26/acorn26/cpuswitch.c		1.7
+sys/arch/acorn26/acorn26/vm_machdep.c		1.10
+
+	Avoid panics under NetBSD/acorn26 whenever a process exits.
+	[bjh21, ticket #1191]
+
+sys/kern/subr_pool.c				1.112
+sys/sys/pool.h					1.48
+
+	Stop NetBSD-acorn26 from allocating eight times as much pool memory
+	as it needs, leading to a rapid exhaustion of physical memory. 
+	NetBSD-acorn26 now boots multi-user again.
+	[bjh21, ticket #1192]
+
+usr.bin/login/login.c				1.88
+
+	PR bin/23616: login might not back-off as expected.
+	[jnemeth, ticket #1200]
+
+usr.bin/login/login_pam.c			1.14
+
+	PR bin/23616: login might not back-off as expected.
+	[jnemeth, ticket #1201]
+
+usr.bin/mail/send.c				1.24
+
+	PR security/32978: mail(1) creates record file with insecure umask.
+	[adrianp, ticket #1204]
+
+lib/libpam/modules/pam_unix/pam_unix.c		1.10
+
+	Fix an uninitialized variable, and remove some unreachable code.
+	[jnemeth, ticket #1206]
+
+sys/kern/exec_elf32.c				1.110-1.111
+
+	Found by coverity issue 887.  Check for NULL before using base_ph so
+	an interpreter that does not have PT_LOAD in the program header doesn't
+	crash the system.
+	[erh, ticket #1211]
+
+gnu/dist/sendmail/libsm/fflush.c		1.2
+gnu/dist/sendmail/libsm/local.h			1.2
+gnu/dist/sendmail/libsm/refill.c		1.2
+gnu/dist/sendmail/sendmail/collect.c		1.13
+gnu/dist/sendmail/sendmail/conf.c		1.21
+gnu/dist/sendmail/sendmail/deliver.c		1.14
+gnu/dist/sendmail/sendmail/headers.c		1.14
+gnu/dist/sendmail/sendmail/mime.c		1.8
+gnu/dist/sendmail/sendmail/parseaddr.c		1.16
+gnu/dist/sendmail/sendmail/savemail.c		1.11
+gnu/dist/sendmail/sendmail/sendmail.h		1.17
+gnu/dist/sendmail/sendmail/sfsasl.c		1.13
+gnu/dist/sendmail/sendmail/sfsasl.h		1.6
+gnu/dist/sendmail/sendmail/srvrsmtp.c		1.13
+gnu/dist/sendmail/sendmail/tls.c		1.2
+gnu/dist/sendmail/sendmail/usersmtp.c		1.13
+gnu/dist/sendmail/sendmail/util.c		1.13
+gnu/dist/sendmail/sendmail/version.c		1.17
+
+	Apply patch 8.13.5.p0 from sendmail.org; Although we are running 8.13.4,
+	this applied with mimimal fixes.
+	[christos, ticket #1221]
+
+sys/dev/usb/usb.c				1.83
+
+	Allow a NULL pointer as argument to usb_get_next_event(), and don't
+	allocate a "struct usb_event" on stack in usb_add_event().
+	[drochner, ticket #1215]
+
+sys/kern/kern_sysctl.c				1.191
+
+	Check the "oldlen" argument to sysctl(2) before passing it
+	to vslock(9). This prevents a local DOS.
+	[drochner, ticket #1217]
+
+sys/netipsec/xform_esp.c			1.8
+
+	FreeBSD SA-06:11 and CVE-2006-0905: update the replay sequence number
+	or else the anti-reply technique won't work as expected.
+	[rpaulo, ticket #1222]
+
+sys/arch/powerpc/powerpc/sig_machdep.c		1.25
+
+	Make cpu_setmcontext() fix up the passed-in MSR value.  PR#31386
+	[shige, ticket #1223]
+
+sys/dev/ata/wd.c				1.310 via patch
+
+	Use a pmatch(9) expression which should catch all present and future
+	seagate drives larger than 200GB for the WD_QUIRK_FORCE_LBA48 quirks.
+	Based on infos from
+	http://www.seagate.com/support/kb/disc/howto/interpret_model.html
+	[bouyer, ticket #1227]
+
+usr.sbin/rpc.statd/statd.c			1.27
+
+	Use sigaction(2) to setup automatic disposal of child processes after
+	daemonizing. This is more portable and avoids zombie "rpc.statd"
+	processes after an NFS client running e.g. Mac OS X shuts down.
+	[tron, ticket #1228]
+
+sys/netinet/in.c				1.105
+
+	Close NULL dereference when a GIFALIAS is performed on
+  	a non existant address.
+	[seanb, ticket #1235]
+
+sys/arch/xen/xen/xbd.c				patch
+
+	Avoid panics under high system load. This fixes PR port-xen/33110.  
+	[jld, ticket #1240]
+
+
+sys/arch/m68k/include/signal.h			1.23
+sys/arch/hp300/stand/common/samachdep.h		1.11
+
+	Fix a huge number of "pkgsrc" build problems in by avoiding
+	namespace pollution.
+	[oster, ticket #1242, #1243]
+
+sys/arch/m68k/include/frame.h			1.25
+
+	Fix build problems caused by recent "signal.h" changes.
+	[oster, ticket #1249]
+
+crypto/dist/ssh/includes.h			1.12
+crypto/dist/ssh/namespace.h			new file
+crypto/dist/ssh/readpassphrase.c		1.7
+crypto/dist/ssh/readpassphrase.h		1.6
+distrib/sets/lists/base/shl.mi			patch
+lib/libpam/libpam/Makefile			1.6 via patch
+lib/libssh/shlib_version			patch
+share/mk/bsd.prog.mk				1.208
+
+	Make PAM work on NetBSD ports without shared library support.
+	This fixes PR lib/32421.
+	[tsutsui, ticket #1256]
+
+sys/dev/audio.c					1.203 via patch
+sys/dev/audio_if.h				1.60 via patch
+sys/dev/audiovar.h				1.35 via patch
+
+	PR kern/32563: Fix the 'audioctl of death' problem.
+	[jmcneill, ticket #1277]
+
+sys/arch/mips/include/cpu.h			1.77
+sys/arch/mips/mips/fp.S				1.30
+
+	Avoid kernel panics caused by binaries compiled with "-mips2" or
+	better. This fixes PR port-mips/27298.
+	[tsutsui, ticket #1259]
+
+sys/arch/mips/conf/files.mips			1.54
+sys/arch/mips/mips/fp.S				1.31
+sys/arch/mips/mips/mips_fputrap.c		1.3-1.4
+
+	Update FPE trapsignal functions for new siginfo.
+	This fixes PR port-mips/26410.
+	[tsutsui, ticket #1260]
+
+sys/dev/audio.c					1.204 via patch
+sys/dev/audio_if.h				1.61
+sys/dev/audiovar.h				1.36
+
+	Don't use simple_locks; we can't hold them while calling malloc and
+	friends.
+	[jmcneill, ticket #1281]
+
+sys/arch/hp300/include/param.h			1.46
+sys/arch/mvme68k/include/param.h		1.27
+
+	Fix a huge number of "pkgsrc" build problems in by avoiding
+	inclusion of "sys/device.h" unless we are building a kernel.
+	[oster, ticket #1284]
+
+games/sail/pl_main.c				1.17
+
+	fix buffer overflow (CVE-2006-1744), from Debian
+	[drochner, ticket #1289]
+
+lib/libc/locale/wcstod.c			1.4-1.8
+regress/lib/libc/locale/wcstod/Makefile		1.1
+regress/lib/libc/locale/wcstod/wcstod_test.c	1.1
+
+	replaced by FreeBSD version wcstod(3) for make it work
+	with L"inf", L"nan", and hex conversion.
+	[tnozaki, ticket #1272]
+
+lib/libc/rpc/clnt_vc.c				1.14
+
+	Fix some unpaired sigblocks which possibly leave the process with all
+	signals blocked. Fixes PR#22483
+	[drochner, ticket #1293]
+
+sys/arch/sparc/include/ansi.h			1.16
+sys/arch/sparc/include/stdarg.h			1.22
+sys/arch/sparc64/include/ansi.h			1.10
+
+	For GCC3 and later, use the __builtin_va* constructs. PR#33169
+	[nakayama, ticket #1296]
+
+gnu/usr.bin/groff/tmac/mdoc.local		1.27-1.29
+
+	Add NetBSD 3.0.1 and 3.1 to the list of recognized operating systems.
+	[tron, ticket #1303]
+
+sys/arch/amd64/amd64/fpu.c			1.14-1.15
+sys/arch/i386/isa/npx.c				1.112
+sys/arch/xen/i386/npx.c				1.8
+
+	Apply fix from FreeBSD's advisory: fxrstor on AMD FPU's does not
+	restore FIP,FDP,FOP thus leaking other process's execution history.
+	[adrianp, ticket #1321]
+
+distrib/notes/common/main			1.310
+
+	Update release engineering member list.
+	[ghen, ticket #1313]
+
+sys/dev/ata/wd.c				1.324
+
+	Add yet another broken 160Gb seagate drive.
+	[bouyer, ticket #1337]
+
+sys/netinet6/ip6_input.c			1.87 via patch
+
+	In ip6_savecontrol(), ignore IPv4 packets.
+	From JINMEI Tatuya (KAME). PR#33269.
+	[rpaulo, ticket #1338]
+
+usr.bin/ftp/util.c				1.135
+
+	Fix a NULL pointer dereference in ftp(1).
+	[jnemeth, ticket #1339]
+
+games/dm/dm.c					1.23
+
+	Read config more strictly.
+	[dan, ticket #1342]
+
+sys/kern/vfs_vnops.c				1.112
+
+	Limit the size of any kernel buffers allocated by the VOP_READDIR
+	routines to MAXBSIZE.
+	[simonb, ticket #1347]
+
+sys/arch/hp300/dev/grf_dv.c			1.31
+sys/arch/hp300/dev/grf_gb.c			1.30
+sys/arch/hp300/dev/grf_hy.c			1.28
+sys/arch/hp300/dev/grf_rb.c			1.31
+sys/arch/hp300/dev/grf_tc.c			1.33
+
+	Fix boot failure problem on HP400t with fb console.
+	[tsutsui, ticket #1348]
+
+xsrc/xfree/xc/extras/freetype2/include/freetype/fterrdef.h	1.2
+xsrc/xfree/xc/extras/freetype2/src/base/ftmac.c			1.2
+xsrc/xfree/xc/extras/freetype2/src/base/ftutil.c		1.2
+xsrc/xfree/xc/extras/freetype2/src/bdf/bdflib.c			1.2
+xsrc/xfree/xc/extras/freetype2/src/cff/cffgload.c		1.2
+xsrc/xfree/xc/extras/freetype2/src/cff/cfftypes.h		1.2
+xsrc/xfree/xc/extras/freetype2/src/pshinter/pshglob.c		1.2
+xsrc/xfree/xc/extras/freetype2/src/sfnt/ttcmap0.c		1.2
+xsrc/xfree/xc/extras/freetype2/src/type1/t1load.c		1.2
+
+	Fixes for several integer overflows and null-pointer dereferences in
+	freetype2.  
+	[tron, ticket #1354]
+
+games/tetris/scores.c				1.14
+
+	Check data read from "tetris.scores". This address CVE-2006-1539.
+	A standard NetBSD installation is not as much risk because "tetris"
+	is set-group-ID "games", and users shouldn't be in that group.
+	[dan, ticket #1368]
+
+bin/sh/expand.c					1.74
+
+	Correct error when expanding "$@". This fixes PR bin/33472.
+	[dsl, ticket #1336]
+
+lib/libpam/modules/pam_unix/pam_unix.c		1.11
+
+	Make password aging work again. This fixes PR bin/30730 and
+	PR security/33502.
+	[jnemeth, ticket #1370]
+
+sys/dev/ata/wd.c				1.325 via patch
+
+	Adjust quirk entry for seagate drives. This fixes PR kern/33637.
+	[bouyer, ticket #1375]
+
+lib/libpthread/pthread_sig.c			1.46
+
+	Fix bug in signal handling which could e.g get the MySQL daemon
+	stuck in a tight loop after receiving a HUP signal.
+	[chuck, ticket #1376]
+
+gnu/dist/sendmail/sendmail/deliver.c		patch
+gnu/dist/sendmail/sendmail/mime.c		patch
+gnu/dist/sendmail/sendmail/sendmail.h		patch
+gnu/dist/sendmail/sendmail/version.c		patch
+
+	Fix potential denial of service problem caused by excessive recursion
+	which leads to stack exhaustion when attempting delivery of a malformed
+	MIME message.
+	[adrianp, ticket #1382]
+
+distrib/hp300/miniroot/install.md		1.9-1.10
+
+	Fix md_get_diskdevs() to match sd probe messages by MI SCSI drivers.
+	Also fix md_get_cddevs() to match cd probe messages by MI SCSI drivers.
+	[tsutsui, ticket #1381]
+
+gnu/usr.bin/groff/tmac/mdoc.local		patch
+sys/sys/param.h					patch
+
+	Welcome to NetBSD 3.0.1 release.
+

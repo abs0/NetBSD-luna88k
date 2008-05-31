@@ -1,0 +1,21 @@
+/ChangeLog/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/NEWS/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/README.erc32/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/README.gdb/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/README.sis/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/acconfig.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/config.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/configure/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/configure.in/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/end.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/erc32.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/exec.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/float.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/func.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/help.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/interf.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/sis.c/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/sis.h/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+/startsim/1.1.1.1/Mon Aug  7 05:28:07 2006//Tnetbsd-3-0
+D

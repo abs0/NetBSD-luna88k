@@ -1,0 +1,14 @@
+D/boot////
+D/bootxx_cd9660////
+D/bootxx_ffs////
+D/bootxx_lfs////
+D/common////
+D/mkbootimage////
+D/netboot////
+D/setnetbootinfo////
+D/standtest////
+D/ustarboot////
+/Makefile/1.15/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/Makefile.bootprogs/1.26/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/Makefile.bootxx/1.6/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0
+/Makefile.inc/1.21/Mon Aug  7 05:33:14 2006//Tnetbsd-3-0

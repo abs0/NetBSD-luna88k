@@ -1,0 +1,16 @@
+/Makefile.inc/1.30/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/SYS.h/1.7/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/bzero.S/1.7/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/divrem.m4/1.7/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/ffs.S/1.12/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/htonl.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/htons.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/memset.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/mul.S/1.7/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/ntohl.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/ntohs.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/random.S/1.1/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/saveregs.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/strlen.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+/umul.S/1.6/Mon Aug  7 05:33:08 2006//Tnetbsd-3-0
+D

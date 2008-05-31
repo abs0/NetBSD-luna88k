@@ -1,0 +1,26 @@
+/aclconf.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/builtin.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/client.h/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/config.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/control.h/1.1.1.2/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/globals.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/interfacemgr.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/listenlist.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/log.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/logconf.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwaddr.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwdclient.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwresd.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/lwsearch.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/main.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/notify.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/query.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/server.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/sortlist.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/tkeyconf.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/tsigconf.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/types.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/update.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/xfrout.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+/zoneconf.h/1.1.1.1/Mon Aug  7 05:31:29 2006//Tnetbsd-3-0
+D

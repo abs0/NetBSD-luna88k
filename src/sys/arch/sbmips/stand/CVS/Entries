@@ -1,0 +1,10 @@
+D/boot////
+D/bootxx_cd9660////
+D/bootxx_ffs////
+D/bootxx_lfs////
+D/common////
+D/netboot////
+/Makefile/1.1/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/Makefile.bootprogs/1.5/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/Makefile.bootxx/1.1/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0
+/Makefile.inc/1.1/Mon Aug  7 05:33:18 2006//Tnetbsd-3-0

@@ -1,0 +1,19 @@
+/ChangeLog/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/README.dlfcn/1.1.1.1/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afskrb.c/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afskrb5.c/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afsl.exp/1.1.1.1/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afslib.c/1.1.1.3/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afslib.exp/1.1.1.1/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afssys.c/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/afssysdefs.h/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/common.c/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/dlfcn.c/1.1.1.2/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/dlfcn.h/1.1.1.1/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/kafs.3/1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/kafs.h/1.1.1.4/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/kafs_locl.h/1.1.1.3/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+/roken_rename.h/1.1.1.2/Mon Aug  7 05:20:33 2006//Tnetbsd-3-0
+D

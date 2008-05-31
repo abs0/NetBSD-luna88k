@@ -1,0 +1,24 @@
+/bar.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/bar1a.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/bar1b.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/bar1c.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/dso.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/dsodata.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/dsow.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/dsowdata.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/elfweak.exp/1.1.1.2/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/foo.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/foo1a.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/foo1b.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/main.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/main1.c/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/strong.dat/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/strong.sym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/strongcomm.sym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/strongdata.dat/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/strongdata.sym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/weak.dat/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/weak.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/weakdata.dat/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+/weakdata.dsym/1.1.1.1/Mon Aug  7 05:22:34 2006//Tnetbsd-3-0
+D

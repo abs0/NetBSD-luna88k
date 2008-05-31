@@ -1,0 +1,21 @@
+D/hppa////
+D/windres////
+/ar.exp/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/bintest.s/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/dlltool.exp/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/fastcall.def/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/nm.exp/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/objcopy.exp/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/objdump.exp/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.exp/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.h/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.r/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.r-64/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.s/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.s-64/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.ss/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.ss-64/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.ss-mips/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/readelf.ss-tmips/1.1.1.2/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/size.exp/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0
+/testprog.c/1.1.1.1/Mon Aug  7 05:23:17 2006//Tnetbsd-3-0

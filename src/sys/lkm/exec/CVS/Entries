@@ -1,0 +1,23 @@
+D/aout////
+D/elf////
+D/freebsd_aout////
+D/freebsd_elf////
+D/hpux_aout////
+D/ibcs2_coff////
+D/ibcs2_elf////
+D/ibcs2_xout////
+D/linux_aout////
+D/linux_elf////
+D/m68k4k////
+D/netbsd32_aout////
+D/netbsd32_elf////
+D/osf1_ecoff////
+D/pecoff////
+D/sunos32_aout////
+D/sunos_aout////
+D/svr4_32_elf////
+D/svr4_elf////
+D/ultrix_ecoff////
+D/vax1k////
+/Makefile/1.14/Mon Aug  7 05:35:08 2006//Tnetbsd-3-0
+/Makefile.inc/1.3/Mon Aug  7 05:35:08 2006//Tnetbsd-3-0

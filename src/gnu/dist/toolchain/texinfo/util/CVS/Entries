@@ -1,0 +1,13 @@
+/Makefile.am/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/deref.c/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/fixfonts/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/gen-dir-node/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/install-info.c/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/mkinstalldirs/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/tex3patch/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/texi2dvi/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/texindex.c/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+/update-info/1.1.1.1/Mon Aug  7 05:22:09 2006/-ko/Tnetbsd-3-0
+D

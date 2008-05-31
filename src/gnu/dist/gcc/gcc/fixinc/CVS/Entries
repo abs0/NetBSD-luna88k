@@ -1,0 +1,26 @@
+D/tests////
+/fixincl.x/1.1.1.3/Tue Feb 10 12:14:34 2004//Tnetbsd-3-0
+/inclhack.def/1.1.1.3/Tue Feb 10 12:14:37 2004//Tnetbsd-3-0
+/Makefile.in/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/README/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/check.tpl/1.1.1.2/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixfixes.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.dgux/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.interix/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.ptx/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.svr4/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.winnt/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixinc.wrap/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixincl.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixincl.sh/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixincl.tpl/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixlib.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixlib.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/fixtests.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/genfixes/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/gnu-regex.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/gnu-regex.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/mkfixinc.sh/1.1.1.2/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/procopen.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/server.c/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0
+/server.h/1.1.1.1/Mon Aug  7 05:27:34 2006//Tnetbsd-3-0

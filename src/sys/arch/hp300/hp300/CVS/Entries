@@ -1,0 +1,19 @@
+/autoconf.c/1.70/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/bus_space.c/1.10/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/clock.c/1.31/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/clockreg.h/1.8/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/disksubr.c/1.20/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/dkbad.c/1.9/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/genassym.cf/1.32/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/hpux_machdep.c/1.41/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/intr.c/1.25/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/leds.c/1.15/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/leds.h/1.2/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/locore.s/1.134/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/machdep.c/1.182.4.1/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/mem.c/1.41/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/pmap_bootstrap.c/1.25/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/softintr.c/1.6/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/trap.c/1.112/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+/vectors.s/1.18/Mon Aug  7 05:33:42 2006//Tnetbsd-3-0
+D

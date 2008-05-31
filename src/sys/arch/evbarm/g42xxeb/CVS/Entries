@@ -1,0 +1,14 @@
+/g42xxeb_kmkbd.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/g42xxeb_lcd.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/g42xxeb_machdep.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/g42xxeb_reg.h/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/g42xxeb_start.S/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/g42xxeb_var.h/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/gb225.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/gb225_pcic.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/gb225_slhci.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/gb225reg.h/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/gb225var.h/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/if_ne_obio.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+/obio.c/1.1/Mon Aug  7 05:34:16 2006//Tnetbsd-3-0
+D

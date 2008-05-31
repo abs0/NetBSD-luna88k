@@ -1,0 +1,11 @@
+/Makefile/1.4/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/README.ipl/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/iplsum.c/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/main.c/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/milli_tiny.S/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/readufs.c/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/readufs.h/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/readufs_ffs.c/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/readufs_lfs.c/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+/start.S/1.1/Mon Aug  7 05:33:44 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,20 @@
+D/games////
+/BUGS/1.1.1.1/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/Makefile/1.23/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/atc.6/1.21/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/def.h/1.6/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/extern.c/1.7/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/extern.h/1.11/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/grammar.y/1.8/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/graphics.c/1.10/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/include.h/1.8/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/input.c/1.17/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/lex.l/1.7/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/list.c/1.6/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/log.c/1.13/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/main.c/1.13/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/pathnames.h/1.4/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/struct.h/1.5/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/tunable.c/1.5/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/tunable.h/1.4/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0
+/update.c/1.12/Mon Aug  7 05:29:38 2006//Tnetbsd-3-0

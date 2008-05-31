@@ -1,0 +1,10 @@
+/Makefile/1.25/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/Makefile.ioctl-c/1.16/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/Makefile.siginfo-c/1.4/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/kdump.1/1.26/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/kdump.c/1.79/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/mkioctls/1.20/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/mksiginfos/1.2/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/setemul.c/1.20/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+/setemul.h/1.12/Mon Aug  7 05:21:02 2006//Tnetbsd-3-0
+D

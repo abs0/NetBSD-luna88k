@@ -1,0 +1,21 @@
+/arckbd.c/1.7/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/arckbdmap.c/1.4/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/arckbdreg.h/1.2/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/arckbdvar.h/1.2/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/arcpp.c/1.6/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/arcppreg.h/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/if_eca.c/1.4/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/if_eca_fiq.S/1.2/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/if_ecavar.h/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/ioc_fiq_util.S/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/iociic.c/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/iociicvar.h/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/ioeb.c/1.5/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/ioebreg.h/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/ioebvar.h/1.2/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/latches.c/1.4/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/latchreg.h/1.2/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/latchvar.h/1.1/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/rtc.c/1.7/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+/ssn.c/1.7/Mon Aug  7 05:33:31 2006//Tnetbsd-3-0
+D

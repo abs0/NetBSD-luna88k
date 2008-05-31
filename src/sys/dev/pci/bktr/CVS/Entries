@@ -1,0 +1,17 @@
+/README/1.4/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/TODO/1.7/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr2netbsd/1.4/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_audio.c/1.13.10.1/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_audio.h/1.3/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_card.c/1.19/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_card.h/1.4/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_core.c/1.33/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_core.h/1.6/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_mem.c/1.3/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_mem.h/1.2/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_os.c/1.38/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_os.h/1.6/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_reg.h/1.13/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_tuner.c/1.10/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+/bktr_tuner.h/1.2/Mon Aug  7 05:34:33 2006//Tnetbsd-3-0
+D

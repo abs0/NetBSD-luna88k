@@ -1,0 +1,13 @@
+/icu.h/1.4/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/isa_machdep.c/1.7/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/isaclock.c/1.10/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/isadma_machdep.c/1.22/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/isapnp_machdep.c/1.4/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/kbdreg.h/1.1/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/lms.c/1.11/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/mms.c/1.12/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/nvram.h/1.2/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/pccons.c/1.33/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/spkr.c/1.13/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+/spkrreg.h/1.1/Mon Aug  7 05:34:06 2006//Tnetbsd-3-0
+D

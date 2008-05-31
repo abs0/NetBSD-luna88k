@@ -1,0 +1,13 @@
+/autoconf.c/1.24/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/bus.c/1.19/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/clock.c/1.11/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/cpu.c/1.10/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/cpu_cons.c/1.10/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/disksubr.c/1.17/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/locore_machdep.S/1.13/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/machdep.c/1.80/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/machid.h/1.5/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/mainbus.c/1.9/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/news3400.c/1.15/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+/news5000.c/1.14/Mon Aug  7 05:34:27 2006//Tnetbsd-3-0
+D

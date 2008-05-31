@@ -1,0 +1,14 @@
+/autoconf.c/1.2/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/clock.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/console.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/db_disasm.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/db_machdep.c/1.2/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/disksubr.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/kl10.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/locore.S/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/machdep.c/1.5/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/mem.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/pmap.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/trap.c/1.1/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+/vm_machdep.c/1.2/Mon Aug  7 05:34:00 2006//Tnetbsd-3-0
+D

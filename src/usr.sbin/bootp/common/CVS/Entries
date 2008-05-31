@@ -1,0 +1,25 @@
+/Makefile/1.6/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/bootp.h/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/bootpd.h/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/bptypes.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/dovend.c/1.5/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/dovend.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/dumptab.c/1.6/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/getif.c/1.6/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/getif.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/hash.c/1.6/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/hash.h/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/hwaddr.c/1.8/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/hwaddr.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/lookup.c/1.5/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/lookup.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/patchlevel.h/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/readfile.c/1.13/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/readfile.h/1.3/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/report.c/1.6/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/report.h/1.5/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/trygetif.c/1.5/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/trylook.c/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/tzone.c/1.5/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+/tzone.h/1.4/Mon Aug  7 05:31:38 2006//Tnetbsd-3-0
+D

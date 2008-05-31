@@ -1,0 +1,17 @@
+D/afsutil////
+D/bsd////
+D/ftp////
+D/kauth////
+D/kip////
+D/krbmanager////
+D/kx////
+D/movemail////
+D/otp////
+D/popper////
+D/push////
+D/sample////
+D/telnet////
+D/voodoo////
+D/xnlock////
+/Makefile.am/1.1.1.2/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0
+/Makefile.in/1.1.1.4/Mon Aug  7 05:20:32 2006//Tnetbsd-3-0

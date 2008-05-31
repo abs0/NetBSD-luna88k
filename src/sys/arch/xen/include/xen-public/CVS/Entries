@@ -1,0 +1,10 @@
+D/io////
+/arch-x86_32.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/arch-x86_64.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/dom0_ops.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/event_channel.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/grant_table.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/physdev.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/sched_ctl.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/trace.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0
+/xen.h/1.2/Mon Aug  7 05:34:20 2006//Tnetbsd-3-0

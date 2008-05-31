@@ -1,0 +1,23 @@
+/Makefile/1.9/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/boot.c/1.4/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/boot.h/1.2/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/bootinfo.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/bootinfo.h/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/clock.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/com.c/1.3/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/common.h/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/conf.c/1.2/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/cons.c/1.2/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/cons.h/1.2/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/devopen.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/ns16550.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/ns16550.h/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/pciide.c/1.4/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/prf.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/start.S/1.2/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/tgets.c/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/version/1.1/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/wd.c/1.4/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/wdc.c/1.6/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+/wdvar.h/1.5/Mon Aug  7 05:34:09 2006//Tnetbsd-3-0
+D

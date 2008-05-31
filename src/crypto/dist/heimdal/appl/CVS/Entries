@@ -1,0 +1,18 @@
+D/afsutil////
+D/dceutils////
+D/ftp////
+D/kauth////
+D/kf////
+D/kx////
+D/login////
+D/otp////
+D/popper////
+D/push////
+D/rcp////
+D/rsh////
+D/su////
+D/telnet////
+D/test////
+D/xnlock////
+/Makefile/1.1.1.1/Mon Aug  7 05:20:39 2006//Tnetbsd-3-0
+/Makefile.am/1.1.1.4/Mon Aug  7 05:20:39 2006//Tnetbsd-3-0

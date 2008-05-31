@@ -1,0 +1,11 @@
+/Makefile/1.4/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/key.c/1.129.2.6/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/key.h/1.17.14.2/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/key_debug.c/1.30/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/key_debug.h/1.9/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/key_var.h/1.15/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/keydb.c/1.16/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/keydb.h/1.23.2.2/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/keysock.c/1.40/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+/keysock.h/1.11/Mon Aug  7 05:35:17 2006//Tnetbsd-3-0
+D

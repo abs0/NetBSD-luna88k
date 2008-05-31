@@ -1,0 +1,9 @@
+/autoconf.c/1.6/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/clock_machdep.c/1.4/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/conf.c/1.11/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/kloader_machdep.c/1.2/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/locore.S/1.6/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/machdep.c/1.30/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/mainbus.c/1.7/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+/sysasic.c/1.9/Mon Aug  7 05:33:22 2006//Tnetbsd-3-0
+D

@@ -1,0 +1,21 @@
+/Makefile.inc/1.15/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/creat.3/1.16/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/creat.c/1.10/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/getdtablesize.3/1.13/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/getdtablesize.c/1.9/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/gethostid.3/1.12/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/gethostid.c/1.6/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/getwd.c/1.14/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/killpg.3/1.16/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/killpg.c/1.8/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sethostid.c/1.7/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/setpgrp.c/1.8/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/setrgid.c/1.12/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/setruid.3/1.10/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/setruid.c/1.13/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sigblock.3/1.17/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sigcompat.c/1.11/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sigpause.3/1.15/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sigsetmask.3/1.18/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+/sigvec.3/1.23/Mon Aug  7 05:32:17 2006//Tnetbsd-3-0
+D

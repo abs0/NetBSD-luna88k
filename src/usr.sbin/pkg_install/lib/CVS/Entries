@@ -1,0 +1,24 @@
+/Makefile/1.23.2.3/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/automatic.c/1.2.2.2/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/config.h/1.1.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/defs.h/1.1.12.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/dewey.c/1.1.2.4/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/dewey.h/1.1.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/fexec.c/1.7.6.2/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/file.c/1.73.2.2/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/ftpio.c/1.66.2.3/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/global.c/1.6.18.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/lib.h/1.74.2.6/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/lpkg.c/1.5.6.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/nbcompat.h/1.1.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/path.c/1.7.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/path.h/1.4/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/pen.c/1.34.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/pexec.c/1.2.2.2/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/pkgdb.c/1.21.2.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/plist.c/1.47.2.3/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/str.c/1.50.2.7/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/var.c/1.3.2.3/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/version.c/1.1.12.1/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+/version.h/1.64.2.9/Mon Aug  7 05:31:44 2006//Tnetbsd-3-0
+D

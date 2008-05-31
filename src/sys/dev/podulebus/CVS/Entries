@@ -1,0 +1,25 @@
+/Makefile.podules/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/acemidi.c/1.9/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/acemidireg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/dtide.c/1.19/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/dtidereg.h/1.3/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/files.podulebus/1.15/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/hcide.c/1.16/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/hcidereg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/hcsc.c/1.14/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/hcscreg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_ea.c/1.10/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_eareg.h/1.3/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_eb.c/1.8/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_ebreg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_ei.c/1.9/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/if_eireg.h/1.3/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/oak.c/1.14/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/oakreg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/podule_data.h/1.15/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/podulebus.h/1.6/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/podulelist2h.awk/1.3/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/podules/1.16/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/podules.h/1.15/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+/powerromreg.h/1.1/Mon Aug  7 05:34:31 2006//Tnetbsd-3-0
+D

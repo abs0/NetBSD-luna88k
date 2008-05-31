@@ -1,0 +1,22 @@
+D/client////
+D/common////
+D/contrib////
+D/dhcpctl////
+D/doc////
+D/dst////
+D/includes////
+D/minires////
+D/omapip////
+D/relay////
+D/server////
+D/tests////
+/ANONCVS/1.1/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/CHANGES/1.1/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/COPYRIGHT/1.2/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/Makefile/1.2/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/Makefile.conf/1.3/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/Makefile.dist/1.2/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/README/1.3/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/RELNOTES/1.3/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/configure/1.2/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0
+/site.conf/1.1/Mon Aug  7 05:31:37 2006//Tnetbsd-3-0

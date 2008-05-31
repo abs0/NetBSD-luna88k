@@ -1,0 +1,22 @@
+/Makefile/1.21/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/conf.h/1.12/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/maketime.c/1.5/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/maketime.h/1.2/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/merger.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/partime.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/partime.h/1.2/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsbase.h/1.9/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsedit.c/1.8/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsfcmp.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsfnms.c/1.6/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsgen.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcskeep.c/1.7/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcskeys.c/1.8/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcslex.c/1.6/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsmap.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsrev.c/1.5/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcssyn.c/1.4/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcstime.c/1.2/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/rcsutil.c/1.8/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+/version.c/1.2/Mon Aug  7 05:21:26 2006//Tnetbsd-3-0
+D
