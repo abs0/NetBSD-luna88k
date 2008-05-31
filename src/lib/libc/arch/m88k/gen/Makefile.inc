@@ -20,7 +20,7 @@ SRCS+=	flt_rounds.c fpgetmask.c fpgetround.c fpgetsticky.c fpsetmask.c \
 
 SRCS+=	_setjmp.S setjmp.S sigsetjmp.S
 SRCS+=	bswap16.c bswap32.c bswap64.c
-#XXX TODO TKM: SRCS+=	makecontext.c resumecontext.c swapcontext.S _lwp.c
+SRCS+=	makecontext.c #XXX TODO TKM: resumecontext.c swapcontext.S _lwp.c
 
 SRCS.m88k.gen=	Lint_bswap16.c Lint_bswap32.c #XXX Lint_swapcontext.c
 LSRCS+=		${SRCS.m88k.gen}
