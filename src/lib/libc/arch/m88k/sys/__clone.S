@@ -60,4 +60,4 @@ ENTRY(__clone)
 
 2:
 	or	r2,r0,EINVAL
-	br	__cerror
+	br	_C_LABEL(_cerror)
