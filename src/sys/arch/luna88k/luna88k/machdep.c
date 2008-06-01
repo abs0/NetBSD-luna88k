@@ -1,4 +1,4 @@
-/*	$OpenBSD: machdep.c,v 1.33 2006/05/15 21:40:04 miod Exp $	*/
+/*	$OpenBSD: machdep.c,v 1.44 2007/06/06 17:15:12 deraadt Exp $	*/
 /*
  * Copyright (c) 1998, 1999, 2000, 2001 Steve Murphree, Jr.
  * Copyright (c) 1996 Nivas Madhur
@@ -111,7 +111,6 @@ int	getcpuspeed(void);
 u_int	getipl(void);
 void	identifycpu(void);
 void	luna88k_bootstrap(void);
-u_int	safe_level(u_int, u_int);
 void	savectx(struct pcb *);
 void	secondary_main(void);
 void	secondary_pre_main(void);
@@ -137,17 +136,6 @@ unsigned int *volatile int_mask_reg[] = {
 };
 
 unsigned int luna88k_curspl[] = {0, 0, 0, 0};
-
-unsigned int int_mask_val[INT_LEVEL] = {
-	INT_MASK_LV0,
-	INT_MASK_LV1,
-	INT_MASK_LV2,
-	INT_MASK_LV3,
-	INT_MASK_LV4,
-	INT_MASK_LV5,
-	INT_MASK_LV6,
-	INT_MASK_LV7
-};
 
 unsigned int int_set_val[INT_LEVEL] = {
 	INT_SET_LV0,
@@ -198,12 +186,6 @@ struct vm_map *phys_map = NULL;
 /*
  * Declare these as initialized data so we can patch them.
  */
-#ifdef	NBUF
-int nbuf = NBUF;
-#else
-int nbuf = 0;
-#endif
-
 #ifndef BUFCACHEPERCENT
 #define BUFCACHEPERCENT 5
 #endif
@@ -236,7 +218,6 @@ int hwplanebits;		/* set in locore.S */
 
 extern struct consdev syscons;	/* in dev/siotty.c */
 
-extern void greeting(void);	/* in dev/lcd.c */
 extern void syscnattach(int);	/* in dev/siotty.c */
 extern int omfb_cnattach(void);	/* in dev/lunafb.c */
 extern void ws_cnattach(void);	/* in dev/lunaws.c */
@@ -373,8 +354,6 @@ cpu_startup()
 {
 	caddr_t v;
 	int sz, i;
-	vsize_t size;
-	int base, residual;
 	vaddr_t minaddr, maxaddr;
 
 	/*
@@ -480,54 +459,23 @@ cpu_startup()
 		panic("obiova %lx: OBIO not free", obiova);
 
 	/*
-	 * Now allocate buffers proper.  They are different than the above
-	 * in that they usually occupy more virtual memory than physical.
+	 * Determine how many buffers to allocate.
+	 * We allocate bufcachepercent% of memory for buffer space.
 	 */
-	size = MAXBSIZE * nbuf;
-	if (uvm_map(kernel_map, (vaddr_t *) &buffers, round_page(size),
-	    NULL, UVM_UNKNOWN_OFFSET, 0, UVM_MAPFLAG(UVM_PROT_NONE,
-	      UVM_PROT_NONE, UVM_INH_NONE, UVM_ADV_NORMAL, 0)))
-		panic("cpu_startup: cannot allocate VM for buffers");
-	minaddr = (vaddr_t)buffers;
+	if (bufpages == 0)
+		bufpages = physmem * bufcachepercent / 100;
 
-	if ((bufpages / nbuf) >= btoc(MAXBSIZE)) {
-		/* don't want to alloc more physical mem than needed */
-		bufpages = btoc(MAXBSIZE) * nbuf;
-	}
-	base = bufpages / nbuf;
-	residual = bufpages % nbuf;
-
-	for (i = 0; i < nbuf; i++) {
-		vsize_t curbufsize;
-		vaddr_t curbuf;
-		struct vm_page *pg;
-
-		/*
-		 * Each buffer has MAXBSIZE bytes of VM space allocated.  Of
-		 * that MAXBSIZE space, we allocate and map (base+1) pages
-		 * for the first "residual" buffers, and then we allocate
-		 * "base" pages for the rest.
-		 */
-		curbuf = (vaddr_t)buffers + (i * MAXBSIZE);
-		curbufsize = PAGE_SIZE * ((i < residual) ? (base+1) : base);
-
-		while (curbufsize) {
-			pg = uvm_pagealloc(NULL, 0, NULL, 0);
-			if (pg == NULL)
-				panic("cpu_startup: not enough memory for "
-				      "buffer cache");
-			pmap_kenter_pa(curbuf, VM_PAGE_TO_PHYS(pg),
-			    VM_PROT_READ | VM_PROT_WRITE);
-			curbuf += PAGE_SIZE;
-			curbufsize -= PAGE_SIZE;
-		}
-	}
-	pmap_update(pmap_kernel());
+	/* Restrict to at most 25% filled kvm */
+	if (bufpages >
+	    (VM_MAX_KERNEL_ADDRESS-VM_MIN_KERNEL_ADDRESS) / PAGE_SIZE / 4) 
+		bufpages = (VM_MAX_KERNEL_ADDRESS-VM_MIN_KERNEL_ADDRESS) /
+		    PAGE_SIZE / 4;
 
 	/*
 	 * Allocate a submap for exec arguments.  This map effectively
 	 * limits the number of processes exec'ing at any time.
 	 */
+	minaddr = vm_map_min(kernel_map);
 	exec_map = uvm_km_suballoc(kernel_map, &minaddr, &maxaddr,
 	    16 * NCARGS, VM_MAP_PAGEABLE, FALSE, NULL);
 
@@ -538,8 +486,6 @@ cpu_startup()
 	    VM_PHYS_SIZE, 0, FALSE, NULL);
 
 	printf("avail mem = %ld (%d pages)\n", ptoa(uvmexp.free), uvmexp.free);
-	printf("using %d buffers containing %d bytes of memory\n", nbuf,
-	    bufpages * PAGE_SIZE);
 
 	/*
 	 * Set up buffers, so they can be used to read disk labels.
@@ -561,11 +507,6 @@ cpu_startup()
 		printf("kernel does not support -c; continuing..\n");
 #endif
 	}
-
-	/*
-	 * Say hello to the world on LCD.
-	 */
-	greeting();
 }
 
 /*
@@ -591,34 +532,6 @@ allocsys(v)
 	valloc(msghdrs, struct msg, msginfo.msgtql);
 	valloc(msqids, struct msqid_ds, msginfo.msgmni);
 #endif
-
-	/*
-	 * Determine how many buffers to allocate.  We use 10% of the
-	 * first 2MB of memory, and 5% of the rest, with a minimum of 16
-	 * buffers.  We allocate 1/2 as many swap buffer headers as file
-	 * i/o buffers.
-	 */
-	if (bufpages == 0) {
-		bufpages = (btoc(2 * 1024 * 1024) + physmem) *
-		    bufcachepercent / 100;
-	}
-	if (nbuf == 0) {
-		nbuf = bufpages;
-		if (nbuf < 16)
-			nbuf = 16;
-	}
-
-	/* Restrict to at most 70% filled kvm */
-	if (nbuf >
-	    (VM_MAX_KERNEL_ADDRESS - VM_MIN_KERNEL_ADDRESS) / MAXBSIZE * 7 / 10)
-		nbuf = (VM_MAX_KERNEL_ADDRESS - VM_MIN_KERNEL_ADDRESS) /
-		    MAXBSIZE * 7 / 10;
-
-	/* More buffer pages than fits into the buffers is senseless.  */
-	if (bufpages > nbuf * MAXBSIZE / PAGE_SIZE)
-		bufpages = nbuf * MAXBSIZE / PAGE_SIZE;
-
-	valloc(buf, struct buf, nbuf);
 
 	return v;
 }
@@ -695,19 +608,13 @@ cpu_kcore_hdr_t cpu_kcore_hdr;
  * reduce the chance that swapping trashes it.
  */
 void
-dumpconf()
+dumpconf(void)
 {
 	int nblks;	/* size of dump area */
-	int maj;
 
-	if (dumpdev == NODEV)
+	if (dumpdev == NODEV ||
+	    (nblks = (bdevsw[major(dumpdev)].d_psize)(dumpdev)) == 0)
 		return;
-	maj = major(dumpdev);
-	if (maj < 0 || maj >= nblkdev)
-		panic("dumpconf: bad dumpdev=0x%x", dumpdev);
-	if (bdevsw[maj].d_psize == NULL)
-		return;
-	nblks = (*bdevsw[maj].d_psize)(dumpdev);
 	if (nblks <= ctod(1))
 		return;
 
@@ -742,9 +649,9 @@ dumpsys()
 {
 	int maj;
 	int psize;
-	daddr_t blkno;		/* current block to write */
+	daddr64_t blkno;	/* current block to write */
 				/* dump routine */
-	int (*dump)(dev_t, daddr_t, caddr_t, size_t);
+	int (*dump)(dev_t, daddr64_t, caddr_t, size_t);
 	int pg;			/* page being dumped */
 	paddr_t maddr;		/* PA being dumped */
 	int error;		/* error code from (*dump)() */
@@ -888,6 +795,7 @@ secondary_main()
 	struct cpu_info *ci = curcpu();
 
 	cpu_configuration_print(0);
+	ncpus++;
 
 	microuptime(&ci->ci_schedstate.spc_runtime);
 
@@ -922,7 +830,9 @@ luna88k_ext_int(u_int v, struct trapframe *eframe)
 		 * Spurious interrupts - may be caused by debug output clearing
 		 * serial port interrupts.
 		 */
+#ifdef DEBUG
 		printf("luna88k_ext_int(): Spurious interrupts?\n");
+#endif
 		flush_pipeline();
 		goto out;
 	}
@@ -939,23 +849,6 @@ luna88k_ext_int(u_int v, struct trapframe *eframe)
 	/* XXX: This is very rough. Should be considered more. (aoyama) */
 	do {
 		level = (cur_int > old_spl ? cur_int : old_spl);
-		if (level >= 8) {
-			register int i;
-
-			printf("safe level %d <= old level %d\n", level, old_spl);
-			printf("cur_int = 0x%x\n", cur_int);
-
-			for (i = 0; i < 4; i++)
-				printf("IEN%d = 0x%x  ", i, *int_mask_reg[i]);
-			printf("\nCPU0 spl %d  CPU1 spl %d  CPU2 spl %d  CPU3 spl %d\n",
-			       luna88k_curspl[0], luna88k_curspl[1],
-			       luna88k_curspl[2], luna88k_curspl[3]);
-			for (i = 0; i < 8; i++)
-				printf("int_mask[%d] = 0x%08x\n", i, int_mask_val[i]);
-			printf("--CPU %d halted--\n", cpu_number());
-			setipl(IPL_ABORT);
-			for(;;) ;
-		}
 
 #ifdef DEBUG
 		if (level > 7 || (char)level < 0) {
@@ -982,20 +875,19 @@ luna88k_ext_int(u_int v, struct trapframe *eframe)
 		}
 	} while ((cur_int = (*int_mask_reg[cpu]) >> 29) != 0);
 
+out:
 	/*
 	 * process any remaining data access exceptions before
 	 * returning to assembler
 	 */
-	set_psr(get_psr() | PSR_IND);
-out:
 	if (eframe->tf_dmt0 & DMT_VALID)
 		m88100_trap(T_DATAFLT, eframe);
 
 	/*
-	 * Restore the mask level to what it was when the interrupt
-	 * was taken.
+	 * Disable interrupts before returning to assembler, the spl will
+	 * be restored later.
 	 */
-	setipl(eframe->tf_mask);
+	set_psr(get_psr() | PSR_IND);
 }
 
 int
@@ -1071,6 +963,10 @@ luna88k_bootstrap()
 #ifndef MULTIPROCESSOR
 	cpuid_t master_cpu;
 #endif
+	cpuid_t cpu;
+	extern void m8820x_initialize_cpu(cpuid_t);
+	extern void m8820x_set_sapr(cpuid_t, apr_t);
+	extern void cpu_boot_secondary_processors(void);
 
 	cmmu = &cmmu8820x;
 
@@ -1093,6 +989,8 @@ luna88k_bootstrap()
 	setup_board_config();
 	master_cpu = cmmu_init();
 	set_cpu_number(master_cpu);
+
+	m88100_apply_patches();
 
 	/*
 	 * Now that set_cpu_number() set us with a valid cpu_info pointer,
@@ -1127,6 +1025,24 @@ luna88k_bootstrap()
 
 	/* Initialize the "u-area" pages. */
 	bzero((caddr_t)curpcb, USPACE);
+
+	/*
+	 * On the luna88k, secondary processors are not disabled while the
+	 * kernel is initializing. We just initialized the CMMUs tied to the
+	 * currently-running CPU; initialize the others with similar settings
+	 * as well, after calling pmap_bootstrap() above.
+	 */
+	for (cpu = 0; cpu < max_cpus; cpu++) {
+		if (cpu == master_cpu)
+			continue;
+		if (m88k_cpus[cpu].ci_alive == 0)
+			continue;
+		m8820x_initialize_cpu(cpu);
+		cmmu_set_sapr(cpu, kernel_pmap->pm_apr);
+	}
+	/* Release the cpu_mutex */
+	cpu_boot_secondary_processors();
+
 #ifdef DEBUG
 	printf("leaving luna88k_bootstrap()\n");
 #endif
@@ -1313,23 +1229,6 @@ nvram_by_symbol(symbol)
 	}
 
 	return value;
-}
-
-/*
- * return next safe spl to reenable interrupts.
- */
-u_int
-safe_level(u_int mask, u_int curlevel)
-{
-	int i;
-
-	for (i = curlevel; i < 8; i++)
-		if (!(int_mask_val[i] & mask))
-			return i;
-
-	panic("safe_level: no safe level for mask 0x%08x level %d found",
-	       mask, curlevel);
-	/* NOTREACHED */
 }
 
 void
