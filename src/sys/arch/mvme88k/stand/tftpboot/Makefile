@@ -33,7 +33,7 @@ tftpboot.bin: tftpboot
 #	${STRIP} ${.OBJDIR}/tftpboot
 	${OBJCOPY} -R.comment -R.note ${.OBJDIR}/tftpboot -O binary ${.TARGET}
 
-install:
+install: tftpboot.bin
 	${INSTALL_FILE} ${STRIPFLAG} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 	  ${.OBJDIR}/tftpboot.bin ${DESTDIR}${MDEC_DIR}/tftpboot
 
