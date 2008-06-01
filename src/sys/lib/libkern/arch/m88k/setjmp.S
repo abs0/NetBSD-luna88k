@@ -29,6 +29,8 @@
  * rights to redistribute these changes.
  */
 
+#include "opt_ddb.h"
+
 #ifdef DDB
 
 #include <sys/cdefs.h>
