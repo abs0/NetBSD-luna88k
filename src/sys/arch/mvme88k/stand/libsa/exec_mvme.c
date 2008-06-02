@@ -41,7 +41,6 @@
 #include "libsa.h"
 
 /* These must agree with what locore.s expects */
-#define	KERN_LOADADDR	0x0
 #if 0
 typedef void (*kentry_t)(int, u_int, u_int, u_int, int, u_long);
 #else
@@ -73,7 +72,7 @@ exec_mvme(file, flag, part)
 	if ((flag & RB_NOSYM) != 0 )
 		lflags &= ~LOAD_SYM;
 
-	marks[MARK_START] = KERN_LOADADDR;
+	marks[MARK_START] = 0;  /* Offset added to kernel load address */
 	if ((fd = loadfile(file, marks, lflags)) == -1)
 		return;
 	close(fd);
