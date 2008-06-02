@@ -1,5 +1,6 @@
 #	$OpenBSD: files.mvme88k,v 1.41 2006/05/02 21:43:07 miod Exp $
 #
+
 maxpartitions 16
 
 device	mainbus {[addr = -1]}
@@ -111,6 +112,7 @@ file	arch/mvme88k/mvme88k/m88410.c			m88110
 file	arch/mvme88k/mvme88k/mem.c
 file	arch/mvme88k/mvme88k/pmap_bootstrap.c
 file	arch/mvme88k/mvme88k/pmap_table.c
+file	arch/m88k/m88k/procfs_machdep.c			procfs
 
 # SVR4 Binary Compatibility (COMPAT_SVR4)
 include "compat/svr4/files.svr4"
