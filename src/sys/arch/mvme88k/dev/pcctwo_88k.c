@@ -115,12 +115,14 @@ pcctwomatch(parent, cf, args)
 
 	/* Bomb if wrong CPU */
 	switch (brdtyp) {
+	case MVME_197:
+		if (strcmp("bussw", parent->dv_cfdata->cf_atname) != 0)
+			return (0);
 	case MVME_187:
 	case MVME_8120:
-	case MVME_197:
 		break;
 	default:
-		return 0;
+		return (0);
 	}
 
 	/*
