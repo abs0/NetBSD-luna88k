@@ -27,6 +27,7 @@ all: ${ALL}
 bootxx: ${OBJS} ${STAGE1} ${LIBS}
 	${LD} -S -N -Ttext ${STAGE1_RELOC} ${STAGE1} -o $@ \
 	    ${OBJS} ${LIBS}
+	@${SIZE} $@
 
 install:
 	${INSTALL_FILE} ${STRIPFLAG} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \

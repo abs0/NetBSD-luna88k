@@ -45,6 +45,8 @@ int errno;
 extern char *version;
 char    line[80];
 
+int main __P((void));
+
 int
 main()
 {
@@ -72,7 +74,7 @@ main()
 			printf("boot: -q returning to MVME-Bug\n");
 			break;
 		}
-		exec_mvme(file, flag);
+		exec_mvme(file, flag, 0);
 		printf("boot: %s: %s\n", file, strerror(errno));
 		ask = 1;
 	}

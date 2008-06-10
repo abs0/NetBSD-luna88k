@@ -6,7 +6,6 @@ DEFS=
 INCPATH=-I${.CURDIR} -I${.CURDIR}/../libsa -I${.CURDIR}/../libbug \
 	-I${.CURDIR}/../../include -I${S} -I${S}/lib/libsa
 CFLAGS+=${INCPATH} ${DEFS} ${COPTS}
-LDFLAGS=-N -T ${STAGE2_RELOC}
 CLEANFILES+=bootsd
 
 .include "${S}/arch/mvme88k/stand/bugcrt/Makefile.inc"
@@ -16,7 +15,7 @@ CLEANFILES+=bootsd
 
 SRCS=   boot.c conf.c version.c
 
-LIBS=	${LIBSA} ${LIBBUG} ${LIBZ}
+LIBS=	${LIBSA} ${LIBBUG} ${LIBZ} ${DESTDIR}/usr/lib/libc.a ${DESTDIR}/usr/lib/libgcc.a
 
 OBJS= ${SRCS:N*.h:R:S/$/.o/g}
 
@@ -27,9 +26,11 @@ all: ${ALL}
 
 bootsd: ${OBJS} ${STAGE2} ${LIBS}
 	${LD} ${LDFLAGS} -o $@ \
-		${STAGE2} ${OBJS} ${LIBS} `cc -print-libgcc-file-name`
+		${STAGE2} ${OBJS} ${LIBS}
+	@${SIZE} $@
 
 install:
-	install ${INSTALL_STRIP} -c -m 555 -g bin -o bin ${BOOTS} ${DESTDIR}${MDEC_DIR}
+	${INSTALL_FILE} ${STRIPFLAG} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
+	  ${.OBJDIR}/${BOOTS} ${DESTDIR}${MDEC_DIR}
 
 .include <bsd.prog.mk>
