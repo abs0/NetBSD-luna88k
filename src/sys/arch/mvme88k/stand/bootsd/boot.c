@@ -51,12 +51,12 @@ int
 main()
 {
 	char *cp, *file;
-	int flag, ret;
+	int flag, part;
 	int ask = 0;
 
-	printf(">> OpenBSD/mvme88k bootsd [%s]\n", version);
+	printf(">> NetBSD/mvme88k bootsd [%s]\n", version);
 
-	ret = parse_args(&file, &flag);
+	parse_args(&file, &flag, &part);
 	for (;;) {
 		if (ask) {
 			printf("boot: ");
@@ -67,14 +67,10 @@ main()
 				while (cp < (line + sizeof(line) -1) && *cp)
 					cp++;
 				bugargs.arg_end = cp;
-				ret = parse_args(&file, &flag);
+				parse_args(&file, &flag, &part);
 			}
 		}
-		if (ret) {
-			printf("boot: -q returning to MVME-Bug\n");
-			break;
-		}
-		exec_mvme(file, flag, 0);
+		exec_mvme(file, flag, part);
 		printf("boot: %s: %s\n", file, strerror(errno));
 		ask = 1;
 	}

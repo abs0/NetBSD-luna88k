@@ -1,8 +1,11 @@
 /*	$OpenBSD: dev_tape.c,v 1.3 2006/05/16 22:52:09 miod Exp $ */
 
-/*
- * Copyright (c) 1993 Paul Kranenburg
+/*-
+ * Copyright (c) 1998 The NetBSD Foundation, Inc.
  * All rights reserved.
+ *
+ * This code is derived from software contributed to The NetBSD Foundation
+ * by Paul Kranenburg.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -14,20 +17,23 @@
  *    documentation and/or other materials provided with the distribution.
  * 3. All advertising materials mentioning features or use of this software
  *    must display the following acknowledgement:
- *      This product includes software developed by Paul Kranenburg.
- * 4. The name of the author may not be used to endorse or promote products
- *    derived from this software without specific prior written permission
+ *        This product includes software developed by the NetBSD
+ *        Foundation, Inc. and its contributors.
+ * 4. Neither the name of The NetBSD Foundation nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
  *
- * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- * IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS
+ * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
  */
 
 /*
@@ -38,10 +44,13 @@
 
 #include <sys/types.h>
 #include <machine/prom.h>
+#include <machine/stdarg.h>
+
+#include <lib/libkern/libkern.h>
 
 #include "stand.h"
 #include "libsa.h"
-
+#include "dev_tape.h"
 
 
 struct mvmeprom_dskio tape_ioreq;
@@ -59,24 +68,26 @@ devopen(f, fname, file)
 	char **file;
 {
 	struct devsw *dp;
-	int errorno;
 
-	*file = (char *)fname;
+	*file = (char*)fname;
 	dp = &devsw[0];
 	f->f_dev = dp;
 
 	/* The following will call tape_open() */
-	errorno = dp->dv_open(f, fname);
-	return (errorno);
+	return (dp->dv_open(f, fname));
 }
 
 int
-tape_open(f, fname)
-	struct open_file *f;
-	char *fname;		/* partition number, i.e. "1" */
+tape_open(struct open_file *f, ...)
 {
-	int  	part;
+	char *fname;		/* partition number, i.e. "1" */
+	int	part;
 	struct mvmeprom_dskio *ti;
+	va_list ap;
+
+	va_start(ap, f);
+	fname = va_arg(ap, char *);
+	va_end(ap);
 
 	/*
 	 * Set the tape segment number to the one indicated
@@ -86,14 +97,13 @@ tape_open(f, fname)
 		return ENOENT;
 	}
 	part = fname[0] - '0';
-	fname = NULL;
 
 	/*
 	 * Setup our part of the saioreq.
 	 * (determines what gets opened)
 	 */
 	ti = &tape_ioreq;
-	bzero((caddr_t)ti, sizeof(*ti));
+	memset((caddr_t)ti, 0, sizeof(*ti));
 
 	ti->ctrl_lun = bugargs.ctrl_lun;
 	ti->dev_lun = bugargs.dev_lun;
@@ -129,7 +139,7 @@ tape_strategy(devdata, flag, dblk, size, buf, rsize)
 	int	flag;
 	daddr_t	dblk;
 	u_int	size;
-	char	*buf;
+	void	*buf;
 	u_int	*rsize;
 {
 	struct mvmeprom_dskio *ti;
@@ -157,7 +167,7 @@ tape_strategy(devdata, flag, dblk, size, buf, rsize)
 }
 
 int
-tape_ioctl()
+tape_ioctl(struct open_file *f, u_long cmd, void * data)
 {
 	return EIO;
 }

@@ -33,6 +33,7 @@
 
 #include <sys/param.h>
 #include <sys/reboot.h>
+
 #include <machine/prom.h>
 
 #include "stand.h"
@@ -41,16 +42,18 @@
 extern char *version;
 extern int errno;
 
+int main __P((void));
+
 int main()
 {
 	static char dnm[32] = "2";
 	char line[80];
 	char *filename;
-	int bflag = 0;
-	printf(">> OpenBSD/mvme88k tapeboot [%s]\n", version);
+	int bflag, part;
+	printf(">> NetBSD/mvme88k tapeboot [%s]\n", version);
 
 	*bugargs.arg_end = 0; /* ensure */
-	parse_args(&filename, &bflag);
+	parse_args(&filename, &bflag, &part);
 	filename = dnm;	/* override */
 
 	if (bflag & RB_ASKNAME) {
@@ -60,7 +63,7 @@ int main()
 			filename = line;
 	}
 
-	exec_mvme(filename, bflag);
+	exec_mvme(filename, bflag, part);
 
 	printf("tapeboot: %s: %s\n", filename, strerror(errno));
 	return(0);

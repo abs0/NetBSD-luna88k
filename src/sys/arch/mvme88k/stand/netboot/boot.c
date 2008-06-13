@@ -69,16 +69,16 @@ int
 main()
 {
 	char *cp, *file;
-	int ask = 0, howto, ret;
+	int ask = 0, howto, part;
 
 	/* cycle in the correct args */
 	bugargs.arg_start = bugargs.nbarg_start;
 	bugargs.arg_end   = bugargs.nbarg_end;
 	*bugargs.arg_end = 0; /* ensure */
 
-	printf("\n>> OpenBSD/mvme88k netboot [%s]\n", version);
+	printf("\n>> NetBSD/mvme88k netboot [%s]\n", version);
 
-	ret = parse_args(&file, &howto);
+	parse_args(&file, &howto, &part);
 
 	for (;;) {
 		if (ask) {
@@ -90,14 +90,10 @@ main()
 				while (cp < (line + sizeof(line) - 1) && *cp)
 					cp++;
 				bugargs.arg_end = cp;
-				ret =parse_args(&file, &howto);
+				parse_args(&file, &howto, &part);
 			}
 		}
-		if (ret) {
-			printf("boot: -q returning to MVME-Bug\n");
-			break;
-		}
-		exec_mvme(file, howto);
+		exec_mvme(file, howto, &part);
 		printf("boot: %s: %s\n", file, strerror(errno));
 		ask = 1;
 	}

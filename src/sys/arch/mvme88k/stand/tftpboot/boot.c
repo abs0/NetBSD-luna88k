@@ -49,7 +49,7 @@ int
 main(void)
 {
 	char *cp, *file;
-	int flag, ret;
+	int flag, part;
 	int ask = 0;
 
 	/* skip first argument, it's our own name */
@@ -59,7 +59,7 @@ main(void)
 
 	printf("\n>> NetBSD/mvme88k tftpboot [%s]\n", version);
 
-	ret = parse_args(&file, &flag);
+	parse_args(&file, &flag, &part);
 #ifdef DEBUG
 	printf("file: %s, flag: %d\n", file, flag);
 #endif
@@ -73,14 +73,10 @@ main(void)
 				while (cp < (line + sizeof(line) -1) && *cp)
 					cp++;
 				bugargs.arg_end = cp;
-				ret = parse_args(&file, &flag);
+				parse_args(&file, &flag, &part);
 			}
 		}
-		if (ret) {
-			printf("boot: -q returning to MVME-Bug\n");
-			break;
-		}
-		exec_mvme(file, flag, 0);
+		exec_mvme(file, flag, part);
 		printf("boot: %s: %s\n", file, strerror(errno));
 		ask = 1;
 	}

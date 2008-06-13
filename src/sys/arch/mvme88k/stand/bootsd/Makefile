@@ -6,6 +6,7 @@ DEFS=
 INCPATH=-I${.CURDIR} -I${.CURDIR}/../libsa -I${.CURDIR}/../libbug \
 	-I${.CURDIR}/../../include -I${S} -I${S}/lib/libsa
 CFLAGS+=${INCPATH} ${DEFS} ${COPTS}
+LDFLAGS+= -nostdlib -N -Ttext ${STAGE2_RELOC}
 CLEANFILES+=bootsd
 
 .include "${S}/arch/mvme88k/stand/bugcrt/Makefile.inc"

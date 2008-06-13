@@ -1,4 +1,4 @@
-/*	$OpenBSD: rawfs.c,v 1.4 2006/05/16 22:52:09 miod Exp $ */
+/*	$NetBSD: rawfs.c,v 1.5 2003/08/24 14:43:29 he Exp $	*/
 
 /*
  * Copyright (c) 1995 Gordon W. Ross
@@ -42,33 +42,36 @@
 #include <stand.h>
 #include <rawfs.h>
 
-#define	RAWFS_BSIZE	512
+
+#define	RAWFS_BSIZE	8192
 
 /*
  * In-core open file.
  */
-struct cfile {
+struct file {
 	daddr_t		fs_nextblk;	/* block number to read next */
+	daddr_t		fs_curblk;	/* block number currently in buffer */
 	int		fs_len;		/* amount left in f_buf */
 	char *		fs_ptr;		/* read pointer into f_buf */
 	char		fs_buf[RAWFS_BSIZE];
 };
 
 static int
-rawfs_get_block(struct open_file *);
+rawfs_get_block __P((struct open_file *));
 
 int	rawfs_open(path, f)
-	char *path;
+	const char *path;
 	struct open_file *f;
 {
-	struct cfile *fs;
+	struct file *fs;
 
 	/*
 	 * The actual PROM driver has already been opened.
 	 * Just allocate the I/O buffer, etc.
 	 */
-	fs = alloc(sizeof(struct cfile));
+	fs = alloc(sizeof(struct file));
 	fs->fs_nextblk = 0;
+	fs->fs_curblk = -1;
 	fs->fs_len = 0;
 	fs->fs_ptr = fs->fs_buf;
 
@@ -79,12 +82,12 @@ int	rawfs_open(path, f)
 int	rawfs_close(f)
 	struct open_file *f;
 {
-	struct cfile *fs;
+	struct file *fs;
 
-	fs = (struct cfile *) f->f_fsdata;
+	fs = (struct file *) f->f_fsdata;
 	f->f_fsdata = (void *)0;
 
-	if (fs != (struct cfile *)0)
+	if (fs != (struct file *)0)
 		free(fs, sizeof(*fs));
 
 	return (0);
@@ -93,10 +96,10 @@ int	rawfs_close(f)
 int	rawfs_read(f, start, size, resid)
 	struct open_file *f;
 	void *start;
-	size_t size;
-	size_t *resid;
+	u_int size;
+	u_int *resid;
 {
-	struct cfile *fs = (struct cfile *)f->f_fsdata;
+	struct file *fs = (struct file *)f->f_fsdata;
 	char *addr = start;
 	int error = 0;
 	size_t csize;
@@ -114,7 +117,7 @@ int	rawfs_read(f, start, size, resid)
 		if (csize > fs->fs_len)
 			csize = fs->fs_len;
 
-		bcopy(fs->fs_ptr, addr, csize);
+		memcpy(addr, fs->fs_ptr, csize);
 		fs->fs_ptr += csize;
 		fs->fs_len -= csize;
 		addr += csize;
@@ -122,6 +125,12 @@ int	rawfs_read(f, start, size, resid)
 	}
 	if (resid)
 		*resid = size;
+
+	if (error) {
+		errno = error;
+		error = -1;
+	}
+
 	return (error);
 }
 
@@ -131,7 +140,8 @@ int	rawfs_write(f, start, size, resid)
 	size_t size;
 	size_t *resid;	/* out */
 {
-	return (EROFS);
+	errno = EROFS;
+	return (-1);
 }
 
 off_t	rawfs_seek(f, offset, where)
@@ -139,14 +149,80 @@ off_t	rawfs_seek(f, offset, where)
 	off_t offset;
 	int where;
 {
-	return (EFTYPE);
+	struct file *fs = (struct file *)f->f_fsdata;
+	daddr_t curblk, targblk;
+	off_t newoff;
+	int err, idx;
+
+	/*
+	 * We support a very minimal feature set for lseek(2); just
+	 * enough to allow loadfile() to work with the parameters
+	 * we pass to it on boot.
+	 *
+	 * In all cases, we can't seek back past the start of the
+	 * current block.
+	 */
+	curblk = (fs->fs_curblk < 0) ? 0 : fs->fs_curblk;
+
+	/*
+	 * Only support SEEK_SET and SEEK_CUR which result in offsets
+	 * which don't require seeking backwards.
+	 */
+	switch (where) {
+	case SEEK_SET:
+		newoff = offset;
+		break;
+
+	case SEEK_CUR:
+		if (fs->fs_curblk < 0)
+			newoff = 0;
+		else {
+			newoff = fs->fs_curblk * RAWFS_BSIZE;
+			newoff += RAWFS_BSIZE - fs->fs_len;
+		}
+		newoff += offset;
+		break;
+
+	default:
+		errno = EINVAL;
+		return (-1);
+	}
+
+	if (newoff < (curblk * RAWFS_BSIZE)) {
+		errno = EINVAL;
+		return (-1);
+	}
+
+	targblk = newoff / RAWFS_BSIZE;
+
+	/*
+	 * If necessary, skip blocks until we hit the required target
+	 */
+	err = 0;
+	while (fs->fs_curblk != targblk && (err = rawfs_get_block(f)) == 0)
+		;
+
+	if (err) {
+		errno = err;
+		return (-1);
+	}
+
+	/*
+	 * Update the index within the loaded block
+	 */
+	idx = newoff % RAWFS_BSIZE;
+	fs->fs_len = RAWFS_BSIZE - idx;
+	fs->fs_ptr = &fs->fs_buf[idx];
+
+	return (newoff);
 }
 
 int	rawfs_stat(f, sb)
 	struct open_file *f;
 	struct stat *sb;
 {
-	return (EFTYPE);
+	errno = EFTYPE;
+	return (-1);
 }
 
 
@@ -158,22 +234,25 @@ static int
 rawfs_get_block(f)
 	struct open_file *f;
 {
-	struct cfile *fs;
-	int error;
-	size_t len;
+	struct file *fs;
+	int error, len;
 
-	fs = (struct cfile *)f->f_fsdata;
+	fs = (struct file *)f->f_fsdata;
 	fs->fs_ptr = fs->fs_buf;
 
 	twiddle();
 	error = f->f_dev->dv_strategy(f->f_devdata, F_READ,
-		fs->fs_nextblk, RAWFS_BSIZE, fs->fs_buf, &len);
+		fs->fs_nextblk * (RAWFS_BSIZE / DEV_BSIZE),
+		RAWFS_BSIZE, fs->fs_buf, &len);
 
 	if (!error) {
 		fs->fs_len = len;
-		fs->fs_nextblk += (RAWFS_BSIZE / DEV_BSIZE);
+		fs->fs_curblk = fs->fs_nextblk;
+		fs->fs_nextblk += 1;
+	} else {
+		errno = error;
+		error = -1;
 	}
 
 	return (error);
 }
-
