@@ -7,15 +7,14 @@
 #include <sys/types.h>
 #include <machine/prom.h>
 
-#include <libbug.h>
-#include "prom.h"
+#include "libbug.h"
 
 /* returns 0: success, nonzero: error */
 int
 mvmeprom_netfopen(arg)
 	struct mvmeprom_netfopen *arg;
 {
-	asm volatile ("or r2,r0,%0": : "r" (arg));
+	MVMEPROM_ARG1(arg);
 	MVMEPROM_CALL(MVMEPROM_NETFOPEN);
 	return (arg->status);
 }

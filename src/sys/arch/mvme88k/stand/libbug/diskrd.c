@@ -1,4 +1,4 @@
-/*	$OpenBSD: diskrd.c,v 1.4 2003/09/07 21:35:35 miod Exp $	*/
+/*	$NetBSD: diskrd.c,v 1.2 1996/05/17 19:50:35 chuck Exp $	*/
 
 /*
  * bug routines -- assumes that the necessary sections of memory
@@ -7,8 +7,7 @@
 #include <sys/types.h>
 #include <machine/prom.h>
 
-#include <libbug.h>
-#include "prom.h"
+#include "libbug.h"
 
 /* returns 0: success, nonzero: error */
 int
@@ -17,8 +16,7 @@ mvmeprom_diskrd(arg)
 {
 	int ret;
 
-	asm volatile ("or r2,r0,%0": : "r" (arg));
+	MVMEPROM_ARG1(arg);
 	MVMEPROM_CALL(MVMEPROM_DSKRD);
-	asm volatile ("or %0,r0,r2" :  "=r" (ret));
-	return ((ret & 0x8));
+	MVMEPROM_STATRET(ret);
 }

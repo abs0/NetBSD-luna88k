@@ -62,7 +62,7 @@ exec_mvme(file, flag, part)
 	int		bootdev;
 	struct mvmeprom_brdid *id;
 
-	id = mvmeprom_brdid();
+	id = mvmeprom_getbrdid();
 
 #ifdef DEBUG
 	printf("exec_mvme: file=%s flag=0x%x cputyp=%x\n", file, flag, id->model);

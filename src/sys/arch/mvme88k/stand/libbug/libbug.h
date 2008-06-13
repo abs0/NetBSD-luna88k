@@ -4,39 +4,25 @@
  * prototypes and such.   note that get/put char are in stand.h
  */
 
-void	mvmeprom_delay(int);
-int	mvmeprom_diskrd(struct mvmeprom_dskio *);
-int	mvmeprom_diskwr(struct mvmeprom_dskio *);
-struct mvmeprom_brdid *mvmeprom_brdid(void);
-int	mvmeprom_instat(void);
-int	mvmeprom_netfopen(struct mvmeprom_netfopen *);
-int	mvmeprom_netfread(struct mvmeprom_netfread *);
-void	mvmeprom_outln(char *, char *);
-void	mvmeprom_outstr(char *, char *);
-void	mvmeprom_rtc_rd(struct mvmeprom_time *);
+
+void	mvmeprom_delay __P((int));
+int	mvmeprom_diskrd __P((struct mvmeprom_dskio *));
+int	mvmeprom_diskwr __P((struct mvmeprom_dskio *));
+struct	mvmeprom_brdid *mvmeprom_getbrdid __P((void));
+int	peekchar __P((void));
+int	mvmeprom_netfopen __P((struct mvmeprom_netfopen *));
+int	mvmeprom_netfread __P((struct mvmeprom_netfread *));
+void	mvmeprom_outln __P((char *, char *));
+void	mvmeprom_outstr __P((char *, char *));
+void	mvmeprom_rtc_rd __P((struct mvmeprom_time *));
 
 /*
- * bugcrt stuff
+ * bugcrt stuff 
  */
-
-struct mvmeprom_args {
-	u_int	dev_lun;
-	u_int	ctrl_lun;
-	u_int	flags;
-	u_int	ctrl_addr;
-	u_int	entry;
-	u_int	conf_blk;
-	char	*arg_start;
-	char	*arg_end;
-	char	*nbarg_start;
-	char	*nbarg_end;
-};
 
 extern struct mvmeprom_args bugargs;
 
-typedef void mvmeprom_client_entry_point(u_int dev_lun, u_int ctrl_lun,
-    u_int flags, u_int ctrl_addr, u_int entry,
-    u_int conf_blk, char *arg_start, char *arg_end);
+typedef void mvmeprom_client_entry_point __P((u_int, u_int, u_int, u_int, u_int, u_int, char *, char *));
 
-void	bugexec(mvmeprom_client_entry_point *);
+void	bugexec  __P((mvmeprom_client_entry_point *));
 __dead void _rtt(void);

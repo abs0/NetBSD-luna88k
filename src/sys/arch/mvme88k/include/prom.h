@@ -171,9 +171,45 @@ struct mvmeprom_dskio {
 };
 #define MVMEPROM_BLOCK_SIZE	256
 
+struct mvmeprom_args {
+	u_int	dev_lun;
+	u_int	ctrl_lun;
+	u_int	flags;
+	u_int	ctrl_addr;
+	u_int	entry;
+	u_int	conf_blk;
+	char	*arg_start;
+	char	*arg_end;
+	char	*nbarg_start;
+	char	*nbarg_end;
+};
+
 extern unsigned long bugvec[2], sysbugvec[2];	/* BUG trap vector copies */
 
 #endif	/* _LOCORE */
+
+#define MVMEPROM_CALL(x) \
+	__asm__ __volatile__ ("or r9,r0," __STRING(x)); \
+	__asm__ __volatile__ ("tb0 0,r0,496")
+#define MVMEPROM_NOARG()
+#define MVMEPROM_ARG1(arg) \
+	__asm__ __volatile__ ("or r2,r0,%0": : "r" (arg))
+#define MVMEPROM_ARG2(arg) \
+	__asm__ __volatile__ ("or r3,r0,%0": : "r" (arg))
+#define MVMEPROM_GETRES(ret) \
+	__asm__ __volatile__ ("or %0,r0,r2": "=r" (ret):)
+#define MVMEPROM_GETSR(ret) \
+	__asm__ __volatile__ ("or %0,r0,r2": "=r" (ret):)
+#define MVMEPROM_RETURN(ret) \
+	MVMEPROM_GETRES(ret); \
+	return (ret);
+/* return a byte, ret must be int */
+#define MVMEPROM_RETURN_BYTE(ret) \
+	MVMEPROM_GETRES(ret); \
+	return (int)(((unsigned int)(ret)) & 0xff);
+#define MVMEPROM_STATRET(ret) \
+	MVMEPROM_GETSR(ret); \
+	return ((ret & 0x4) == 0);
 
 #ifndef RB_NOSYM
 #define RB_NOSYM 0x4000

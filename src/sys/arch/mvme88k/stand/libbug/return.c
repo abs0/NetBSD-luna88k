@@ -1,4 +1,4 @@
-/*	$OpenBSD: return.c,v 1.4 2006/05/16 22:51:30 miod Exp $	*/
+/*	$NetBSD: return.c,v 1.2 1996/05/17 19:51:02 chuck Exp $	*/
 
 /*
  * bug routines -- assumes that the necessary sections of memory
@@ -7,10 +7,8 @@
 #include <sys/types.h>
 #include <machine/prom.h>
 
-#include <stand.h>
-
-#include <libbug.h>
-#include "prom.h"
+#include "stand.h"
+#include "libbug.h"
 
 /* BUG - return to bug routine */
 __dead void

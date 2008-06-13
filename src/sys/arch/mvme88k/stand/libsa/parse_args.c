@@ -1,8 +1,8 @@
-/*	$OpenBSD: parse_args.c,v 1.5 2006/05/16 22:52:09 miod Exp $ */
+/*	$NetBSD: parse_args.c,v 1.8 2003/12/10 12:06:25 agc Exp $	*/
 
 /*-
  * Copyright (c) 1995 Theo de Raadt
- *
+ * 
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
  * are met:
@@ -28,61 +28,57 @@
 
 #include <sys/param.h>
 #include <sys/reboot.h>
+#include <sys/disklabel.h>
 #include <machine/prom.h>
+#include <sys/boot_flag.h>
 
 #include "stand.h"
 #include "libsa.h"
 
 #define KERNEL_NAME "netbsd"
 
-struct flags {
-	char c;
-	short bit;
-} bf[] = {
-	{ 'a', RB_ASKNAME }, /* ask root */
-	{ 'b', RB_HALT },
-	{ 'c', RB_USERCONF },
-	{ 'd', RB_KDB },
-	{ 'm', RB_MINIROOT },
-	{ 's', RB_SINGLE },
-	{ 'y', RB_NOSYM },
-};
-
-int
-parse_args(filep, flagp)
-	char **filep;
-	int *flagp;
+void
+parse_args(filep, flagp, partp)
+char **filep;
+int *flagp;
+int *partp;
 {
 	char *name = KERNEL_NAME, *ptr;
-	int i, howto = 0;
+	int howto = 0, part = 0;
 	char c;
 
 	if (bugargs.arg_start != bugargs.arg_end) {
 		ptr = bugargs.arg_start;
-		while ((c = *ptr) != '\0') {
+		while ((c = *ptr)) {
 			while (c == ' ')
 				c = *++ptr;
 			if (c == '\0')
-				return (0);
+				return;
 			if (c != '-') {
-				name = ptr;
+				if (ptr[1] == ':') {
+					part = (int) (*ptr - 'A');
+					if (part >= MAXPARTITIONS)
+						part -= 0x20;
+					if (part < 0 || part >= MAXPARTITIONS)
+						part = 0;
+					if (ptr[2] == ' ' || ptr[2] == '\0') {
+						ptr += 2;
+						continue;
+					}
+					name = &(ptr[2]);
+				} else
+					name = ptr;
 				while ((c = *++ptr) && c != ' ')
 					;
 				if (c)
 					*ptr++ = 0;
 				continue;
 			}
-			while ((c = *++ptr) && c != ' ') {
-				if (c == 'q')
-					return (1);
-				for (i = 0; i < sizeof(bf)/sizeof(bf[0]); i++)
-					if (bf[i].c == c) {
-						howto |= bf[i].bit;
-					}
-			}
+			while ((c = *++ptr) && c != ' ')
+				BOOT_FLAG(c, howto);
 		}
 	}
 	*flagp = howto;
 	*filep = name;
-	return (0);
+	*partp = part;
 }

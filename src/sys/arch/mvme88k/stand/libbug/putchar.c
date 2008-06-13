@@ -8,19 +8,15 @@
 #include <sys/types.h>
 #include <machine/prom.h>
 
-#include <stand.h>
-
-#include <libbug.h>
-#include "prom.h"
+#include "stand.h"
+#include "libbug.h"
 
 void
 putchar(c)
 	int c;
 {
-	char ca;
-	ca = (char)c & 0xFF;
-	if (ca == '\n')
+	if (c == '\n')
 		putchar('\r');
-	asm  volatile ("or r2,r0,%0" : : "r" (ca));
+	MVMEPROM_ARG1((char)c);
 	MVMEPROM_CALL(MVMEPROM_OUTCHR);
 }

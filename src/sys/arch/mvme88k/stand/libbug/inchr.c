@@ -1,4 +1,4 @@
-/*	$OpenBSD: inchr.c,v 1.2 2003/09/07 21:35:35 miod Exp $ */
+/*	$NetBSD: inchr.c,v 1.1 1996/05/17 19:50:50 chuck Exp $	*/
 
 /*
  * bug routines -- assumes that the necessary sections of memory
@@ -7,10 +7,8 @@
 #include <sys/types.h>
 #include <machine/prom.h>
 
-#include <stand.h>
-
-#include <libbug.h>
-#include "prom.h"
+#include "stand.h"
+#include "libbug.h"
 
 /* returns 0 if no characters ready to read */
 int
@@ -18,7 +16,7 @@ getchar()
 {
 	int ret;
 
+	MVMEPROM_NOARG();
 	MVMEPROM_CALL(MVMEPROM_INCHR);
-	asm volatile ("or %0,r0,r2" :  "=r" (ret));
-	return ret;
+	MVMEPROM_RETURN_BYTE(ret);
 }
