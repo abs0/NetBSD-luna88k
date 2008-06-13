@@ -16,11 +16,13 @@ CLEANFILES+=tftpboot tftpboot.bin tftpboot.sym
 .include "${S}/arch/mvme88k/stand/libsa/Makefile.inc"
 .include "${S}/arch/mvme88k/stand/libz/Makefile.inc"
 
-SRCS=   boot.c conf.c version.c tftpfs.c netdev.c
+SRCS=   boot.c conf.c tftpfs.c netdev.c
 OBJS=  ${SRCS:S/.c/.o/g}
 LIBS= ${LIBSA} ${LIBBUG} ${LIBZ}
 LDFLAGS+= -nostdlib -N -Ttext ${STAGE2_RELOC}
 LDFLAGS+= --allow-multiple-definition # XXX
+
+.include <bsd.prog.mk>
 
 all:	tftpboot.bin
 
@@ -36,5 +38,3 @@ tftpboot.bin: tftpboot
 install: tftpboot.bin
 	${INSTALL_FILE} ${STRIPFLAG} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 	  ${.OBJDIR}/tftpboot.bin ${DESTDIR}${MDEC_DIR}/tftpboot
-
-.include <bsd.prog.mk>

@@ -40,5 +40,14 @@ m88k :
 	-rm -f ${.TARGET}
 	ln -s $S/arch/m88k/include m88k
 
+.if exists(${.CURDIR}/version)
+
+SRCS+= vers.c
+OBJS+= vers.o
+CLEANFILES+= vers.c
+
+vers.c: version
+	${HOST_SH} ${S}/conf/newvers_stand.sh ${.CURDIR}/version ${MACHINE}
 .endif
 
+.endif

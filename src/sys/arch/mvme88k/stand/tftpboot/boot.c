@@ -40,7 +40,9 @@
 #include <stand.h>
 #include "libsa.h"
 
-extern char *version;
+extern	const char bootprog_name[], bootprog_rev[], bootprog_date[],
+	bootprog_maker[];
+
 char line[80];
 
 int main(void);
@@ -57,11 +59,13 @@ main(void)
 	bugargs.arg_end = bugargs.nbarg_end;
 	*bugargs.arg_end = '\0';	/* just stay on the safe side */
 
-	printf("\n>> NetBSD/mvme88k tftpboot [%s]\n", version);
+	printf("\n>> %s MVME%x tftpboot [%s]\n",
+		bootprog_name, bugargs.cputyp, bootprog_rev);
+	printf(">> (%s, %s)\n", bootprog_maker, bootprog_date);
 
 	parse_args(&file, &flag, &part);
 #ifdef DEBUG
-	printf("file: %s, flag: %d\n", file, flag);
+	printf("file: %s, flag: %d, part: %d\n", file, flag, part);
 #endif
 	for (;;) {
 		if (ask) {
