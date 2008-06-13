@@ -62,6 +62,10 @@ exec_mvme(file, flag, part)
 	int		lflags;
 	int		bootdev;
 
+#ifdef DEBUG
+	printf("file: %s, flag: %d, part: %d\n", file, flag, part);
+#endif
+
 	lflags = LOAD_KERNEL;
 	if ((flag & RB_NOSYM) != 0 )
 		lflags &= ~LOAD_SYM;

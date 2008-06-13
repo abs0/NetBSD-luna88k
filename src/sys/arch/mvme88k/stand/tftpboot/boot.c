@@ -64,9 +64,6 @@ main(void)
 	printf(">> (%s, %s)\n", bootprog_maker, bootprog_date);
 
 	parse_args(&file, &flag, &part);
-#ifdef DEBUG
-	printf("file: %s, flag: %d, part: %d\n", file, flag, part);
-#endif
 	for (;;) {
 		if (ask) {
 			printf("boot: ");
