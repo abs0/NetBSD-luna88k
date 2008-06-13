@@ -58,6 +58,8 @@ _start(u_int dev_lun, u_int ctrl_lun, u_int flags, u_int ctrl_addr, u_int entry,
 	bugargs.nbarg_end = nbarg_end;
 	*bugargs.arg_end = '\0';
 
+	bugargs.cputyp = mvmeprom_getbrdid()->model;
+
 	main();
 	_rtt();
 	/* NOTREACHED */

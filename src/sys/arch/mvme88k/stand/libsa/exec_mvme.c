@@ -41,6 +41,7 @@
 #include "libsa.h"
 
 /* These must agree with what locore.s expects */
+#define	KERN_LOADADDR	0x0	/* Offset added to kernel symbols */
 #if 0
 typedef void (*kentry_t)(int, u_int, u_int, u_int, int, u_long);
 #else
@@ -60,19 +61,12 @@ exec_mvme(file, flag, part)
 	int		fd;
 	int		lflags;
 	int		bootdev;
-	struct mvmeprom_brdid *id;
-
-	id = mvmeprom_getbrdid();
-
-#ifdef DEBUG
-	printf("exec_mvme: file=%s flag=0x%x cputyp=%x\n", file, flag, id->model);
-#endif
 
 	lflags = LOAD_KERNEL;
 	if ((flag & RB_NOSYM) != 0 )
 		lflags &= ~LOAD_SYM;
 
-	marks[MARK_START] = 0;  /* Offset added to kernel load address */
+	marks[MARK_START] = KERN_LOADADDR;
 	if ((fd = loadfile(file, marks, lflags)) == -1)
 		return;
 	close(fd);
@@ -96,7 +90,7 @@ exec_mvme(file, flag, part)
 
 	bootdev = (bugargs.ctrl_lun << 8) | (bugargs.dev_lun & 0xFF);
 
-	(*entry)(flag, bugargs.ctrl_addr, bootdev, id->model, marks[MARK_SYM], marks[MARK_END]);
+	(*entry)(flag, bugargs.ctrl_addr, bootdev, bugargs.cputyp, marks[MARK_SYM], marks[MARK_END]);
 #endif
 
 	printf("exec: kernel returned!\n");

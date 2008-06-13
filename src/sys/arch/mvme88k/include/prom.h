@@ -182,6 +182,7 @@ struct mvmeprom_args {
 	char	*arg_end;
 	char	*nbarg_start;
 	char	*nbarg_end;
+	u_int	cputyp;
 };
 
 extern unsigned long bugvec[2], sysbugvec[2];	/* BUG trap vector copies */
