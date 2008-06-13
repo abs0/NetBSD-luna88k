@@ -24,6 +24,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#include <machine/bswap.h>
+
 #include "../../include/disklabel.h"
 
 void	copy_exe(int, int);

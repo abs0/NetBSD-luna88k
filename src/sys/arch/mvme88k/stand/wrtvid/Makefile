@@ -1,7 +1,19 @@
-#	$OpenBSD: Makefile,v 1.3 2006/05/16 22:52:26 miod Exp $
-PROG=	wrtvid
-NOMAN=
+#	$NetBSD: Makefile,v 1.11 2002/01/23 21:06:28 scw Exp $
 
-install:
+S=${.CURDIR}/../../../../
 
-.include <bsd.prog.mk>
+HOSTPROG=	wrtvid
+NOMAN=		# defined
+
+.include <bsd.own.mk>
+
+.if ${USETOOLS} == "yes"
+COMPATOBJDIR!=  cd ${NETBSDSRCDIR}/tools/compat && ${PRINTOBJDIR}
+HOST_CPPFLAGS+=	-I${COMPATOBJDIR}/include
+HOST_LDFLAGS+=	-L${COMPATOBJDIR} -lnbcompat
+.endif
+
+# only needed during build
+proginstall::
+
+.include <bsd.hostprog.mk>
