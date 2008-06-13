@@ -7,8 +7,6 @@ NOMAN=	# defined
 
 PROG=	installboot
 BINDIR=/usr/mdec
-DPADD=${LIBUTIL}
-LDADD=-lutil
 LIBSA=${.CURDIR}/../../../../lib/libsa
 COPTS+= -Wall -Wstrict-prototypes -Wmissing-prototypes
 CPPFLAGS+= -I${LIBSA} -I. -D__daddr_t=int32_t
