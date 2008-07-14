@@ -31,12 +31,6 @@ __cpu_simple_lock_t bug_lock = __SIMPLELOCK_UNLOCKED;
 #define	BUG_UNLOCK()	do { } while (0)
 #endif
 
-#define MVMEPROM_CALL(x)						\
-	__asm__ __volatile__ ("or r9,r0," __STRING(x));			\
-	__asm__ __volatile__ ("tb0 0,r0,496" :::			\
-	    "r1", "r2", "r3", "r4", "r5", "r6", "r7", "r8",		\
-	    "r9", "r10", "r11", "r12", "r13")
-
 void
 bug_vector()
 {
