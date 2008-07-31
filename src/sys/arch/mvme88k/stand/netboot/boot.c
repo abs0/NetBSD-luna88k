@@ -65,8 +65,10 @@
 extern	char *version;
 char	line[80];
 
+int main(void);
+
 int
-main()
+main(void)
 {
 	char *cp, *file;
 	int ask = 0, howto, part;
@@ -74,9 +76,11 @@ main()
 	/* cycle in the correct args */
 	bugargs.arg_start = bugargs.nbarg_start;
 	bugargs.arg_end   = bugargs.nbarg_end;
-	*bugargs.arg_end = 0; /* ensure */
+	*bugargs.arg_end = '\0'; /* ensure */
 
-	printf("\n>> NetBSD/mvme88k netboot [%s]\n", version);
+	printf("\n>> %s MVME%x netboot [%s]\n",
+		bootprog_name, bugargs.cputyp, bootprog_rev);
+	printf(">> (%s, %s)\n", bootprog_maker, bootprog_date);
 
 	parse_args(&file, &howto, &part);
 
@@ -93,7 +97,7 @@ main()
 				parse_args(&file, &howto, &part);
 			}
 		}
-		exec_mvme(file, howto, &part);
+		exec_mvme(file, howto, part);
 		printf("boot: %s: %s\n", file, strerror(errno));
 		ask = 1;
 	}

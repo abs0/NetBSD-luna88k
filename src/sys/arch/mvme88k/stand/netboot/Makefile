@@ -16,7 +16,7 @@ CLEANFILES+=netboot netboot.bin
 .include "${S}/arch/mvme88k/stand/libsa/Makefile.inc"
 .include "${S}/arch/mvme88k/stand/libz/Makefile.inc"
 
-SRCS=   boot.c conf.c version.c devopen.c dev_net.c
+SRCS=   boot.c conf.c devopen.c dev_net.c
 SRCS+=	if_ie.c
 #SRCS+=  if_le.c
 OBJS=  ${SRCS:S/.c/.o/g}
@@ -27,16 +27,15 @@ all:	netboot.bin
 
 netboot: ${OBJS} ${SINGLE} ${LIBS}
 	${LD} ${LDFLAGS} -o $@ \
-		${SINGLE} ${OBJS} ${LIBS} `cc -print-libgcc-file-name`
-#	@${SIZE} $@
+		${SINGLE} ${OBJS} ${LIBS} # `cc -print-libgcc-file-name`
+	@${SIZE} $@
 
 netboot.bin: netboot
-	${STRIP} netboot
-	dd ibs=32 skip=1 if=netboot of=$@
-#	dd ibs=38 skip=1 if=netboot of=$@
+	${STRIP} ${.OBJDIR}/netboot
+	${OBJCOPY} -R.comment -R.note ${.OBJDIR}/netboot -O binary ${.TARGET}
 
 install:
 	${INSTALL} ${INSTALL_COPY} -o ${LIBOWN} -g ${LIBGRP} -m ${LIBMODE} \
-	  netboot.bin ${DESTDIR}${MDEC_DIR}/netboot
+	  ${.OBJDIR}/netboot.bin ${DESTDIR}${MDEC_DIR}/netboot
 
 .include <bsd.prog.mk>
