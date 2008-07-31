@@ -35,3 +35,4 @@ int n_netif_drivers = sizeof(netif_drivers) / sizeof(netif_drivers[0]);
 int netif_debug;
 int debug;
 int errno;
+int try_bootp = 1;  /* dev_net.c */
