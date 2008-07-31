@@ -62,7 +62,9 @@
 #include "stand.h"
 #include "libsa.h"
 
-extern	char *version;
+extern	const char bootprog_name[], bootprog_rev[], bootprog_date[],
+	bootprog_maker[];
+
 char	line[80];
 
 int main(void);
