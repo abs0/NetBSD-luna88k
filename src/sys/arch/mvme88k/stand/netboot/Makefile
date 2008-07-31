@@ -4,8 +4,8 @@ SIZE?=	size
 STRIP?= strip
 
 S=	${.CURDIR}/../../../..
-DEFS= -DSUN_BOOTPARAMS
-#-DNETIF_DEBUG
+DEFS=
+#DEFS+=-DNETIF_DEBUG
 INCPATH=-I${.CURDIR} -I${.CURDIR}/../libsa -I${.CURDIR}/../libbug \
 	-I${S} -I${S}/lib/libsa
 CFLAGS+=${DEFS} ${INCPATH} ${COPTS}
@@ -16,18 +16,20 @@ CLEANFILES+=netboot netboot.bin
 .include "${S}/arch/mvme88k/stand/libsa/Makefile.inc"
 .include "${S}/arch/mvme88k/stand/libz/Makefile.inc"
 
-SRCS=   boot.c conf.c devopen.c dev_net.c
+SRCS=   boot.c conf.c devopen.c
 SRCS+=	if_ie.c
 #SRCS+=  if_le.c
 OBJS=  ${SRCS:S/.c/.o/g}
-LIBS= ${LIBSA} ${LIBBUG} ${LIBZ}
-LDFLAGS+= -s -N -T ${STAGE2_RELOC}
+LIBS= ${LIBSA} ${LIBBUG} ${LIBZ} ${DESTDIR}/usr/lib/libc.a ${DESTDIR}/usr/lib/libgcc.a
+LDFLAGS+= -nostdlib -N -Ttext ${STAGE2_RELOC}
+
+.include <bsd.prog.mk>
 
 all:	netboot.bin
 
 netboot: ${OBJS} ${SINGLE} ${LIBS}
 	${LD} ${LDFLAGS} -o $@ \
-		${SINGLE} ${OBJS} ${LIBS} # `cc -print-libgcc-file-name`
+		${SINGLE} ${OBJS} ${LIBS}
 	@${SIZE} $@
 
 netboot.bin: netboot
@@ -35,7 +37,5 @@ netboot.bin: netboot
 	${OBJCOPY} -R.comment -R.note ${.OBJDIR}/netboot -O binary ${.TARGET}
 
 install:
-	${INSTALL} ${INSTALL_COPY} -o ${LIBOWN} -g ${LIBGRP} -m ${LIBMODE} \
+	${INSTALL_FILE} ${STRIPFLAG} -o ${BINOWN} -g ${BINGRP} -m ${BINMODE} \
 	  ${.OBJDIR}/netboot.bin ${DESTDIR}${MDEC_DIR}/netboot
-
-.include <bsd.prog.mk>

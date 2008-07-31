@@ -62,3 +62,5 @@ struct brdid {
 	u_short devnum;
 	u_long  bug;
 };
+
+void	machdep_common_ether __P((u_char *));

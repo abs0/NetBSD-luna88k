@@ -43,7 +43,6 @@ m88k :
 .if exists(${.CURDIR}/version)
 
 SRCS+= vers.c
-OBJS+= vers.o
 CLEANFILES+= vers.c
 
 vers.c: version

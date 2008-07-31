@@ -1,30 +1,6 @@
 /*	$OpenBSD: boot.c,v 1.7 2006/05/16 22:51:30 miod Exp $ */
 
-/*-
- * Copyright (c) 1995 Theo de Raadt
- * All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- * 1. Redistributions of source code must retain the above copyright
- *    notice, this list of conditions and the following disclaimer.
- * 2. Redistributions in binary form must reproduce the above copyright
- *    notice, this list of conditions and the following disclaimer in the
- *    documentation and/or other materials provided with the distribution.
- *
- * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
- * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
- * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
- * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
- * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
- * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
- * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
- * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
- * SUCH DAMAGE.
- *
+/*
  * Copyright (c) 1982, 1986, 1990, 1993
  *	The Regents of the University of California.  All rights reserved.
  *
@@ -61,13 +37,14 @@
 
 #include "stand.h"
 #include "libsa.h"
+#include "config.h"
+
+int main(void);
 
 extern	const char bootprog_name[], bootprog_rev[], bootprog_date[],
 	bootprog_maker[];
 
 char	line[80];
-
-int main(void);
 
 int
 main(void)
@@ -75,14 +52,14 @@ main(void)
 	char *cp, *file;
 	int ask = 0, howto, part;
 
-	/* cycle in the correct args */
-	bugargs.arg_start = bugargs.nbarg_start;
-	bugargs.arg_end   = bugargs.nbarg_end;
-	*bugargs.arg_end = '\0'; /* ensure */
-
 	printf("\n>> %s MVME%x netboot [%s]\n",
 		bootprog_name, bugargs.cputyp, bootprog_rev);
 	printf(">> (%s, %s)\n", bootprog_maker, bootprog_date);
+
+	/* cycle in the correct args */
+	bugargs.arg_start = bugargs.nbarg_start;
+	bugargs.arg_end   = bugargs.nbarg_end;
+	*bugargs.arg_end = 0; /* ensure */
 
 	parse_args(&file, &howto, &part);
 
@@ -105,4 +82,25 @@ main(void)
 	}
 	_rtt();
 	return (0);
+}
+
+/*
+ * machdep_common_ether: get ethernet address
+ */
+void
+machdep_common_ether(ether)
+	u_char *ether;
+{
+	u_char *ea;
+
+	ea = (u_char *) ETHER_ADDR_16X;
+
+	if (ea[0] + ea[1] + ea[2] + ea[3] + ea[4] + ea[5] == 0)
+		panic("ERROR: ethernet address not set!");
+	ether[0] = ea[0];
+	ether[1] = ea[1];
+	ether[2] = ea[2];
+	ether[3] = ea[3];
+	ether[4] = ea[4];
+	ether[5] = ea[5];
 }
