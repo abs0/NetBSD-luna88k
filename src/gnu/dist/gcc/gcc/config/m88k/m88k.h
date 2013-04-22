@@ -138,6 +138,9 @@ extern int flag_pic;				/* -fpic */
 #define	CPP_SPEC "%{!m88000:%{!m88100:%{m88110:-D__m88110__}}} \
 		  %{!m88000:%{!m88110:-D__m88100__}}"
 
+#undef ASM_SPEC
+#define ASM_SPEC "%{m88100} %{m88110}"
+
 /* LIB_SPEC, LINK_SPEC, and STARTFILE_SPEC defined in svr3.h.
    ASM_SPEC, ASM_FINAL_SPEC, LIB_SPEC, LINK_SPEC, and STARTFILE_SPEC redefined
    in svr4.h.

@@ -29,16 +29,15 @@ Software Foundation, 59 Temple Place - Suite 330, Boston, MA
 
 #if defined (OBJ_ELF)
 #include "elf/m88k.h"
+#endif
 
-#define reloc_type elf_m88k_reloc_type
-
-#define RELOC_LO16 BFD_RELOC_LO16
-#define RELOC_HI16 BFD_RELOC_HI16
-#define RELOC_PC16 BFD_RELOC_16_PCREL
-#define RELOC_PC26 BFD_RELOC_M88K_26_PCREL
-#define RELOC_32   BFD_RELOC_32
-#define NO_RELOC   R_88K_NONE
-
+#ifdef BFD_ASSEMBLER
+#define	RELOC_LO16	BFD_RELOC_LO16
+#define	RELOC_HI16	BFD_RELOC_HI16
+#define RELOC_PC16      BFD_RELOC_16_PCREL
+#define RELOC_PC26      BFD_RELOC_M88K_26_PCREL
+#define	RELOC_32	BFD_RELOC_32
+#define NO_RELOC	BFD_RELOC_NONE
 #endif
 
 struct field_val_assoc
@@ -47,7 +46,7 @@ struct field_val_assoc
   unsigned val;
 };
 
-struct field_val_assoc cr_regs[] =
+struct field_val_assoc m88100_cr_regs[] =
 {
   {"PID", 0},
   {"PSR", 1},
@@ -70,6 +69,52 @@ struct field_val_assoc cr_regs[] =
   {"SR1", 18},
   {"SR2", 19},
   {"SR3", 20},
+
+  {NULL, 0},
+};
+
+struct field_val_assoc m88110_cr_regs[] =
+{
+  {"PID", 0},
+  {"PSR", 1},
+  {"EPSR", 2},
+
+  {"EXIP", 4},
+  {"ENIP", 5},
+
+  {"VBR", 7},
+
+  {"SR0", 16},
+  {"SR1", 17},
+  {"SR2", 18},
+  {"SR3", 19},
+  {"SR4", 20},
+
+  {"ICMD", 25},
+  {"ICTL", 26},
+  {"ISAR", 27},
+  {"ISAP", 28},
+  {"IUAP", 29},
+  {"IIR",  30},
+  {"IBP",  31},
+  {"IPPU", 32},
+  {"IPPL", 33},
+  {"ISR",  34},
+  {"ILAR", 35},
+  {"IPAR", 36},
+
+  {"DCMD", 40},
+  {"DCTL", 41},
+  {"DSAR", 42},
+  {"DSAP", 43},
+  {"DUAP", 44},
+  {"DIR" , 45},
+  {"DBP" , 46},
+  {"DPPU", 47},
+  {"DPPL", 48},
+  {"DSR ", 49},
+  {"DLAR", 50},
+  {"DPAR", 51},
 
   {NULL, 0},
 };
@@ -133,7 +178,7 @@ struct m88k_insn
 {
   unsigned long opcode;
   expressionS exp;
-  enum reloc_type reloc;
+  enum m88k_reloc_type reloc;
 };
 
 static char *get_bf PARAMS ((char *param, unsigned *valp));
@@ -149,38 +194,40 @@ static char *match_name PARAMS ((char *, struct field_val_assoc *, unsigned *));
 static char *get_reg PARAMS ((char *param, unsigned *regnop, unsigned int reg_prefix));
 static char *get_vec9 PARAMS ((char *param, unsigned *valp));
 static char *getval PARAMS ((char *param, unsigned int *valp));
-
 static char *get_pcr PARAMS ((char *param, struct m88k_insn *insn,
-		      enum reloc_type reloc));
+		      enum m88k_reloc_type reloc));
 
 static int calcop PARAMS ((struct m88k_opcode *format,
 			   char *param, struct m88k_insn *insn));
 
-static void s_uacons PARAMS ((int));
+static void s_m88k_88110 PARAMS ((int));
 
-extern char *myname;
 static struct hash_control *op_hash = NULL;
 
-/* These bits should be turned off in the first address of every segment */
-int md_seg_align = 7;
+/* Current cpu (either 88100 or 88110, or 0 if unspecified).  Defaults to
+   zero, overriden with -m<cpu> options or assembler pseudo-ops.  */
+static int current_cpu = 0;
 
-#ifdef TE_NetBSD
 /* These chars start a comment anywhere in a source file (except inside
    another comment.  */
+#if defined(OBJ_ELF)
 const char comment_chars[] = "|";
+#elif defined(OBJ_AOUT)
+const char comment_chars[] = "|#";
+#else
+const char comment_chars[] = ";";
+#endif
 
 /* These chars only start a comment at the beginning of a line.  */
+#if defined(OBJ_AOUT)
+const char line_comment_chars[] = ";";
+#else
 const char line_comment_chars[] = "#";
+#endif
 
+#if defined(OBJ_ELF)
 const char line_separator_chars[] = ";";
 #else
-/* These chars start a comment anywhere in a source file (except inside
-   another comment.  */
-const char comment_chars[] = ";";
-
-/* These chars only start a comment at the beginning of a line.  */
-const char line_comment_chars[] = "#";
-
 const char line_separator_chars[] = "";
 #endif
 
@@ -194,21 +241,33 @@ const char FLT_CHARS[] = "dDfF";
 
 const pseudo_typeS md_pseudo_table[] =
 {
+#if !defined(OBJ_ELF) || !defined(TE_OpenBSD) 
   {"align", s_align_bytes, 4},
-  {"def", s_set, 0},
-  {"dfloat", float_cons, 'd'},
-  {"ffloat", float_cons, 'f'},
-  {"half", cons, 2},
+#else
+  /* handled with s_align_ptwo in read.c potable[] */
+#endif
   {"bss", s_lcomm, 1},
-  {"string", stringer, 0},
-  {"word", cons, 4},
-  {"uahalf", cons, 2},
-  {"uaword", cons, 4},
+  {"def", s_set, 0},
+  {"half", cons, 2},
+  {"requires_88110", s_m88k_88110, 0},
+  {"sbss", s_lcomm, 1},
+#if !defined(OBJ_ELF) || !defined(TE_OpenBSD) /* i.e. NO_PSEUDO_DOT == 1 */
   /* Force set to be treated as an instruction.  */
   {"set", NULL, 0},
   {".set", s_set, 0},
+#endif
+  {"uahalf", cons, 2},
+  {"uaword", cons, 4},
+  {"word", cons, 4}, /* override potable[] which has word == short */
   {NULL, NULL, 0}
 };
+
+static void
+s_m88k_88110(i)
+     int i ATTRIBUTE_UNUSED;
+{
+  current_cpu = 88110;
+}
 
 void
 md_begin ()
@@ -234,9 +293,17 @@ md_begin ()
       for (i++; !strcmp (m88k_opcodes[i].name, name); i++)
 	;
     }
+
+#ifdef OBJ_ELF
+  record_alignment (text_section, 2);
+  record_alignment (data_section, 2);
+  record_alignment (bss_section, 2);
+
+  bfd_set_private_flags (stdoutput, 0);
+#endif
 }
 
-const char *md_shortopts = "";
+const char *md_shortopts = "m:";
 struct option md_longopts[] = {
   {NULL, no_argument, NULL, 0}
 };
@@ -244,17 +311,84 @@ size_t md_longopts_size = sizeof (md_longopts);
 
 int
 md_parse_option (c, arg)
-     int c ATTRIBUTE_UNUSED;
-     char *arg ATTRIBUTE_UNUSED;
+     int c;
+     char *arg;
 {
-  return 0;
+  switch (c)
+    {
+    case 'm':
+      if (strcmp (arg, "88100") == 0)
+	current_cpu = 88100;
+      else if (strcmp (arg, "88110") == 0)
+	current_cpu = 88110;
+      else
+	as_bad (_("Option `%s' is not recognized."), arg);
+      break;
+
+    default:
+      return 0;
+    }
+
+  return 1;
 }
 
 void
 md_show_usage (stream)
-     FILE *stream ATTRIBUTE_UNUSED;
+     FILE *stream;
 {
+  fputs (_("\
+M88k options:\n\
+  -m88100 | -m88110       select processor type\n"),
+	 stream);
 }
+
+#ifdef OBJ_ELF
+enum m88k_pic_reloc_type {
+  pic_reloc_none,
+  pic_reloc_abdiff,
+  pic_reloc_gotrel,
+  pic_reloc_plt
+};
+
+static bfd_reloc_code_real_type
+m88k_get_reloc_code(struct m88k_insn *insn)
+{
+  switch (insn->exp.X_md)
+    {
+    default:
+    case pic_reloc_none:
+      return insn->reloc;
+
+    case pic_reloc_abdiff:
+      if (insn->reloc == BFD_RELOC_LO16)
+	return BFD_RELOC_LO16_BASEREL;
+      if (insn->reloc == BFD_RELOC_HI16)
+	return BFD_RELOC_HI16_BASEREL;
+      break;
+
+    case pic_reloc_gotrel:
+      if (insn->reloc == BFD_RELOC_LO16)
+	return BFD_RELOC_LO16_GOTOFF;
+      if (insn->reloc == BFD_RELOC_HI16)
+	return BFD_RELOC_HI16_GOTOFF;
+      break;
+
+    case pic_reloc_plt:
+      if (insn->reloc == BFD_RELOC_32)
+	return BFD_RELOC_32_PLTOFF;
+      if (insn->reloc == RELOC_PC26)
+	return BFD_RELOC_32_PLT_PCREL;
+      break;
+    }
+
+  as_bad ("Can't process pic type %d relocation type %d",
+	  insn->exp.X_md, insn->reloc);
+
+  return BFD_RELOC_NONE;
+}
+#else
+#define m88k_get_reloc_code(insn)	(insn).reloc
+#endif
 
 void
 md_assemble (op)
@@ -264,6 +398,7 @@ md_assemble (op)
   char c;
   struct m88k_opcode *format;
   struct m88k_insn insn;
+  fixS *fixP;
 
   assert (op);
 
@@ -274,6 +409,7 @@ md_assemble (op)
   *param++ = '\0';
 
   /* Try to find the instruction in the hash table.  */
+  /* XXX will not match XRF flavours of 88100 instructions on 88110 */
   if ((format = (struct m88k_opcode *) hash_find (op_hash, op)) == NULL)
     {
       as_bad (_("Invalid mnemonic '%s'"), op);
@@ -285,6 +421,7 @@ md_assemble (op)
   insn.exp.X_op_symbol = 0;
   insn.exp.X_add_number = 0;
   insn.exp.X_op = O_illegal;
+  insn.exp.X_md = pic_reloc_none;
   insn.reloc = NO_RELOC;
 
   while (!calcop (format, param, &insn))
@@ -311,12 +448,13 @@ md_assemble (op)
 
     case RELOC_LO16:
     case RELOC_HI16:
-      fix_new_exp (frag_now,
+      fixP = fix_new_exp (frag_now,
 		   thisfrag - frag_now->fr_literal + 2,
 		   2,
 		   &insn.exp,
 		   0,
-		   insn.reloc);
+		   m88k_get_reloc_code(&insn));
+      fixP->fx_no_overflow = 1;
       break;
 
 #ifdef M88KCOFF
@@ -326,17 +464,26 @@ md_assemble (op)
 		   4,
 		   &insn.exp,
 		   0,
-		   insn.reloc);
+		   m88k_get_reloc_code(&insn));
       break;
 #endif
 
     case RELOC_PC16:
+#ifdef OBJ_ELF
+      fix_new_exp (frag_now,
+		   thisfrag - frag_now->fr_literal ,
+		   4,
+		   &insn.exp,
+		   1,
+		   m88k_get_reloc_code(&insn));
+#else
       fix_new_exp (frag_now,
 		   thisfrag - frag_now->fr_literal + 2,
 		   2,
 		   &insn.exp,
 		   1,
-		   insn.reloc);
+		   m88k_get_reloc_code(&insn));
+#endif
       break;
 
     case RELOC_PC26:
@@ -345,7 +492,16 @@ md_assemble (op)
 		   4,
 		   &insn.exp,
 		   1,
-		   insn.reloc);
+		   m88k_get_reloc_code(&insn));
+      break;
+
+    case RELOC_32:
+      fix_new_exp (frag_now,
+		   thisfrag - frag_now->fr_literal,
+		   4,
+		   &insn.exp,
+		   0,
+		   m88k_get_reloc_code(&insn));
       break;
 
     default:
@@ -369,22 +525,23 @@ calcop (format, param, insn)
   insn->opcode = format->opcode;
   opcode = 0;
 
- /*
-  * Instructions which have no arguments (such as rte) will get
-  * correctly reported only if param == "", although there could be
-  * whitespace following the instruction.
-  * Rather than eating whitespace here, let's assume everything is
-  * fine. If there were non-wanted arguments, this will be parsed as
-  * an incorrect opcode at the offending line, so that's not too bad.
-  * -- miod
-  */
- if (*fmt == '\0')
-	 return 1;
+  /*
+   * Instructions which have no arguments (such as rte) will get
+   * correctly reported only if param == "", although there could be
+   * whitespace following the instruction.
+   * Rather than eating whitespace here, let's assume everything is
+   * fine. If there were non-wanted arguments, they will be parsed as
+   * an incorrect opcode at the offending line, so that's not too bad.
+   * -- miod
+   */
+  if (*fmt == '\0')
+    return 1;
 
   for (;;)
     {
-      if (param == 0)
+      if (param == NULL)
 	return 0;
+
       f = *fmt++;
       switch (f)
 	{
@@ -472,7 +629,7 @@ calcop (format, param, insn)
 	  break;
 
 	case '?':
-	  /* Having this here repeats the warning somtimes.
+	  /* Having this here repeats the warning sometimes.
 	   But can't we stand that?  */
 	  as_warn (_("Use of obsolete instruction"));
 	  break;
@@ -513,6 +670,12 @@ get_reg (param, regnop, reg_prefix)
   unsigned c;
   unsigned regno;
 
+#ifdef REGISTER_PREFIX
+  c = *param++;
+  if (c != REGISTER_PREFIX)
+    return NULL;
+#endif
+
   c = *param++;
   if (c == reg_prefix)
     {
@@ -548,7 +711,7 @@ get_reg (param, regnop, reg_prefix)
       return param + 1;
     }
 
-  return 0;
+  return NULL;
 }
 
 static char *
@@ -556,9 +719,20 @@ get_imm16 (param, insn)
      char *param;
      struct m88k_insn *insn;
 {
-  enum reloc_type reloc = NO_RELOC;
+  enum m88k_reloc_type reloc = NO_RELOC;
   unsigned int val;
   char *save_ptr;
+#ifdef REGISTER_PREFIX
+  int found_prefix = 0;
+#endif
+
+#ifdef REGISTER_PREFIX
+  if (*param == REGISTER_PREFIX)
+    {
+      param++;
+      found_prefix = 1;
+    }
+#endif
 
   if (!strncmp (param, "hi16", 4) && !ISALNUM (param[4]))
     {
@@ -576,6 +750,11 @@ get_imm16 (param, insn)
       reloc = RELOC_IW16;
       param += 4;
     }
+#endif
+
+#ifdef REGISTER_PREFIX
+  if (found_prefix && reloc == NO_RELOC)
+    return NULL;
 #endif
 
   save_ptr = input_line_pointer;
@@ -616,7 +795,7 @@ static char *
 get_pcr (param, insn, reloc)
      char *param;
      struct m88k_insn *insn;
-     enum reloc_type reloc;
+     enum m88k_reloc_type reloc;
 {
   char *saveptr, *saveparam;
 
@@ -644,6 +823,11 @@ get_cmp (param, valp)
 
   save_ptr = param;
 
+#ifdef REGISTER_PREFIX
+  /* SVR4 compiler prefixes condition codes with the register prefix */
+  if (*param == REGISTER_PREFIX)
+    param++;
+#endif
   param = match_name (param, cmpslot, valp);
   val = *valp;
 
@@ -687,6 +871,12 @@ get_cnd (param, valp)
     }
   else
     {
+#ifdef REGISTER_PREFIX
+      /* SVR4 compiler prefixes condition codes with the register prefix */
+      if (*param == REGISTER_PREFIX)
+	param++;
+#endif
+
       param[0] = TOLOWER (param[0]);
       param[1] = TOLOWER (param[1]);
 
@@ -731,6 +921,12 @@ get_bf_offset_expression (param, offsetp)
      unsigned *offsetp;
 {
   unsigned offset;
+
+#ifdef REGISTER_PREFIX
+  /* SVR4 compiler prefixes condition codes with the register prefix */
+  if (*param == REGISTER_PREFIX && ISALPHA (param[1]))
+    param++;
+#endif
 
   if (ISALPHA (param[0]))
     {
@@ -803,6 +999,11 @@ get_cr (param, regnop)
   unsigned regno;
   unsigned c;
 
+#ifdef REGISTER_PREFIX
+  if (*param++ != REGISTER_PREFIX)
+    return NULL;
+#endif
+
   if (!strncmp (param, "cr", 2))
     {
       param += 2;
@@ -834,7 +1035,7 @@ get_cr (param, regnop)
       return NULL;
     }
 
-  param = match_name (param, cr_regs, regnop);
+  param = match_name (param, current_cpu == 88110 ? m88110_cr_regs : m88100_cr_regs, regnop);
 
   return param;
 }
@@ -846,6 +1047,11 @@ get_fcr (param, regnop)
 {
   unsigned regno;
   unsigned c;
+
+#ifdef REGISTER_PREFIX
+  if (*param++ != REGISTER_PREFIX)
+    return NULL;
+#endif
 
   if (!strncmp (param, "fcr", 3))
     {
@@ -1047,8 +1253,9 @@ md_atof (type, litP, sizeP)
     }
   return 0;
 }
-
+
 int md_short_jump_size = 4;
+int md_long_jump_size = 4;
 
 void
 md_create_short_jump (ptr, from_addr, to_addr, frag, to_symbol)
@@ -1058,20 +1265,11 @@ md_create_short_jump (ptr, from_addr, to_addr, frag, to_symbol)
      fragS *frag;
      symbolS *to_symbol;
 {
-  ptr[0] = (char) 0xc0;
-  ptr[1] = 0x00;
-  ptr[2] = 0x00;
-  ptr[3] = 0x00;
-  fix_new (frag,
-	   ptr - frag->fr_literal,
-	   4,
-	   to_symbol,
-	   (offsetT) 0,
-	   0,
-	   RELOC_PC26);		/* Botch: Shouldn't this be RELOC_PC16? */
+  /* Since all instructions have the same width, it does not make sense to
+     try and abuse a conditional instruction to get a short displacement
+     (such as bb1 0, %r0, address).  */
+  md_create_long_jump (ptr, from_addr, to_addr, frag, to_symbol);
 }
-
-int md_long_jump_size = 4;
 
 void
 md_create_long_jump (ptr, from_addr, to_addr, frag, to_symbol)
@@ -1081,7 +1279,7 @@ md_create_long_jump (ptr, from_addr, to_addr, frag, to_symbol)
      fragS *frag;
      symbolS *to_symbol;
 {
-  ptr[0] = (char) 0xc0;
+  ptr[0] = (char) 0xc0;		/* br to_addr */
   ptr[1] = 0x00;
   ptr[2] = 0x00;
   ptr[3] = 0x00;
@@ -1137,36 +1335,6 @@ tc_coff_fix2rtype (fixp)
     }
 }
 
-/* Fill in rs_align_code fragments.  */
-
-void
-m88k_handle_align (fragp)
-     fragS *fragp;
-{
-  static const unsigned char nop_pattern[] = { 0xf4, 0x00, 0x58, 0x00 };
-
-  int bytes;
-  char *p;
-
-  if (fragp->fr_type != rs_align_code)
-    return;
-
-  bytes = fragp->fr_next->fr_address - fragp->fr_address - fragp->fr_fix;
-  p = fragp->fr_literal + fragp->fr_fix;
-
-  if (bytes & 3)
-    {
-      int fix = bytes & 3;
-      memset (p, 0, fix);
-      p += fix;
-      bytes -= fix;
-      fragp->fr_fix += fix;
-    }
-
-  memcpy (p, nop_pattern, 4);
-  fragp->fr_var = 4;
-}
-
 /* Apply a fixS to the object file.  Since COFF does not use addends
    in relocs, the addend is actually stored directly in the object
    file itself.  */
@@ -1181,6 +1349,7 @@ md_apply_fix3 (fixP, valP, seg)
   char *buf;
 
   buf = fixP->fx_frag->fr_literal + fixP->fx_where;
+  fixP->fx_addnumber = val;
   fixP->fx_offset = 0;
 
   switch (fixP->fx_r_type)
@@ -1198,9 +1367,8 @@ md_apply_fix3 (fixP, valP, seg)
       break;
 
     case RELOC_HI16:
-      fixP->fx_offset = val >> 16;
-      buf[0] = val >> 8;
-      buf[1] = val;
+      buf[0] = val >> 24;
+      buf[1] = val >> 16;
       break;
 
     case RELOC_PC16:
@@ -1232,6 +1400,36 @@ md_apply_fix3 (fixP, valP, seg)
 
 #endif /* M88KCOFF */
 
+/* Fill in rs_align_code fragments.  */
+
+void
+m88k_handle_align (fragp)
+     fragS *fragp;
+{
+  static const unsigned char nop_pattern[] = { 0xf4, 0x00, 0x58, 0x00 };
+
+  int bytes;
+  char *p;
+
+  if (fragp->fr_type != rs_align_code)
+    return;
+
+  bytes = fragp->fr_next->fr_address - fragp->fr_address - fragp->fr_fix;
+  p = fragp->fr_literal + fragp->fr_fix;
+
+  if (bytes & 3)
+    {
+      int fix = bytes & 3;
+      memset (p, 0, fix);
+      p += fix;
+      bytes -= fix;
+      fragp->fr_fix += fix;
+    }
+
+  memcpy (p, nop_pattern, 4);
+  fragp->fr_var = 4;
+}
+
 /* Where a PC relative offset is calculated from.  On the m88k they
    are calculated from just after the instruction.  */
 
@@ -1242,8 +1440,15 @@ md_pcrel_from (fixp)
   switch (fixp->fx_r_type)
     {
     case RELOC_PC16:
+#ifdef OBJ_ELF
+      /* FALLTHROUGH */
+#else
       return fixp->fx_frag->fr_address + fixp->fx_where - 2;
+#endif
     case RELOC_PC26:
+#ifdef OBJ_ELF
+    case BFD_RELOC_32_PLT_PCREL:
+#endif
       return fixp->fx_frag->fr_address + fixp->fx_where;
     default:
       abort ();
@@ -1253,55 +1458,57 @@ md_pcrel_from (fixp)
 
 #ifdef OBJ_ELF
 
-/* Round up a section size to the appropriate boundary.  */
-/* XXX taken straight from 68k */
 valueT
 md_section_align (segment, size)
-     segT segment ATTRIBUTE_UNUSED;
+     segT   segment ATTRIBUTE_UNUSED;
      valueT size;
 {
-#ifdef BFD_ASSEMBLER
-  /* For a.out, force the section size to be aligned.  If we don't do
-     this, BFD will align it for us, but it will not write out the
-     final bytes of the section.  This may be a bug in BFD, but it is
-     easier to fix it here since that is how the other a.out targets
-     work.  */
-  int align;
-
-  align = bfd_get_section_alignment (stdoutput, segment);
-  size = ((size + (1 << align) - 1) & ((valueT) -1 << align));
-#endif
-
   return size;
 }
 
+/* Generate the BFD reloc to be stuck in the object file from the
+   fixup used internally in the assembler.  */
+
 arelent *
-tc_gen_reloc (seg, fixp)
-     asection *seg ATTRIBUTE_UNUSED;
+tc_gen_reloc (sec, fixp)
+     asection *sec ATTRIBUTE_UNUSED;
      fixS *fixp;
 {
   arelent *reloc;
+  bfd_reloc_code_real_type code;
 
   reloc = (arelent *) xmalloc (sizeof (arelent));
-
   reloc->sym_ptr_ptr = (asymbol **) xmalloc (sizeof (asymbol *));
   *reloc->sym_ptr_ptr = symbol_get_bfdsym (fixp->fx_addsy);
   reloc->address = fixp->fx_frag->fr_address + fixp->fx_where;
-  reloc->howto = bfd_reloc_type_lookup (stdoutput, fixp->fx_r_type);
-  if (reloc->howto == (reloc_howto_type *) NULL)
+
+  /* Make sure none of our internal relocations make it this far.
+     They'd better have been fully resolved by this point.  */
+  assert ((int) fixp->fx_r_type > 0);
+
+  code = fixp->fx_r_type;
+  reloc->howto = bfd_reloc_type_lookup (stdoutput, code);
+  if (reloc->howto == NULL)
     {
       as_bad_where (fixp->fx_file, fixp->fx_line,
-		    _("reloc %d not supported by object file format"),
-		    (int) fixp->fx_r_type);
+		    _("cannot represent `%s' relocation in object file"),
+		    bfd_get_reloc_code_name (code));
       return NULL;
     }
-//  reloc->addend = fixp->fx_addnumber;
-  reloc->addend = fixp->fx_offset; // TKM - added
+
+  if (!fixp->fx_pcrel != !reloc->howto->pc_relative)
+    {
+      as_fatal (_("internal error? cannot generate `%s' relocation"),
+		bfd_get_reloc_code_name (code));
+    }
+  assert (!fixp->fx_pcrel == !reloc->howto->pc_relative);
+
+  reloc->addend = fixp->fx_offset;
 
   return reloc;
 }
 
-/* Apply a fixup to the object code.  This is called for all the
+/* Apply a fixS to the object file.  This is called for all the
    fixups we generated by the call to fix_new_exp, above.  In the call
    above we used a reloc code which was the largest legal reloc code
    plus the operand index.  Here we undo that to recover the operand
@@ -1319,45 +1526,80 @@ md_apply_fix3 (fixP, valP, seg)
      valueT * valP;
      segT seg ATTRIBUTE_UNUSED;
 {
-  long val = * (long *) valP;
-  unsigned char* buf;
+  valueT val = * (valueT *) valP;
+  char *buf;
   long insn;
 
   buf = fixP->fx_frag->fr_literal + fixP->fx_where;
-//  fixP->fx_offset = 0;
 
-//printf("reloc: type=%s, where=0x%lx, orig=0x%lx val=0x%lx, offset=0x%lx addnumber=0x%lx\n", bfd_get_reloc_code_name(fixP->fx_r_type), fixP->fx_where, *(unsigned long*)buf, val, fixP->fx_offset, fixP->fx_addnumber);
+  if (fixP->fx_subsy != NULL)
+    as_bad_where (fixP->fx_file, fixP->fx_line, _("expression too complex"));
+
+  if (fixP->fx_addsy)
+    {
+#if 0
+      /* can't empty 26-bit relocation values with memset() */
+      if (fixP->fx_r_type == RELOC_PC26)
+	{
+	  insn = bfd_getb32 ((unsigned char *) buf);
+	  insn &= ~0x03ffffff;
+	  bfd_putb32(insn, buf);
+	}
+      else
+	memset(buf, 0, fixP->fx_size);
+#endif
+
+      if (fixP->fx_r_type == BFD_RELOC_VTABLE_INHERIT
+	  && !S_IS_DEFINED (fixP->fx_addsy)
+	  && !S_IS_WEAK (fixP->fx_addsy))
+	S_SET_WEAK (fixP->fx_addsy);
+
+      return;
+    }
 
   switch (fixP->fx_r_type)
     {
-    case RELOC_PC26:
-      insn  = bfd_getb32(buf);
-      insn |= (val >> 2) & 0x03ffffff;
-      bfd_putb32(insn, buf);
+    case BFD_RELOC_VTABLE_INHERIT:
+    case BFD_RELOC_VTABLE_ENTRY:
+      return;
+
+    case BFD_RELOC_HI16_BASEREL:
+    case BFD_RELOC_LO16_BASEREL:
+    case BFD_RELOC_HI16_GOTOFF:
+    case BFD_RELOC_LO16_GOTOFF:
+    case BFD_RELOC_32_PLTOFF:
+      return;
+
+    case BFD_RELOC_LO16:
+    case BFD_RELOC_HI16:
+      if (fixP->fx_pcrel)
+	abort ();
+      buf[0] = val >> 8;
+      buf[1] = val;
       break;
 
     case RELOC_PC16:
-      buf[0] = val >> 10;
-      buf[1] = val >> 2;
+      if ((val & 0x03) != 0)
+	as_bad_where (fixP->fx_file, fixP->fx_line,
+		      "Branch to unaligned address (%lx)", (long)val);
+      buf[2] = val >> 10;
+      buf[3] = val >> 2;
       break;
 
-    case RELOC_HI16:
-      *valP = val = val >> 16;
-      buf[0] = val >> 8;
-      buf[1] = val;
-      break;
-
-    case RELOC_LO16:
-      *valP = val = val & 0xffff;
-      buf[0] = val >> 8;
-      buf[1] = val;
+    case BFD_RELOC_32_PLT_PCREL:
+    case RELOC_PC26:
+      if ((val & 0x03) != 0)
+	as_bad_where (fixP->fx_file, fixP->fx_line,
+		      "Branch to unaligned address (%lx)", (long)val);
+      buf[0] |= (val >> 26) & 0x03;
+      buf[1] = val >> 18;
+      buf[2] = val >> 10;
+      buf[3] = val >> 2;
       break;
 
     case BFD_RELOC_32:
-      buf[0] = val >> 24;
-      buf[1] = val >> 16;
-      buf[2] = val >> 8;
-      buf[3] = val;
+      insn = val;
+      bfd_putb32(insn, buf);
       break;
 
     default:
@@ -1365,8 +1607,176 @@ md_apply_fix3 (fixP, valP, seg)
       abort ();
     }
 
-  if (fixP->fx_addsy == NULL && fixP->fx_pcrel == 0)
+  if (/* fixP->fx_addsy == NULL && */ fixP->fx_pcrel == 0)
     fixP->fx_done = 1;
 }
 
+/* Set the ELF specific flags.  */
+void
+m88k_elf_final_processing ()
+{
+  if (current_cpu == 88110)
+    elf_elfheader (stdoutput)->e_flags |= EF_M88110;
+}
+
+inline static char *
+m88k_end_of_name (char *suffix, const char *pattern, size_t patlen)
+{
+  if (strncmp (suffix, pattern, patlen) == 0
+      && ! is_part_of_name (suffix[patlen]))
+    return suffix + patlen;
+
+  return NULL;
+}
+
+int
+m88k_parse_name (name, expressionP, nextcharP)
+    const char *name;
+    expressionS *expressionP;
+    char *nextcharP;
+{
+  char *next = input_line_pointer;
+  char *next_end;
+  enum m88k_pic_reloc_type reloc_type = pic_reloc_none;
+  symbolS *symbolP;
+  segT segment;
+
+  if (*nextcharP != '#')
+    return 0;
+
+  if ((next_end = m88k_end_of_name (next + 1, "abdiff", 6)) != NULL)
+    {
+      reloc_type = pic_reloc_abdiff;
+    }
+  else if ((next_end = m88k_end_of_name (next + 1, "got_rel", 7)) != NULL)
+    {
+      reloc_type = pic_reloc_gotrel;
+    }
+  else if ((next_end = m88k_end_of_name (next + 1, "plt", 3)) != NULL)
+    {
+      reloc_type = pic_reloc_plt;
+    }
+  else
+    return 0;
+
+  symbolP = symbol_find_or_make (name);
+  segment = S_GET_SEGMENT (symbolP);
+  if (segment == absolute_section)
+    {
+      expressionP->X_op = O_constant;
+      expressionP->X_add_number = S_GET_VALUE (symbolP);
+    }
+  else if (segment == reg_section)
+    {
+      expressionP->X_op = O_register;
+      expressionP->X_add_number = S_GET_VALUE (symbolP);
+    }
+  else
+    {
+      expressionP->X_op = O_symbol;
+      expressionP->X_add_symbol = symbolP;
+      expressionP->X_add_number = 0;
+    }
+  expressionP->X_md = reloc_type;
+
+  *input_line_pointer = *nextcharP;
+  input_line_pointer = next_end;
+  *nextcharP = *input_line_pointer;
+  *input_line_pointer = '\0';
+
+  return 1;
+}
+
+int
+m88k_fix_adjustable (fix)
+     fixS *fix;
+{
+  return (fix->fx_r_type != BFD_RELOC_LO16_GOTOFF
+	  && fix->fx_r_type != BFD_RELOC_HI16_GOTOFF
+	  && fix->fx_r_type != BFD_RELOC_VTABLE_INHERIT
+	  && fix->fx_r_type != BFD_RELOC_VTABLE_ENTRY
+	  && (fix->fx_pcrel
+	      || (fix->fx_subsy != NULL
+		  && (S_GET_SEGMENT (fix->fx_subsy)
+		      == S_GET_SEGMENT (fix->fx_addsy)))
+	      || S_IS_LOCAL (fix->fx_addsy)));
+}
 #endif /* OBJ_ELF */
+
+#ifdef OBJ_AOUT
+
+/* Round up a section size to the appropriate boundary. */
+valueT
+md_section_align (segment, size)
+     segT segment ATTRIBUTE_UNUSED;
+     valueT size;
+{
+#ifdef BFD_ASSEMBLER
+  /* For a.out, force the section size to be aligned.  If we don't do
+     this, BFD will align it for us, but it will not write out the
+     final bytes of the section.  This may be a bug in BFD, but it is
+     easier to fix it here since that is how the other a.out targets
+     work.  */
+  int align;
+
+  align = bfd_get_section_alignment (stdoutput, segment);
+  valueT mask = ((valueT) 1 << align) - 1;
+
+  return (size + mask) & ~mask;
+#else
+  return (size + 7) & ~7;
+#endif
+}
+
+const int md_reloc_size = 12; /* sizeof(struct relocation_info); */
+
+void
+tc_aout_fix_to_chars (where, fixP, segment_address_in_file)
+     char *where;
+     fixS *fixP;
+     relax_addressT segment_address_in_file;
+{
+  long r_symbolnum;
+  long r_addend = 0;
+  long r_address;
+
+  know (fixP->fx_addsy != NULL);
+
+  r_address = fixP->fx_frag->fr_address + fixP->fx_where
+	      - segment_address_in_file;
+  md_number_to_chars (where, r_address, 4);
+
+  r_symbolnum = (S_IS_DEFINED (fixP->fx_addsy)
+                 ? S_GET_TYPE (fixP->fx_addsy)
+                 : fixP->fx_addsy->sy_number);
+
+  where[4] = (r_symbolnum >> 16) & 0x0ff;
+  where[5] = (r_symbolnum >> 8) & 0x0ff;
+  where[6] = r_symbolnum & 0x0ff;
+  where[7] = ((((!S_IS_DEFINED (fixP->fx_addsy)) << 7) & 0x80) | (0 & 0x70) |
+	      (fixP->fx_r_type & 0xf));
+
+  if (fixP->fx_addsy->sy_frag) {
+    r_addend = fixP->fx_addsy->sy_frag->fr_address;
+  }
+
+  if (fixP->fx_pcrel) {
+    r_addend -= r_address;
+  } else {
+    r_addend = fixP->fx_addnumber;
+  }
+
+  md_number_to_chars(&where[8], r_addend, 4);
+}
+
+void
+tc_headers_hook(headers)
+     object_headers *headers;
+{
+#if defined(TE_NetBSD) || defined(TE_OpenBSD)
+  N_SET_INFO(headers->header, OMAGIC, M_88K_OPENBSD, 0);
+  headers->header.a_info = htonl(headers->header.a_info);
+#endif
+}
+
+#endif /* OBJ_AOUT */
