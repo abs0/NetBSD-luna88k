@@ -248,9 +248,14 @@ const pseudo_typeS md_pseudo_table[] =
 #endif
   {"bss", s_lcomm, 1},
   {"def", s_set, 0},
+// XXX TKM - Are these needed? OpenBSD ELF doesn't have these.
+  {"dfloat", float_cons, 'd'},
+  {"ffloat", float_cons, 'f'},
+// XXX TKM
   {"half", cons, 2},
   {"requires_88110", s_m88k_88110, 0},
   {"sbss", s_lcomm, 1},
+  {"string", stringer, 0},
 #if !defined(OBJ_ELF) || !defined(TE_OpenBSD) /* i.e. NO_PSEUDO_DOT == 1 */
   /* Force set to be treated as an instruction.  */
   {"set", NULL, 0},
